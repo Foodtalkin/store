@@ -1,0 +1,15 @@
+.brand-logo{margin-left:20px;font-size:22px !important;}
+.justify{text-align:justify;}
+.not-active{pointer-events:none;cursor:default;}
+
+.side-nav li, html,nav ul li.active,nav ul li{
+	color: #0d0d0d !important;
+}
+
+.navbar-fixed,.nav, nav{
+    background-color: #000108 !important;
+ }
+
+ .side-nav a{
+ 	color: #444 !important;
+ }
