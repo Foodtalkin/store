@@ -185,14 +185,14 @@
                   <label for="email" data-error="wrong" data-success="">Date of Birth *</label>
                   <input type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
                 </div>
-                <div class="col s12 m6 l6">
+                <!-- <div class="col s12 m6 l6">
                   <label for="insta" data-error="wrong" data-success="">Pincode *</label>
-                  <input id="insta" type="number" name="insta" class="validate imp" value="<?php echo $metadata['pincode']; ?>">
+                  <input id="insta" type="number" name="insta" class="validate imp" value="">
                 </div>
                 <div class="col s12 m6 l6">
                   <label for="cocktail1" data-error="wrong" data-success="">Name of +1 *</label>
                   <input id="cocktail1" type="text" name="cocktail1" class="validate imp" >
-                </div>
+                </div> -->
               </div>
               <div class="col s12 m10 offset-m1 l10 offset-l1 ">
                 <p>
@@ -239,17 +239,17 @@
               }else{
                 var dob = <?php echo $user['dob']; ?>;
               }
-              var meta = <?php echo json_encode($user['metadata']); ?>;
+              //var meta = <?php echo json_encode($user['metadata']); ?>;
               //console.log(meta);
-              if(meta == null){
-                var meta = {
-                  pincode: data[5]['value']
-                }
-              }else{
-                if(data[5]['value'] != ''){
-                  meta['pincode']= data[5]['value'];
-                }
-              }
+              // if(meta == null){
+              //   var meta = {
+              //     pincode: data[5]['value']
+              //   }
+              // }else{
+              //   if(data[5]['value'] != ''){
+              //     meta['pincode']= data[5]['value'];
+              //   }
+              // }
               if(data[0]['value'] != ''){
                 var name = data[0]['value'];
               }else{
@@ -279,9 +279,9 @@
               // var meta = {
               //   pincode: data[5]['value']
               // }
-              var response = {
-                PlusOne : data[6]['value']
-              }
+              // var response = {
+              //   PlusOne : data[6]['value']
+              // }
               console.log(data);
               var URL_INSERT = "http://api.foodtalkindia.com/user/"+id+"/rsvp";
               var URL_UPDATE = "http://api.foodtalkindia.com/user/"+id;
@@ -296,13 +296,11 @@
                      contact: contact,
                      source: source,
                      payment_id: '',
-                     response: response,
                      subscribe: sub};
               var toupdate = {name: name,
                      email: email,
                      contact: contact,
                      instagram_handle: instagram_handle,
-                      metadata: meta,
                       dob : dob};
               
               //console.log(URL_INSERT);

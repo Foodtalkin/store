@@ -104,7 +104,7 @@ if ( isset( $session ) ) {
         if($res == "Success"){
           header("location: ".$url1);
         }else{
-          header('location:views/store.php');
+          header('location: views/store.php');
         }
  
     }
