@@ -137,26 +137,23 @@
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center">
-            <h4 class="">Made In Punjab Contest<h4>
+            <h4 class="">Made In Punjab got Swagger<h4>
           </div>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
-            <!-- <h5>Hey there tippler!</h5>
-            <p>Liquid Studio is back and this time we are looking to invite someone that likes to Sip in Style.</p>
-            <p>Tell us your favourite cocktails and stand a chance to win two passes to India's most interactive bar concept!</p>
-            <p>PS- We are amping up the cocktails this time around with two of India's best Mixologist Arijit Bose and Yangdup Lama...You really don't wanna miss out on this one!</p> -->
+            <p>"Made In Punjab now comes with a side of extra Punjabi Swag and it's looking better than ever. Participate now and win a chance to see Punjab Through Cool Shades with Food Talk India!"</p>
           </div>
           <div class="col s12 m8 offset-m2 l8 offset-l2" >
               <div class="col l4 m4 s6 center-align">
                  <i class="fa fa-calendar-o"></i>
-                <p class="center">Thursday, 10th March'16</p>
+                <p class="center">17th March '16</p>
               </div>
               <div class="col l4 m4 s6 center-align">
                  <i class="fa fa-clock-o"></i>
-                <p class="center">8:30 PM onwards</p>
+                <p class="center">7:00 PM onwards</p>
               </div>
               <div class="col l4 m4 s12 center-align">
                  <i class="fa fa-map-marker"></i>
-                <p class="center">S Bar, N 10, N block Market, GK 1, New Delhi</p>
+                <p class="center">Made In Punjab, Cyber Hub</p>
               </div>
             </div>
           <div class="col s12 m10 l10 offset-l1 offset-m1 red-c">

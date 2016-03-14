@@ -137,33 +137,35 @@
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center">
-            <h4 class="">Grub Fest Launch Party<h4>
+            <h4 class="">Grub Fest Pre Party<h4>
           </div>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
-            <!-- <h5>Hey there tippler!</h5>
-            <p>Liquid Studio is back and this time we are looking to invite someone that likes to Sip in Style.</p>
-            <p>Tell us your favourite cocktails and stand a chance to win two passes to India's most interactive bar concept!</p>
-            <p>PS- We are amping up the cocktails this time around with two of India's best Mixologist Arijit Bose and Yangdup Lama...You really don't wanna miss out on this one!</p> -->
+            <p>India's Biggest food festival 'The Grub Fest' is back with its 3rd Edition in Delhi this weekend.</p>
+            <p>To kickstart the festival Food Talk India & Grub Fest present the Pre Launch Party in association with Niche.</p>
+            <p>Join us for an evening of Cocktails & Grub as we kickstart the celebrations to a weekend long #FoodGasm</p>
+            <p>Register below and stand a chance to get invited for the exclusive Pre Part and #GetGrubbed with Food Talk India at Niche</p>
+            <br>
+            <h5>Delhi get ready to get #Grubbed​ 18th, 19th, 20th ​at Jawahar Lal Nehru Stadium</h5>
           </div>
           <div class="col s12 m8 offset-m2 l8 offset-l2" >
               <div class="col l4 m4 s6 center-align">
                  <i class="fa fa-calendar-o"></i>
-                <p class="center">Thursday, 10th March'16</p>
+                <p class="center">Wednesday, 16th March</p>
               </div>
               <div class="col l4 m4 s6 center-align">
                  <i class="fa fa-clock-o"></i>
-                <p class="center">8:30 PM onwards</p>
+                <p class="center">7:30 pm to 10 pm</p>
               </div>
               <div class="col l4 m4 s12 center-align">
                  <i class="fa fa-map-marker"></i>
-                <p class="center">S Bar, N 10, N block Market, GK 1, New Delhi</p>
+                <p class="center">Niche, CP</p>
               </div>
             </div>
           <div class="col s12 m10 l10 offset-l1 offset-m1 red-c">
             <form id="frm">
               <div class="col s12 m10 l10 offset-l1 offset-m1">
                 <div class="col s12 m12 l12 center mt-mid">
-                  <h6 class="mb-mid">Leave Your Details to Win</h6>
+                  
                 </div>
                 <div class="col s12 m6 l6">
                   <label for="name" data-error="wrong" data-success="">Name *</label>
