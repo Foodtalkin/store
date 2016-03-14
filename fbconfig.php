@@ -19,7 +19,7 @@ use Facebook\HttpClients\FacebookHttpable;
 // init app with app id and secret
 FacebookSession::setDefaultApplication( '567830766693152','1a65bcf7762bec777087a127d26d6295' );
 // login helper with redirect_uri
-    $helper = new FacebookRedirectLoginHelper('http://store.foodtalkindia.com/fbconfig.php' );
+    $helper = new FacebookRedirectLoginHelper('http://store.foodtalk.in/fbconfig.php' );
 
 
 try {
@@ -41,6 +41,11 @@ if ( isset( $session ) ) {
 	    $femail = $graphObject->getProperty('email');    // To Get Facebook email ID
       $gender = $graphObject->getProperty('gender');
       
+      if($femail == null){
+        $scope = array('email');
+        $loginUrl = $helper->getReRequestUrl($scope);
+        header("Location: ".$loginUrl);
+      }else{
 	/* ---- Session Variables -----*/
 	    $_SESSION['FBID'] = $fbid;
       $_SESSION['FULLNAME'] = $fbfullname;
@@ -102,7 +107,7 @@ if ( isset( $session ) ) {
           header('location:views/store.php');
         }
  
-  
+    }
 } else {
 
 	$scope = array('email');

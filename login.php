@@ -9,7 +9,7 @@ if($_SESSION['USER'] && ($_SESSION['target']!= null)){
 <html>
 	<head>
 		<title>Login with Facebook</title>
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
      	<!--Import materialize.css-->
       	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
      	<!--Let browser know website is optimized for mobile-->
