@@ -274,7 +274,11 @@
               if(data[4]['value'] != ''){
                 var dob = moment(data[4]['value']).format("YYYY-MM-DD");
               }else{
-                var dob = <?php echo $user['dob']; ?>;
+                var dob = <?php if($user['dob'] == null){
+                  echo "0000-00-00";
+                }else{
+                  echo $user['dob'];
+                } ?>;
               }
               var meta = <?php echo json_encode($user['metadata']); ?>;
               //console.log(meta);
