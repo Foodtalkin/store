@@ -155,7 +155,7 @@
             <br>
             <h5>Delhi get ready to get #Grubbed​ 18th, 19th, 20th ​at Jawahar Lal Nehru Stadium</h5>
           </div>
-          <div class="col s12 m8 offset-m2 l8 offset-l2" >
+          <div class="col s12 m12 l12" >
               <div class="col l4 m4 s6 center-align">
                  <i class="fa fa-calendar-o"></i>
                 <p class="center">Wednesday, 16th March</p>
@@ -169,9 +169,9 @@
                 <p class="center">Niche, CP</p>
               </div>
             </div>
-          <div class="col s12 m10 l10 offset-l1 offset-m1 red-c">
+          <div class="col s12 m12 l12 red-c">
             <form id="frm">
-              <div class="col s12 m10 l10 offset-l1 offset-m1">
+              <div class="col s12 m12 l12">
                 <div class="col s12 m12 l12 center mt-mid">
                   
                 </div>
@@ -226,7 +226,7 @@
                   <input id="cocktail1" type="text" name="cocktail1" class="validate imp" >
                 </div> -->
               </div>
-              <div class="col s12 m10 offset-m1 l10 offset-l1 ">
+              <div class="col s12 m12 l12 ">
                 <p>
                   <input type="checkbox" id="test6" checked="checked" name="sub"/>
                   <label for="test6">Yes, Subscribe me to your mailer list</label>
