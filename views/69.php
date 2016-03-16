@@ -151,7 +151,7 @@ Win a Food Talk Crawl at The Grub fest<h4>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
             <p>The Grub Fest is back with it's third edition this weekend at Jawahar Lal Nehru Stadium with over 100 exciting eateries!</p>
             <br>
-            <p>Food Talk India aka. 'The Grub Guide' is here to save the day!</p>
+            <p>Food Talk India AKA. 'The Grub Guide' is here to save the day!</p>
             <p>We've picked our favorites from the grub list and put together three very exciting Tours.</p>
             <br>
             <p>Fill up the form below and stand a chance to WIN :</p>
@@ -179,7 +179,7 @@ Win a Food Talk Crawl at The Grub fest<h4>
                 <div class="col s12 m12 l12 center mt-mid">
                   
                 </div>
-                <div class="s12 m12 l12">
+                <div class="col s12 m12 l12">
                   <div class="col s12 m6 l6">
                     <label for="name" data-error="wrong" data-success="">Name *</label>
                     <input id="name" type="text" name="name" class="validate imp" value="<?php echo $user['name']; ?>">
@@ -189,7 +189,7 @@ Win a Food Talk Crawl at The Grub fest<h4>
                     <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
                   </div>
                 </div>
-                <div class="s12 m12 l12">
+                <div class="col s12 m12 l12">
                   <div class="col s12 m6 l6">
                     <label for="phone" data-error="invalid Number" data-success="">Phone number *</label>
                     <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
@@ -199,22 +199,22 @@ Win a Food Talk Crawl at The Grub fest<h4>
                     <input id="insta" type="text" name="insta" class="validate imp" value="<?php echo $user['instagram_handle']; ?>">
                   </div>
                 </div>
-                <div class="s12 m12 l12">
+                <div class="col s12 m12 l12">
                   <div class="col s12 m6 l6">
                     <label for="email" data-error="wrong" data-success="">Date of Birth *</label>
                     <input type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
                   </div>
                   <div class="col s12 m6 l6">
-                              <label for="veg-nv">Dietery Prefrence</label>
+                              <label for="veg-nv">Dietery Preference:</label>
                               <select name="veg-nv" id="veg-nv" class="browser-default">
                                 <option value="Veg"> Veg</option>
                                 <option value="Non-veg"> Non-veg</option>
                               </select>
                   </div>
                 </div>
-                <div class="s12 m12 l12">
+                <div class="col s12 m12 l12">
                   <div class="col s12 m6 l6">
-                              <label for="Alcohol">Do You Drink Alchol</label>
+                              <label for="Alcohol">Do You Drink Alcohol?</label>
                               <select name="Alcohol" id="Alcohol" class="browser-default">
                                 <option value="Yes"> Yes</option>
                                 <option value="No"> No</option>
