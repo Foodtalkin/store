@@ -87,7 +87,7 @@
 		      //var_dump($_SESSION['USER']);
 		      curl_close($ch);
 		      function url_exists($ur) {
-		          if($_SESSION['type'] == "contest"){
+		          if($TYPE == "contest"){
 		            $url = "http://api.foodtalkindia.com/contest/".$ur;
 		            $ch = curl_init();
 		            curl_setopt($ch,CURLOPT_URL,$url);
