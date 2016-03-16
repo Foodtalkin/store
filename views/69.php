@@ -133,29 +133,33 @@
 
     <body>
       <div class="intro hide-on-med-and-up">
-        <img src="../img/cover65.jpg" class="responsive-img">
+        <img src="../img/cover69.jpg" class="responsive-img">
       </div>
       <div class="container">
         <div class="row hide-on-small-only">
           <div class="col s12 m12 l12">
             <div class="intro">
-              <img src="../img/cover65.jpg" class="responsive-img">
+              <img src="../img/cover69.jpg" class="responsive-img">
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center">
-            <h4 class="">Grub Fest Pre Party<h4>
+            <h4 class="">#ContestAlert <br>
+Win a Food Talk Crawl at The Grub fest<h4>
           </div>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
-            <p>India's Biggest food festival 'The Grub Fest' is back with its 3rd Edition in Delhi this weekend.</p>
-            <p>To kickstart the festival Food Talk India & Grub Fest present the Pre Launch Party in association with Niche.</p>
-            <p>Join us for an evening of Cocktails & Grub as we kickstart the celebrations to a weekend long #FoodGasm</p>
-            <p>Register below and stand a chance to get invited for the exclusive Pre Part and #GetGrubbed with Food Talk India at Niche</p>
+            <p>The Grub Fest is back with it's third edition this weekend at Jawahar Lal Nehru Stadium with over 100 exciting eateries!</p>
             <br>
-            <h5>Delhi get ready to get #Grubbed​ 18th, 19th, 20th ​at Jawahar Lal Nehru Stadium</h5>
+            <p>Food Talk India aka. 'The Grub Guide' is here to save the day!</p>
+            <p>We've picked our favorites from the grub list and put together three very exciting Tours.</p>
+            <br>
+            <p>Fill up the form below and stand a chance to WIN :</p>
+            <p>Passes to Grub fest + A Food Talk Crawl</p>
+            <br>
+            <h5>PS- we have three fun categories to choose from</h5>
           </div>
-          <div class="col s12 m12 l12" >
+          <!-- <div class="col s12 m12 l12" >
               <div class="col l4 m4 s6 center-align">
                  <i class="fa fa-calendar-o"></i>
                 <p class="center">Wednesday, 16th March</p>
@@ -168,55 +172,66 @@
                  <i class="fa fa-map-marker"></i>
                 <p class="center">Niche, CP</p>
               </div>
-            </div>
+            </div> -->
           <div class="col s12 m12 l12 red-c">
             <form id="frm">
               <div class="col s12 m12 l12">
                 <div class="col s12 m12 l12 center mt-mid">
                   
                 </div>
-                <div class="col s12 m6 l6">
-                  <label for="name" data-error="wrong" data-success="">Name *</label>
-                  <input id="name" type="text" name="name" class="validate imp" value="<?php echo $user['name']; ?>">
+                <div class="s12 m12 l12">
+                  <div class="col s12 m6 l6">
+                    <label for="name" data-error="wrong" data-success="">Name *</label>
+                    <input id="name" type="text" name="name" class="validate imp" value="<?php echo $user['name']; ?>">
+                  </div>
+                  <div class="col s12 m6 l6">
+                    <label for="email" data-error="wrong email" data-success="">Email Address *</label>
+                    <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
+                  </div>
                 </div>
-                <div class="col s12 m6 l6">
-                  <label for="email" data-error="wrong email" data-success="">Email Address *</label>
-                  <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
+                <div class="s12 m12 l12">
+                  <div class="col s12 m6 l6">
+                    <label for="phone" data-error="invalid Number" data-success="">Phone number *</label>
+                    <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
+                  </div>
+                  <div class="col s12 m6 l6">
+                    <label for="insta" data-error="wrong" data-success="">Instagram handle *</label>
+                    <input id="insta" type="text" name="insta" class="validate imp" value="<?php echo $user['instagram_handle']; ?>">
+                  </div>
                 </div>
-                <div class="col s12 m6 l6">
-                  <label for="phone" data-error="invalid Number" data-success="">Phone number *</label>
-                  <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
+                <div class="s12 m12 l12">
+                  <div class="col s12 m6 l6">
+                    <label for="email" data-error="wrong" data-success="">Date of Birth *</label>
+                    <input type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
+                  </div>
+                  <div class="col s12 m6 l6">
+                              <label for="veg-nv">Dietery Prefrence</label>
+                              <select name="veg-nv" id="veg-nv" class="browser-default">
+                                <option value="Veg"> Veg</option>
+                                <option value="Non-veg"> Non-veg</option>
+                              </select>
+                  </div>
                 </div>
-                <div class="col s12 m6 l6">
-                  <label for="insta" data-error="wrong" data-success="">Instagram handle *</label>
-                  <input id="insta" type="text" name="insta" class="validate imp" value="<?php echo $user['instagram_handle']; ?>">
+                <div class="s12 m12 l12">
+                  <div class="col s12 m6 l6">
+                              <label for="Alcohol">Do You Drink Alchol</label>
+                              <select name="Alcohol" id="Alcohol" class="browser-default">
+                                <option value="Yes"> Yes</option>
+                                <option value="No"> No</option>
+                              </select>
+                  </div>
+                  <div class="col s12 m6 l6">
+                              <label for="response">Day</label>
+                              <select name="response" id="response" class="browser-default">
+                                <option value="Friday">Around the World Tour (Friday 5pm - 7pm)</option>
+                                <option value="Saturday"> Cocktails tour (Saturday - 7pm - 9pm)</option>
+                                <option value="Sunday"> All things pork tour (Sunday - 5p - 7pm)</option>
+                              </select>
+                  </div>
                 </div>
-                <div class="col s12 m6 l6">
-                  <label for="email" data-error="wrong" data-success="">Date of Birth *</label>
-                  <input type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
-                </div>
-                <div class="col s12 m6 l6">
-                            <label for="veg-nv">Dietery Prefrence</label>
-                            <select name="veg-nv" id="veg-nv" class="browser-default">
-                              <option value="Veg"> Veg</option>
-                              <option value="Non-veg"> Non-veg</option>
-                            </select>
-                </div>
-                <div class="col s12 m6 l6">
-                            <label for="Alcohol">Do You Drink Alchol</label>
-                            <select name="Alcohol" id="Alcohol" class="browser-default">
-                              <option value="Yes"> Yes</option>
-                              <option value="No"> No</option>
-                            </select>
-                </div>
-                <div class="col s12 m6 l6">
-                            <label for="response">Day</label>
-                            <select name="response" id="response" class="browser-default">
-                              <option value="Friday">Around the World Tour (Friday 5pm - 7pm)</option>
-                              <option value="Saturday"> Cocktails tour (Saturday - 7pm - 9pm)</option>
-                              <option value="Sunday"> All things pork tour (Sunday - 5p - 7pm)</option>
-                            </select>
-                </div>
+                  
+                
+                  
                 <!-- <div class="col s12 m6 l6">
                   <label for="insta" data-error="wrong" data-success="">Pincode *</label>
                   <input id="insta" type="number" name="insta" class="validate imp" value="">
