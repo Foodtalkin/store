@@ -122,7 +122,6 @@
      }
      select {
         background-color: rgba(255,255,255,0.9);
-        width: 100% !important;
         /*padding: 5px;*/
         border: 1px solid #f2f2f2;
          border-radius: 0px !important; 
