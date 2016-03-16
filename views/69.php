@@ -12,7 +12,7 @@
     <head>
       <meta charset="utf-8">
       <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -120,6 +120,14 @@
         .borderR{
       border-color: red !important;
      }
+     select {
+        background-color: rgba(255,255,255,0.9);
+        width: 104% !important;
+        padding: 5px;
+        border: 1px solid #f2f2f2;
+         border-radius: 0px !important; 
+        height: 3.4rem !important;
+      }
       </style>
     </head>
 
@@ -326,7 +334,7 @@
                      email: email,
                      contact: contact,
                      source: source,
-                     respinse: response,
+                     response: response,
                      payment_id: '',
                      subscribe: sub};
               var toupdate = {name: name,
