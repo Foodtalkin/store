@@ -212,9 +212,9 @@
                 <div class="col s12 m6 l6">
                             <label for="response">Day</label>
                             <select name="response" id="response" class="browser-default">
-                              <option value="Friday"> Friday</option>
-                              <option value="Saturday"> Saturday</option>
-                              <option value="Sunday"> Sunday</option>
+                              <option value="Friday">Around the World Tour (Friday 5pm - 7pm)</option>
+                              <option value="Saturday"> Cocktails tour (Saturday - 7pm - 9pm)</option>
+                              <option value="Sunday"> All things pork tour (Sunday - 5p - 7pm)</option>
                             </select>
                 </div>
                 <!-- <div class="col s12 m6 l6">
