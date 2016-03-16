@@ -179,17 +179,20 @@ Win a Food Talk Crawl at The Grub fest<h4>
                 <div class="col s12 m12 l12 center mt-mid">
                   
                 </div>
-                <div class="col s12 m12 l12">
+                <div class="row">
+                  <div class="col s12 m12 l12">
                   <div class="col s12 m6 l6">
                     <label for="name" data-error="wrong" data-success="">Name *</label>
                     <input id="name" type="text" name="name" class="validate imp" value="<?php echo $user['name']; ?>">
                   </div>
                   <div class="col s12 m6 l6">
-                    <label for="email" data-error="wrong email" data-success="">Email Address *</label>
+                    <label for="email" data-error="wrong email" data-success="">Email address *</label>
                     <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
                   </div>
                 </div>
-                <div class="col s12 m12 l12">
+                </div>
+                <div class="row">
+                  <div class="col s12 m12 l12">
                   <div class="col s12 m6 l6">
                     <label for="phone" data-error="invalid Number" data-success="">Phone number *</label>
                     <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
@@ -199,7 +202,9 @@ Win a Food Talk Crawl at The Grub fest<h4>
                     <input id="insta" type="text" name="insta" class="validate imp" value="<?php echo $user['instagram_handle']; ?>">
                   </div>
                 </div>
-                <div class="col s12 m12 l12">
+                </div>
+                <div class="row">
+                  <div class="col s12 m12 l12">
                   <div class="col s12 m6 l6">
                     <label for="email" data-error="wrong" data-success="">Date of Birth *</label>
                     <input type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
@@ -212,7 +217,9 @@ Win a Food Talk Crawl at The Grub fest<h4>
                               </select>
                   </div>
                 </div>
-                <div class="col s12 m12 l12">
+                </div>
+                <div class="row">
+                  <div class="col s12 m12 l12">
                   <div class="col s12 m6 l6">
                               <label for="Alcohol">Do You Drink Alcohol?</label>
                               <select name="Alcohol" id="Alcohol" class="browser-default">
@@ -221,13 +228,14 @@ Win a Food Talk Crawl at The Grub fest<h4>
                               </select>
                   </div>
                   <div class="col s12 m6 l6">
-                              <label for="response">Day</label>
+                              <label for="response">Tours</label>
                               <select name="response" id="response" class="browser-default">
                                 <option value="Friday">Around the World Tour (Friday 5pm - 7pm)</option>
                                 <option value="Saturday"> Cocktails tour (Saturday - 7pm - 9pm)</option>
                                 <option value="Sunday"> All things pork tour (Sunday - 5p - 7pm)</option>
                               </select>
                   </div>
+                </div>
                 </div>
                   
                 
