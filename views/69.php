@@ -188,32 +188,26 @@
                   <input type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <div class="input-field">
                             <label for="veg-nv">Dietery Prefrence</label>
                             <select name="veg-nv" id="veg-nv" class="browser-default">
                               <option value="Veg"> Veg</option>
                               <option value="Non-veg"> Non-veg</option>
                             </select>
-                          </div>
                 </div>
                 <div class="col s12 m6 l6">
-                  <div class="input-field">
                             <label for="Alcohol">Do You Drink Alchol</label>
                             <select name="Alcohol" id="Alcohol" class="browser-default">
                               <option value="Yes"> Yes</option>
                               <option value="No"> No</option>
                             </select>
-                          </div>
                 </div>
                 <div class="col s12 m6 l6">
-                  <div class="input-field">
                             <label for="response">Day</label>
                             <select name="response" id="response" class="browser-default">
                               <option value="Friday"> Friday</option>
                               <option value="Saturday"> Saturday</option>
                               <option value="Sunday"> Sunday</option>
                             </select>
-                          </div>
                 </div>
                 <!-- <div class="col s12 m6 l6">
                   <label for="insta" data-error="wrong" data-success="">Pincode *</label>
@@ -306,6 +300,7 @@
               }else{
                 var instagram_handle = "<?php echo $user['instagram_handle']; ?>";
               }
+              var response = data[7]['value'];
               // if(data[7]['value'] != ''){
               //   var r = data[6]['value'];
               // }else{
@@ -331,7 +326,7 @@
                      email: email,
                      contact: contact,
                      source: source,
-                     respinse: data[7]['value'],
+                     respinse: response,
                      payment_id: '',
                      subscribe: sub};
               var toupdate = {name: name,
