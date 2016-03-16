@@ -116,7 +116,8 @@
 		        if($res == "Success"){
 		          header("location: ".$url1);
 		        }else{
-		          header('location: views/store.php');
+		          header("location: ".$url1);
+		          //header('location: views/store.php');
 		        }
 		}else{
 			//app user without fbid !!!
