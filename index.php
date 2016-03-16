@@ -87,18 +87,28 @@
 		      //var_dump($_SESSION['USER']);
 		      curl_close($ch);
 		      function url_exists($ur) {
-		          $url = "http://api.foodtalkindia.com/event/".$ur;
-		          //var_dump($url);
-		          $ch = curl_init();
-		          curl_setopt($ch,CURLOPT_URL,$url);
-		          curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
-		          $response = curl_exec($ch);
-		          curl_close($ch);
-		            $response = json_decode($response);
-		            $response = (array) $response;
-		            return $response['message'];
+		          if($_SESSION['type'] == "contest"){
+		            $url = "http://api.foodtalkindia.com/contest/".$ur;
+		            $ch = curl_init();
+		            curl_setopt($ch,CURLOPT_URL,$url);
+		            curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
+		            $response = curl_exec($ch);
+		            curl_close($ch);
+		              $response = json_decode($response);
+		              $response = (array) $response;
+		              return $response['message'];
+		          }else{
+		            $url = "http://api.foodtalkindia.com/event/".$ur;
+		            $ch = curl_init();
+		            curl_setopt($ch,CURLOPT_URL,$url);
+		            curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
+		            $response = curl_exec($ch);
+		            curl_close($ch);
+		              $response = json_decode($response);
+		              $response = (array) $response;
+		              return $response['message'];
+		          }
 		        }
-		        
 		        $target = $_SESSION['target'];
 		        $url1= "views/".$target.".php";
 		        $res = url_exists($target);
