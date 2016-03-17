@@ -151,13 +151,13 @@
                       <p>It's time to #EnjoyTheSpark as we kickstart the celebrations of Chandon India x McLaren Honda Race Day with another edition of the Food Talk India & Chandon brunches.</p>
                       <p>Join us this Sunday for "The Pit Stop Brunch" at the hippest new restaurant in town Public Affair</p>   
                       <p>Charges: Rs 1,800 AI /per head</p>
-                      <p>Whats on Offer:</p>
+<!--                       <p>Whats on Offer:</p>
                       <ol>
                         <li class="left-align"> A Specially curated Chandon Cocktail Menu </li>
                         <li class="left-align">A fantastic Public Affair curated Brunch Menu</li>
                         <li class="left-align">Chandon Brut & Rose flowing through the afternoon</li>
                         <li class="left-align">Foot tapping beats by Avantiʞa Bakshi</li>
-                      </ol>   
+                      </ol> -->   
                 </div>
                 <div class="col m12 s12 l12 flow-text hide-on-med-and-up justify">
                       <p>Small Plates. Bold Beats and endless flutes of Chandon bubbles.</p>
@@ -180,7 +180,7 @@
                   </div>
                   <div class="col l11 m11 s11 right left-align">
                     <h6>Public Affair</h6>
-                    <p>Khan Market</p>
+                    <p style="margin-top:-10px;" >Khan Market</p>
                   </div>
                 </div>
             </div>
