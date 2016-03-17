@@ -125,40 +125,26 @@
 
     <body>
       <div class="intro hide-on-med-and-up">
-        <img src="../img/cover66.jpg" class="responsive-img">
+        <img src="../img/cover67.jpg" class="responsive-img">
       </div>
       <div class="container">
         <div class="row hide-on-small-only">
           <div class="col s12 m12 l12">
             <div class="intro">
-              <img src="../img/cover66.jpg" class="responsive-img">
+              <img src="../img/cover67.jpg" class="responsive-img">
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center">
-            <h4 class="">Jameson Contest: Win a Bottle- come celebrate St Paddys with a Jameson<h4>
+            <h4 class="">Win a Jameson Bottle #GoIrish <h4>
           </div>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
-            <!-- <h5>Hey there tippler!</h5>
-            <p>Liquid Studio is back and this time we are looking to invite someone that likes to Sip in Style.</p>
-            <p>Tell us your favourite cocktails and stand a chance to win two passes to India's most interactive bar concept!</p>
-            <p>PS- We are amping up the cocktails this time around with two of India's best Mixologist Arijit Bose and Yangdup Lama...You really don't wanna miss out on this one!</p> -->
+            <p>#ContestAlert Come party with #Jameson at DLF CyberHub</p>
+            <p>Here's your chance to win a bottle of Jameson Irish Whiskey & join in the festivities at 2 of the coolest joints at Cyber Hub! </p>
+            <p>4 Lucky winners will each win a bottle of Jameson at one of the 2 venues and a chance to party with their lads tomorrow night at the St Paddy's Festival.</p>
+            <p>Let Jameson & Food Talk India show you how to #GoIrish and celebrate the Craziest Fu*#ing Festival ever!</p>
           </div>
-          <div class="col s12 m8 offset-m2 l8 offset-l2" >
-              <div class="col l4 m4 s6 center-align">
-                 <i class="fa fa-calendar-o"></i>
-                <p class="center">Thursday, 10th March'16</p>
-              </div>
-              <div class="col l4 m4 s6 center-align">
-                 <i class="fa fa-clock-o"></i>
-                <p class="center">8:30 PM onwards</p>
-              </div>
-              <div class="col l4 m4 s12 center-align">
-                 <i class="fa fa-map-marker"></i>
-                <p class="center">S Bar, N 10, N block Market, GK 1, New Delhi</p>
-              </div>
-            </div>
           <div class="col s12 m10 l10 offset-l1 offset-m1 red-c">
             <form id="frm">
               <div class="col s12 m10 l10 offset-l1 offset-m1">
@@ -189,10 +175,11 @@
                   <label for="insta" data-error="wrong" data-success="">Pincode *</label>
                   <input id="insta" type="number" name="insta" class="validate imp" value="<?php echo $metadata['pincode']; ?>">
                 </div>
-                <!-- <div class="col s12 m6 l6">
-                  <label for="guest1" data-error="wrong" data-success="">Name of your Guest 1 *</label>
+                <div class="col s12 m6 l6">
+                  <label for="guest1" data-error="wrong" data-success="">What's your favourite way to drink Jameson?*</label>
                   <input id="guest1" type="text" name="guest1" class="validate imp" >
                 </div>
+                <!--
                 <div class="col s12 m6 l6">
                   <label for="guest2" data-error="wrong" data-success="">Name of your Guest 2 *</label>
                   <input id="guest2" type="text" name="guest2" class="validate imp" >
@@ -289,11 +276,9 @@
               // }
               
               
-              // var response = {
-              //   guest1 : data[6]['value'],
-              //   guest2 : data[7]['value'],
-              //   guest3 : data[8]['value']
-              // }
+              var response = {
+                JamsonDrink : data[6]['value']
+              }
               console.log(data);
               var URL_INSERT = "http://api.foodtalkindia.com/user/"+id+"/rsvp";
               var URL_UPDATE = "http://api.foodtalkindia.com/user/"+id;
@@ -308,6 +293,7 @@
                      contact: contact,
                      source: source,
                      payment_id: '',
+                     response:response,
                      subscribe: sub};
               var toupdate = {name: name,
                      email: email,
