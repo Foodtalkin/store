@@ -132,7 +132,7 @@
           <div class="col l5 m5 s12 center-align hide-on-med-and-up">
               <div class="card">
                 <div class="col m12 l12 s12 partner">
-                  <h5>Cost Includes</h5>
+                  <h5>Offer Includes</h5>
                     <ul class="list">
                       <li class="left-align"> A Specially curated Chandon Cocktail Menu </li>
                         <li class="left-align">A fantastic Public Affair curated Brunch Menu</li>
@@ -165,13 +165,13 @@
                       <p>It's time to #EnjoyTheSpark as we kickstart the celebrations of Chandon India x McLaren Honda Race Day with another edition of the Food Talk India & Chandon brunches.</p>
                       <p>Join us this Sunday for "The Pit Stop Brunch" at the hippest new restaurant in town Public Affair</p>
                       <p>Charges: Rs 1,800 AI /per head</p>
-                      <p>Whats on Offer:</p>
+                <!--       <p>Whats on Offer:</p>
                       <ol>
                         <li class="left-align"> A Specially curated Chandon Cocktail Menu </li>
                         <li class="left-align">A fantastic Public Affair curated Brunch Menu</li>
                         <li class="left-align">Chandon Brut & Rose flowing through the afternoon</li>
                         <li class="left-align">Foot tapping beats by Avantiʞa Bakshi</li>
-                      </ol>
+                      </ol> -->
 
                 </div>
                 <div class="col l12 s12 m12 address">
@@ -179,8 +179,8 @@
                     <i class="fa fa-map-marker"></i>
                   </div>
                   <div class="col l11 m11 s11 right left-align">
-                    <h6>S Bar</h6>
-                    <p>N 10, N block Market, GK 1, New Delhi</p>
+                    <h6>Public Affair</h6>
+                    <p>Khan Market</p>
                   </div>
                 </div>
             </div>
