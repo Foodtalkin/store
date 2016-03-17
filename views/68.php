@@ -180,7 +180,7 @@
                   </div>
                   <div class="col l11 m11 s11 right left-align">
                     <h6>Public Affair</h6>
-                    <p style="margin-top:-10px;" >Khan Market</p>
+                    <p>Khan Market</p>
                   </div>
                 </div>
             </div>
