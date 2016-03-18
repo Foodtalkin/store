@@ -230,9 +230,9 @@ Win a Food Talk Crawl at The Grub fest<h4>
                               <label for="response">Tours</label>
                               <select name="response" id="response" class="browser-default">
                                 <option value="Friday">Around the World Tour (Friday 5pm - 7pm)</option>
-                                <option value="Saturday"> Cocktails tour (Saturday - 7pm - 9pm)</option>
-                                <option value="Kids"> Kids on the blockr (Saturday - 5pm)</option>
-                                <option value="Sunday"> All things pork tour (Sunday - 5pm - 7pm)</option>
+                                <option value="Saturday"> Cocktails tour (Saturday  7pm - 9pm)</option>
+                                <option value="Kids">New Kids on the block (Saturday  5pm - 7pm)</option>
+                                <option value="Sunday"> All things pork tour (Sunday 5pm - 7pm)</option>
                                 
                               </select>
                   </div>
