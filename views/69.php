@@ -227,7 +227,7 @@ Win a Food Talk Crawl at The Grub fest<h4>
                               </select>
                   </div>
                   <div class="col s12 m6 l6">
-                              <label for="response">Tours</label>
+                              <label for="response"> Choose your Tour</label>
                               <select name="response" id="response" class="browser-default">
                                 <option value="Friday">Around the World Tour (Friday 5pm - 7pm)</option>
                                 <option value="Saturday"> Cocktails tour (Saturday  7pm - 9pm)</option>
