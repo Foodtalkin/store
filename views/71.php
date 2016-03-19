@@ -120,6 +120,9 @@
         .borderR{
       border-color: red !important;
      }
+     .mt-l{
+      margin-top: 20px;
+     }
       </style>
     </head>
 
@@ -136,7 +139,7 @@
           </div>
         </div> -->
         <div class="row">
-          <div class="col s12 m12 l12 center">
+          <div class="col s12 m12 l12 center mt-l">
             <h4 class="">SignUp to Get The Grub Fest tickets<h4>
           </div>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
