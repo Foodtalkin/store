@@ -179,7 +179,10 @@
                   <label for="phone" data-error="invalid Number" data-success="">Phone number *</label>
                   <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
                 </div>
-                
+                <div class="col s12 m6 l6">
+                  <label for="email" data-error="wrong" data-success="">Date of Birth *</label>
+                  <input type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
+                </div>
               </div>
               <div class="col s12 m10 offset-m1 l10 offset-l1 ">
                 <p>
@@ -208,7 +211,10 @@
         var id= <?php echo $user['id']; ?>;
         
         
-        
+        $('.datepicker').pickadate({
+          selectMonths: true, // Creates a dropdown to control month
+          selectYears: 90 // Creates a dropdown of 15 years to control year
+        });
         //console.log("ready");
         $('#submit').on('click', function(event) {
           event.preventDefault();
@@ -219,6 +225,16 @@
               //console.log("validatetrue");
               
               var data = $('#frm').serializeArray();
+
+              if(data[3]['value'] != ''){
+                var dob = moment(data[3]['value']).format("YYYY-MM-DD");
+              }else{
+                var dob = <?php if($user['dob'] == null){
+                  echo "0000-00-00";
+                }else{
+                  echo $user['dob'];
+                } ?>;
+              }
               if(data[0]['value'] != ''){
                 var name = data[0]['value'];
               }else{
@@ -258,6 +274,7 @@
               var toupdate = {name: name,
                      email: email,
                      contact: contact,
+                     dob : dob,
                      city: 'Delhi'};
               
               //console.log(URL_INSERT);
