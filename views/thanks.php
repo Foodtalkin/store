@@ -36,8 +36,9 @@ session_start();
     $icon = "";
     $msg = "";
       if ($_SESSION['type'] == "rsvp") {
-        $icon = "../img/seeyou.png";
-        $msg = "Thank you for Rsvp'ing Your name is on 'The List' <br> Please Note: Club Rules Apply**";
+        $icon = "../img/goodluck.png";
+        $msg = "Now that was a piece of cake right? <br>
+                Stay tuned to know if you made it to 'The List'";
       } elseif ($_SESSION['type'] == "contest") {
         $icon = "../img/goodluck.png";
         $msg = "Now that was a piece of cake right? <br>
