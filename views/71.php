@@ -218,7 +218,7 @@
             //Serialize the form data
               //console.log("validatetrue");
               
-              
+              var data = $('#frm').serializeArray();
               if(data[0]['value'] != ''){
                 var name = data[0]['value'];
               }else{
