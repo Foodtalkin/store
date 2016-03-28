@@ -147,20 +147,20 @@
     </head>
 
     <body>
-      <!-- <div class="intro hide-on-med-and-up">
-        <img src="../img/cover66.jpg" class="responsive-img">
-      </div> -->
+      <div class="intro hide-on-med-and-up">
+        <img src="../img/cover73.jpg" class="responsive-img">
+      </div>
       <div class="container">
-        <!-- <div class="row hide-on-small-only">
+        <div class="row hide-on-small-only">
           <div class="col s12 m12 l12">
             <div class="intro">
-              <img src="../img/cover66.jpg" class="responsive-img">
+              <img src="../img/cover73.jpg" class="responsive-img">
             </div>
           </div>
-        </div> -->
+        </div>
         <div class="row">
           <div class="col s12 m12 l12 center mt-l">
-            <h4 class="">Win passes for the Pit Stop Brunch<h4>
+            <h4 class="">Foodtalk Wants to Know you Better<h4>
           </div>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
             <!-- <h5>Hey there tippler!</h5>
@@ -214,14 +214,18 @@
                   </select>
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="veg-nv">Dietery Preference:</label>
+                  <label for="other">Other</label>
+                  <input type="text" id="other" class="validate imp" name="other">
+                </div>
+                <div class="col s12 m6 l6">
+                  <label for="veg-nv">Veg or Non-Veg?</label>
                   <select name="veg-nv" id="veg-nv" class="browser-default">
                     <option value="Veg"><span><img src="../img/drinks/veg.png" class="drinks " alt=""></span> Veg</option>
                     <option value="Non-veg"><span><img src="../img/drinks/nonveg.png" class="drinks " alt=""></span> Non-veg</option>
                   </select>
                 </div>
                 <div class="col s12 m12 l12">
-                  <p>Cocktail Prefrence</p>
+                  <p>Select Your buddies</p>
                   <div class="col s12 m4 l4">
                     <p>
                       <input type="checkbox" id="Whiskey" name="AlcoholType" value="Whiskey" />
@@ -309,6 +313,13 @@
           event.preventDefault();
           console.log("submit");
           $(this).attr("disabled", 'disabled');
+          var favorite = [];
+          $.each($("input[name='AlcoholType']:checked"), function(){            
+              favorite.push($(this).val());
+          });
+          if(favorite.length === 0){
+            $('#submit').attr('disabled',false);
+          }else{
           if(validateForm() == true){
             //Serialize the form data
               //console.log("validatetrue");
@@ -339,25 +350,23 @@
               }else{
                 var contact = "<?php echo $user['contact']; ?>";
               }
-              if(data[4]['value'] != ''){
-                var city = data[4]['value'];
+              if($('#city').val() == "Other"){
+                var city = $('#other').val();
               }else{
-                var city = "<?php echo $user['city']; ?>";
+                var city = $('#city').val();
               }
               var meta = <?php echo json_encode($user['metadata']); ?>;
-              var favorite = [];
-              $.each($("input[name='AlcoholType']:checked"), function(){            
-                  favorite.push($(this).val());
-              });
+
+
               console.log(meta);
               if(meta == null){
                 var meta = {
-                  VegNonVeg: data[5]['value'],
+                  VegNonVeg: data[6]['value'],
                   AlcoholType: favorite
                 }
               }else{
-                if(data[5]['value'] != ''){
-                  meta['VegNonVeg']= data[5]['value'];
+                if(data[6]['value'] != ''){
+                  meta['VegNonVeg']= data[6]['value'];
                   meta['AlcoholType']= favorite;
                 }
               }
@@ -423,7 +432,7 @@
 
               }else{
                 $('#submit').attr('disabled',false);
-              }
+              }}
         });
         //SET UP THE URLS FOR BOTH INSERT AND UPDATE QUERIES
         //function to validate form, Don't call this function anywhere, it will validate the form when it's submitted
