@@ -140,7 +140,7 @@ if($_SESSION['USER'] && ($_SESSION['target']!= null)){
 								Your Information is safe with us, <strong>Maa Kasam!</strong>
 							</h5>
 							<div class="col s12 m6 l6">
-								<a href="" title="" class="Download_App ">Download App</a>
+								<a href="https://itunes.apple.com/in/app/food-talk-plus/id923340748?mt=8" title="" class="Download_App ">Download App</a>
 							</div>
 							<div class="col s12 m6 l6">
 								<a href="" title="" class="Can_t_log_in">Can't log in?</a>
@@ -164,9 +164,10 @@ if($_SESSION['USER'] && ($_SESSION['target']!= null)){
 					<h5 class="bottomtext">
 						Your Information is safe with us, <strong>Maa Kasam!</strong>
 					</h5>
-					<!-- <div class="col s12 m6 l6">
-						<a href="" title="" class="Download_App1 ">Download App</a>
+					<div class="col s12 m6 l6">
+						<a href="https://itunes.apple.com/in/app/food-talk-plus/id923340748?mt=8" title="" class="Download_App1 ">Download App</a>
 					</div>
+					<!-- 
 					<div class="col s12 m6 l6">
 						<a href="" title="" class="Can_t_log_in1">Can't log in?</a>
 					</div> -->
