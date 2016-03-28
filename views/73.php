@@ -226,6 +226,7 @@
                 </div>
                 <div class="col s12 m12 l12">
                   <p>Select Your buddies</p>
+                  <p class="error">Please select atleast one Drink</p>
                   <div class="col s12 m4 l4">
                     <p>
                       <input type="checkbox" id="Whiskey" name="AlcoholType" value="Whiskey" />
@@ -297,14 +298,17 @@
       <script>
       $(document).ready(function() {
         $('select').material_select();
+          $('.error').hide();
           $('#other').prop('disabled', true);
           $('#city').on('change', function(event) {
             event.preventDefault();
             if($('#city').val() == "Other"){
               $('#other').prop('disabled', false);
               $('#other').focus();
+              $('#other').addClass('imp');
             }else{
               $('#other').prop('disabled', true);
+              $('#other').removeClass('imp');
             }
           });
         var e_id = <?php echo $_SESSION['target']; ?>;
@@ -328,6 +332,7 @@
           });
           if(favorite.length === 0){
             $('#submit').attr('disabled',false);
+            $('.error').show();
           }else{
           if(validateForm() == true){
             //Serialize the form data
