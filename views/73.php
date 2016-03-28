@@ -215,7 +215,7 @@
                 </div>
                 <div class="col s12 m6 l6">
                   <label for="other">Other</label>
-                  <input type="text" id="other" class="validate imp" name="other">
+                  <input type="text" id="other" class="validate" name="other">
                 </div>
                 <div class="col s12 m6 l6">
                   <label for="veg-nv">Veg or Non-Veg?</label>
@@ -297,7 +297,16 @@
       <script>
       $(document).ready(function() {
         $('select').material_select();
-          
+          $('#other').prop('disabled', true);
+          $('#city').on('change', function(event) {
+            event.preventDefault();
+            if($('#city').val() == "Other"){
+              $('#other').prop('disabled', false);
+              $('#other').focus();
+            }else{
+              $('#other').prop('disabled', true);
+            }
+          });
         var e_id = <?php echo $_SESSION['target']; ?>;
         
         var source = "<?php echo $_SESSION['source']; ?>";
