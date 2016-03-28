@@ -369,18 +369,18 @@
               console.log(data);
               var URL_INSERT = "http://api.foodtalkindia.com/user/"+id+"/rsvp";
               var URL_UPDATE = "http://api.foodtalkindia.com/user/"+id;
-              if($('#test6').prop('checked') == true){
-                var sub = 1;
-              }else{
-                var sub = 0;
-              }
+              // if($('#test6').prop('checked') == true){
+              //   var sub = 1;
+              // }else{
+              //   var sub = 0;
+              // }
 
               var toinsertdata = {events_id: e_id,
                      email: email,
                      contact: contact,
                      source: source,
                      payment_id: '',
-                     subscribe: sub};
+                     subscribe: 0};
               var toupdate = {name: name,
                      email: email,
                      contact: contact,
