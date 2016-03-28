@@ -182,9 +182,9 @@
                 <p class="center">S Bar, N 10, N block Market, GK 1, New Delhi</p>
               </div>
             </div> -->
-          <div class="col s12 m10 l10 offset-l1 offset-m1 red-c">
+          <div class="col s12 m12 l12  red-c">
             <form id="frm">
-              <div class="col s12 m10 l10 offset-l1 offset-m1">
+              <div class="col s12 m12 l12">
                 <div class="col s12 m12 l12 center mt-mid">
                 </div>
                 <div class="col s12 m6 l6">
