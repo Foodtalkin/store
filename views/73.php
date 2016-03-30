@@ -219,7 +219,7 @@
                 </div>
                 <div class="col s12 m6 l6">
                   <label for="veg-nv">Veg or Non-Veg?</label>
-                  <select name="veg-nv" id="veg-nv" class="browser-default">
+                  <select name="veg-nv" id="veg-nv" class="browser-default" >
                     <option value="Veg"><span><img src="../img/drinks/veg.png" class="drinks " alt=""></span> Veg</option>
                     <option value="Non-veg"><span><img src="../img/drinks/nonveg.png" class="drinks " alt=""></span> Non-veg</option>
                   </select>
@@ -375,12 +375,12 @@
               console.log(meta);
               if(meta == null){
                 var meta = {
-                  VegNonVeg: data[6]['value'],
+                  VegNonVeg: $('#veg-nv').val(),
                   AlcoholType: favorite
                 }
               }else{
-                if(data[6]['value'] != ''){
-                  meta['VegNonVeg']= data[6]['value'];
+                if($('#veg-nv').val() != ''){
+                  meta['VegNonVeg']= $('#veg-nv').val();
                   meta['AlcoholType']= favorite;
                 }
               }
