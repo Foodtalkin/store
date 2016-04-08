@@ -160,7 +160,7 @@
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center mt-l">
-            <h4 class="">Foodtalk Wants to Know you Better<h4>
+            <h4 class="">FoodTalk Wants To Know You Better<h4>
           </div>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
             <!-- <h5>Hey there tippler!</h5>
