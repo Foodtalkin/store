@@ -131,8 +131,6 @@
       font-size: 20px !important;
      }
      input[type="checkbox"]:not(:checked), input[type="checkbox"]:checked {
-          position: relative!important;
-          left:0!important;
           content: '';
           width: 18px;
           height: 18px;
