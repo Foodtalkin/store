@@ -47,9 +47,9 @@ session_start();
                 $msg="";
       } else{
         $icon = "../img/thankyou.png";
-        $msg1 = "You just booked yourself a Food Talk Event <br>
+        $msg = "You just booked yourself a Food Talk Event <br>
       It's going to be one helluva ride";
-      $msg="";
+      $msg1="";
       } 
  
 

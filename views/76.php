@@ -232,7 +232,7 @@
               </div>
               <div class="col s12 m10 offset-m1 l10 offset-l1 ">
                 <p>
-                  <input type="checkbox" id="test6" checked="checked" name="sub"/>
+                  <input type="checkbox" id="test6" checked="checked hide" name="sub"/>
                   <label for="test6">Yes, Subscribe me to your mailer list</label>
                 </p>
               </div>
