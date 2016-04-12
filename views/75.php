@@ -155,8 +155,7 @@
                   <p>Come join us for an evening of Jameson Tipples and Piggy-Tales this Saturday as we celebrate the end of 9 days of fasting with a Badass Meaty Feast</p>
                   <br>
                   <h6>Warning! No Trespassing by Vegetarians</h6>
-                  <br>
-                  <p>PS- The Bar closes at 10pm- but we have a special 15% off on Drinks all night long for you lovely folks.</p>
+                 
                 </div>
                 <div class="col m12 s12 l12 flow-text hide-on-med-and-up justify">
                     <h6>Where are we Feasting?</h6>
@@ -167,8 +166,7 @@
                     <p>Come join us for an evening of Jameson Tipples and Piggy-Tales this Saturday as we celebrate the end of 9 days of fasting with a Badass Meaty Feast</p>
                     <br>
                     <h6>Warning! No Trespassing by Vegetarians</h6>
-                    <br>
-                    <p>PS- The Bar closes at 10pm- but we have a special 15% off on Drinks all night long for you lovely folks.</p>  
+                      
                 </div>
                 <div class="col l12 s12 m12 address">
                   <div class="col l1 m1 s1 left-align">
