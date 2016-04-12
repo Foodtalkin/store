@@ -229,7 +229,7 @@
                   <label for="test6">Yes, Subscribe me to your mailer list</label>
                 </p>
               </div>
-              <div class="col s12 m10 l10 offset-l1 offset-m1">
+              <div class="col s12 s12 m12 ">
                 <button class="waves-effect waves-light btn right" id="submit">Submit</button>
               </div>
             </form>

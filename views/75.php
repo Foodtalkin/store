@@ -20,7 +20,7 @@
     $_SESSION['URL_UPDATE'] = "http://api.foodtalkindia.com/user/".$user['id'];
     $_SESSION['URL_INSERT'] = "http://api.foodtalkindia.com/user/".$user['id']."/participation";
     //var_dump($metadata['pincode']);
-    $link = "https://www.instamojo.com/foodtalk/chandon-pit-stop-brunch?embed=form&data_name=";
+    $link = "https://www.instamojo.com/foodtalk/mystery-meal-the-meaty-special?embed=form&data_name=";
     $link .= $user['name'];
     $link .= "&data_email=";
     $link .= $user['email'];
@@ -82,18 +82,19 @@
     <body>
       <div class="head hide-on-small-only"></div>
       <div class="head1 hide-on-med-and-up">
-        <img class="responsive-img intro" src="../img/cover68.jpg"/>
+        <img class="responsive-img intro" src="../img/cover75.jpg"/>
       </div>
       <div class="container main">
         <div class="row hide-on-small-only">
           <div class="col l12 m12 s12">
-            <img class="responsive-img intro" src="../img/cover68.jpg"/>
+            <img class="responsive-img intro" src="../img/cover75.jpg"/>
           </div>
         </div>
         
         <div class="row">
           <div class="col l12 m12 s12 left-align">
-            <h4>Chandon Pit Stop Brunch at Public Affair</h4>
+            <h4>Food Talk India is back with Mystery Meal Vol 4.</h4>
+            <h6>Set in the Belly of Delhi, this Mystery Meal is only for the Meat Lovers.</h6>
           </div>
         </div>
         <div class="row">
@@ -102,21 +103,21 @@
 	            <div class="col l6 m6 s12 no-padd">
 	            	<div class="col l6 m6 s6 center-align">
 	                <i class="fa fa-calendar-o"></i>
-	                <p>Sunday 20th March</p>
+	                <p>Saturday, 16th April'16 </p>
 	              </div>
 	              <div class="col l6 m6 s6 center-align">
 	                <i class="fa fa-clock-o"></i>
-	                <p>1pm onwards</p>
+	                <p>7:30pm to 10pm</p>
 	              </div>
 	            </div>
 	            <div class="col s12 l6 m6 no-padd">
 	            	<div class="col l6 m6 s6 center-align">
 	                <i class="fa fa-map-marker"></i>
-	                <p>Public Affair, Khan Market</p>
+	                <p> Like duhh...we ain't telling you that</p>
 	              </div>
 	              <div class="col l6 m6 s6 center-align">
 	                <i class="fa fa-inr"></i>
-	                <p> 1,800 AI per head</p>
+	                <p> 1,000 AI per head</p>
 	              </div>
 	            </div>
             </div>
@@ -146,41 +147,36 @@
           <div class="col l7 m7 s12 center-align">
             <div class="card">
                 <div class="col m12 s12 l12 hide-on-small-only justify">
-                      <p>Small Plates. Bold Beats and endless flutes of Chandon bubbles.</p>
-
-                      <p>It's time to #EnjoyTheSpark as we kickstart the celebrations of Chandon India x McLaren Honda Race Day with another edition of the Food Talk India & Chandon brunches.</p>
-                      <p>Join us this Sunday for "The Pit Stop Brunch" at the hippest new restaurant in town Public Affair</p>   
-                      <p>Charges: Rs 1,800 AI /per head</p>
-<!--                       <p>Whats on Offer:</p>
-                      <ol>
-                        <li class="left-align"> A Specially curated Chandon Cocktail Menu </li>
-                        <li class="left-align">A fantastic Public Affair curated Brunch Menu</li>
-                        <li class="left-align">Chandon Brut & Rose flowing through the afternoon</li>
-                        <li class="left-align">Foot tapping beats by Avantiʞa Bakshi</li>
-                      </ol> -->   
+                  <h6>Where are we Feasting?</h6>
+                  <p>This time we're creating a Secret Porky Pop Up for you at a location where you need a code to enter. Oops we've said too much!</p>
+                  <br>
+                  <h6>Location: South Delhi</h6>
+                  <br>
+                  <p>Come join us for an evening of Jameson Tipples and Piggy-Tales this Saturday as we celebrate the end of 9 days of fasting with a Badass Meaty Feast</p>
+                  <br>
+                  <h6>Warning! No Trespassing by Vegetarians</h6>
+                  <br>
+                  <p>PS- The Bar closes at 10pm- but we have a special 15% off on Drinks all night long for you lovely folks.</p>
                 </div>
                 <div class="col m12 s12 l12 flow-text hide-on-med-and-up justify">
-                      <p>Small Plates. Bold Beats and endless flutes of Chandon bubbles.</p>
-
-                      <p>It's time to #EnjoyTheSpark as we kickstart the celebrations of Chandon India x McLaren Honda Race Day with another edition of the Food Talk India & Chandon brunches.</p>
-                      <p>Join us this Sunday for "The Pit Stop Brunch" at the hippest new restaurant in town Public Affair</p>
-                      <p>Charges: Rs 1,800 AI /per head</p>
-                <!--       <p>Whats on Offer:</p>
-                      <ol>
-                        <li class="left-align"> A Specially curated Chandon Cocktail Menu </li>
-                        <li class="left-align">A fantastic Public Affair curated Brunch Menu</li>
-                        <li class="left-align">Chandon Brut & Rose flowing through the afternoon</li>
-                        <li class="left-align">Foot tapping beats by Avantiʞa Bakshi</li>
-                      </ol> -->
-
+                    <h6>Where are we Feasting?</h6>
+                    <p>This time we're creating a Secret Porky Pop Up for you at a location where you need a code to enter. Oops we've said too much!</p>
+                    <br>
+                    <h6>Location: South Delhi</h6>
+                    <br>
+                    <p>Come join us for an evening of Jameson Tipples and Piggy-Tales this Saturday as we celebrate the end of 9 days of fasting with a Badass Meaty Feast</p>
+                    <br>
+                    <h6>Warning! No Trespassing by Vegetarians</h6>
+                    <br>
+                    <p>PS- The Bar closes at 10pm- but we have a special 15% off on Drinks all night long for you lovely folks.</p>  
                 </div>
                 <div class="col l12 s12 m12 address">
                   <div class="col l1 m1 s1 left-align">
                     <i class="fa fa-map-marker"></i>
                   </div>
                   <div class="col l11 m11 s11 right left-align">
-                    <h6>Public Affair</h6>
-                    <p>Khan Market</p>
+                    <h6> Like duhh...we ain't telling you that</h6>
+                    <!-- <p>Khan Market</p> -->
                   </div>
                 </div>
             </div>
@@ -203,8 +199,7 @@
                 <div class="col l12 m12 s12">
                   <h5>Event Partners</h5>
                   <ul>
-                    <li><img src="../img/partners/chandon.png" alt=""></li>
-                    <li><img src="../img/partners/public_affair.png" alt=""></li>
+                    <li><img src="../img/partners/jamson.png" alt=""></li>
                   </ul>
                 </div>
               </div>
