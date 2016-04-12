@@ -152,7 +152,7 @@
         <div class="row hide-on-small-only">
           <div class="col s12 m12 l12">
             <div class="intro">
-              <img src="../img/cover73.jpg" class="responsive-img">
+              <img src="../img/cover76.jpg" class="responsive-img">
             </div>
           </div>
         </div>
