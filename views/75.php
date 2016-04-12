@@ -130,7 +130,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col l5 m5 s12 center-align hide-on-med-and-up">
+          <!-- <div class="col l5 m5 s12 center-align hide-on-med-and-up">
               <div class="card">
                 <div class="col m12 l12 s12 partner">
                   <h5>Offer Includes</h5>
@@ -142,7 +142,7 @@
                     </ul>
                 </div>
               </div>
-            </div>
+            </div> -->
 
           <div class="col l7 m7 s12 center-align">
             <div class="card">
@@ -181,7 +181,7 @@
                 </div>
             </div>
           </div>
-            <div class="col l5 m5 s12 center-align hide-on-small-only">
+            <!-- <div class="col l5 m5 s12 center-align hide-on-small-only">
               <div class="card">
                 <div class="col m12 l12 s12 partner">
                   <h5>Includes</h5>
@@ -193,7 +193,7 @@
                     </ul>
                 </div>
               </div>
-            </div>
+            </div> -->
             <div class="col l5 m5 s12 center-align">
               <div class="card">
                 <div class="col l12 m12 s12">
