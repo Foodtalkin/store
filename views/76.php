@@ -158,28 +158,16 @@
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center mt-l">
-            <h4 class="">FoodTalk Wants To Know You Better<h4>
+            <h4 class="">SodaBottleOpenerWala Opens in Noida<h4>
           </div>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
-            <!-- <h5>Hey there tippler!</h5>
-            <p>Liquid Studio is back and this time we are looking to invite someone that likes to Sip in Style.</p>
-            <p>Tell us your favourite cocktails and stand a chance to win two passes to India's most interactive bar concept!</p>
-            <p>PS- We are amping up the cocktails this time around with two of India's best Mixologist Arijit Bose and Yangdup Lama...You really don't wanna miss out on this one!</p> -->
+            <!-- <h5>Hey there tippler!</h5> -->
+            <p>We are stoked to share that The much loved Parsi restaurant SodaBottleOpenerWala just opened its doors in Noida at DLF Mall of India.</p>
+            <p>Food Talk India is giving one lucky winner a chance to indulge in a special Parsi Feast with their loved ones this Thursday.</p>
+            <p><strong>SodaBottleOpenerWala</strong>, is a tribute to the dying legacy of a wonderful, bustling, colorful, quirky, cluttered, eccentric and so real world of a Bombay Irani Cafe and Bar bringing with it - typical Parsi cuisine and Bombay street food.</p> 
+            <p><u>Participate in the contest below and stand a chance to win a Parsi Feast this Thursday, 14th April'16.</u></p>
           </div>
-          <!-- <div class="col s12 m8 offset-m2 l8 offset-l2" >
-              <div class="col l4 m4 s6 center-align">
-                 <i class="fa fa-calendar-o"></i>
-                <p class="center">Thursday, 10th March'16</p>
-              </div>
-              <div class="col l4 m4 s6 center-align">
-                 <i class="fa fa-clock-o"></i>
-                <p class="center">8:30 PM onwards</p>
-              </div>
-              <div class="col l4 m4 s12 center-align">
-                 <i class="fa fa-map-marker"></i>
-                <p class="center">S Bar, N 10, N block Market, GK 1, New Delhi</p>
-              </div>
-            </div> -->
+          
           <div class="col s12 m12 l12  red-c">
             <form id="frm">
               <div class="col s12 m12 l12">
@@ -226,9 +214,16 @@
                     <option value="Non-veg"><span><img src="../img/drinks/nonveg.png" class="drinks " alt=""></span> Non-veg</option>
                   </select>
                 </div>
-                
+                <div class="col s12 m12 l12">
+                  <label for="que">How did the dish Eggs Kejriwal get named?</label>
+                  <select name="que" id="que" class="browser-default">
+                    <option value="His mother made him a special dish">His mother made him a special dish</option>
+                    <option value="Mr. Devi Prasad Kejriwals favourite dish at the Willingdon Club in Bombay">Mr. Devi Prasad Kejriwals favourite dish at the Willingdon Club in Bombay</option>
+                    <option value=" A famous street vendor"> A famous street vendor</option>
+                  </select>
+                </div>
               </div>
-              <div class="col s12 m10 offset-m1 l10 offset-l1 ">
+              <div class="col s12 s12 m12 ">
                 <p>
                   <input type="checkbox" id="test6" checked="checked hide" name="sub"/>
                   <label for="test6">Yes, Subscribe me to your mailer list</label>
@@ -351,6 +346,7 @@
                      contact: contact,
                      source: source,
                      payment_id: '',
+                      response: $('#que').val(),
                      subscribe: sub};
               var toupdate = {name: name,
                      email: email,
