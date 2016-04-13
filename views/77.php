@@ -146,7 +146,7 @@
 
     <body>
       <div class="intro hide-on-med-and-up">
-        <img src="../img/cover76.jpg" class="responsive-img">
+        <img src="../img/cover73.jpg" class="responsive-img">
       </div>
       <div class="container">
         <div class="row hide-on-small-only">
@@ -158,16 +158,28 @@
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center mt-l">
-            <h4 class="">SodaBottleOpenerWala Opens in Noida<h4>
+            <h4 class="">Mystery Meal #4<h4>
           </div>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
             <!-- <h5>Hey there tippler!</h5> -->
-            <p>We are stoked to share that The much loved Parsi restaurant SodaBottleOpenerWala just opened its doors in Noida at DLF Mall of India.</p>
-            <p>Food Talk India is giving one lucky winner a chance to indulge in a special Parsi Feast with their loved ones this Thursday.</p>
-            <p><strong>SodaBottleOpenerWala</strong>, is a tribute to the dying legacy of a wonderful, bustling, colorful, quirky, cluttered, eccentric and so real world of a Bombay Irani Cafe and Bar bringing with it - typical Parsi cuisine and Bombay street food.</p> 
-            <p><u>Participate in the contest below and stand a chance to win a Parsi Feast this Thursday, 14th April'16.</u></p>
+            <p>Mystery Meal is back with Vol. 4. This time we're creating a secret Porky Pop up. We're celebrating the end of Navratras with a huge Porky feast and we're giving away two Porktastic meals. All you have to do is fill out the form. </p>
+            <p>About Mystery Meal: <br>
+              With a passion for curating unique food experiences, with the Mystery Meal we promise to take you on a mysterious & fun gastronomic journey to some of our favourite finds in the city.</p>
           </div>
-          
+          <div class="col s12 m8 offset-m2 l8 offset-l2" >
+              <div class="col l4 m4 s6 center-align">
+                 <i class="fa fa-calendar-o"></i>
+                <p class="center">Sat, 16th April, 2016 </p>
+              </div>
+              <div class="col l4 m4 s6 center-align">
+                 <i class="fa fa-clock-o"></i>
+                <p class="center">7:30 PM onwards</p>
+              </div>
+              <div class="col l4 m4 s12 center-align">
+                 <i class="fa fa-map-marker"></i>
+                <p class="center">It's a mystery</p>
+              </div>
+            </div>
           <div class="col s12 m12 l12  red-c">
             <form id="frm">
               <div class="col s12 m12 l12">
@@ -189,38 +201,9 @@
                   <label for="dob" data-error="wrong" data-success="">Date of Birth *</label>
                   <input type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
                 </div>
-                <div class="col s12 m6 l6">
-                  <label for="city">City *</label>
-                  <select name="city" id="city" class="browser-default">
-                    <option value="Delhi">Delhi</option>
-                    <option value="Mumbai">Mumbai</option>
-                    <option value="Pune">Pune</option>
-                    <option value="Bangalore">Bangalore</option>
-                    <option value="Other">Other</option>
-                  </select>
-                </div>
-                <div class="col s12 m6 l6">
-                  <label for="other">Other</label>
-                  <input type="text" id="other" class="validate" name="other">
-                </div>
                 <div class="col s6 m6 l6">
-                  <label for="insta">Instagram Handle</label>
+                  <label for="insta">Instagram Handle *</label>
                   <input type="text" id="insta" class="validate imp" name="insta" value="<?php echo $user['instagram_handle']; ?>">
-                </div>
-                <div class="col s12 m6 l6">
-                  <label for="veg-nv">Are You Veg or Non-Veg during Navratra?</label>
-                  <select name="veg-nv" id="veg-nv" class="browser-default" >
-                    <option value="Veg"><span><img src="../img/drinks/veg.png" class="drinks " alt=""></span> Veg</option>
-                    <option value="Non-veg"><span><img src="../img/drinks/nonveg.png" class="drinks " alt=""></span> Non-veg</option>
-                  </select>
-                </div>
-                <div class="col s12 m12 l12">
-                  <label for="que">How did the dish Eggs Kejriwal get named?</label>
-                  <select name="que" id="que" class="browser-default">
-                    <option value="His mother made him a special dish">His mother made him a special dish</option>
-                    <option value="Mr. Devi Prasad Kejriwals favourite dish at the Willingdon Club in Bombay">Mr. Devi Prasad Kejriwals favourite dish at the Willingdon Club in Bombay</option>
-                    <option value=" A famous street vendor"> A famous street vendor</option>
-                  </select>
                 </div>
               </div>
               <div class="col s12 s12 m12 ">
@@ -302,12 +285,12 @@
               }else{
                 var contact = "<?php echo $user['contact']; ?>";
               }
-              if($('#city').val() == "Other"){
-                var city = $('#other').val();
-              }else{
-                var city = $('#city').val();
-              }
-              var meta = <?php echo json_encode($user['metadata']); ?>;
+              // if($('#city').val() == "Other"){
+              //   var city = $('#other').val();
+              // }else{
+              //   var city = $('#city').val();
+              // }
+              // var meta = <?php echo json_encode($user['metadata']); ?>;
 
               if($('#insta').val() != ''){
                 var insta = $('#insta').val();
@@ -315,18 +298,18 @@
                 var insta = "<?php echo $user['instagram_handle']; ?>";
               }
 
-              console.log(meta);
-              if(meta == null){
-                var meta = {
-                  VegNonVegnavratra: $('#veg-nv').val()
+              // console.log(meta);
+              // if(meta == null){
+              //   var meta = {
+              //     VegNonVegnavratra: $('#veg-nv').val()
                   
-                }
-              }else{
-                if($('#veg-nv').val() != ''){
-                  meta['VegNonVegnavratra']= $('#veg-nv').val();
+              //   }
+              // }else{
+              //   if($('#veg-nv').val() != ''){
+              //     meta['VegNonVegnavratra']= $('#veg-nv').val();
                  
-                }
-              }
+              //   }
+              // }
               // var response = {
               //   guest1 : data[6]['value'],
               //   guest2 : data[7]['value'],
@@ -346,15 +329,12 @@
                      contact: contact,
                      source: source,
                      payment_id: '',
-                      response: $('#que').val(),
                      subscribe: sub};
               var toupdate = {name: name,
                      email: email,
                      contact: contact,
                      instagram_handle: insta,
-                     dob : dob,
-                     metadata : meta,
-                     city: city};
+                     dob : dob};
               
               //console.log(URL_INSERT);
              
