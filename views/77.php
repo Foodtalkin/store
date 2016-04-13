@@ -146,13 +146,13 @@
 
     <body>
       <div class="intro hide-on-med-and-up">
-        <img src="../img/cover75.jpg" class="responsive-img">
+        <img src="../img/cover77.jpg" class="responsive-img">
       </div>
       <div class="container">
         <div class="row hide-on-small-only">
           <div class="col s12 m12 l12">
             <div class="intro">
-              <img src="../img/cover75.jpg" class="responsive-img">
+              <img src="../img/cover77.jpg" class="responsive-img">
             </div>
           </div>
         </div>
