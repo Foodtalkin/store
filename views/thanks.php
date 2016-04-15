@@ -41,15 +41,13 @@ session_start();
                 Please Note: Club Rules Apply**";
       } elseif ($_SESSION['type'] == "contest") {
         $icon = "../img/thankyou.png";
-        $icon1 = "../img/goodluck.png";
-        $msg1 = "Now that was a piece of cake right? <br>
+        $icon = "../img/goodluck.png";
+        $msg = "Now that was a piece of cake right? <br>
                 Stay tuned to know if you made it to 'The List'";
-                $msg="";
       } else{
         $icon = "../img/thankyou.png";
         $msg = "You just booked yourself a Food Talk Event <br>
       It's going to be one helluva ride";
-      $msg1="";
       } 
  
 
