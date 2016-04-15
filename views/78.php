@@ -199,7 +199,7 @@
                   <input id="address" type="text" name="address" class="validate imp" value="<?php echo $user['address']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="response">Have you ever eaten at Wendy's? *</label>
+                  <label for="response">Have you ever eaten at Wendy's before? *</label>
                   <select name="response" id="response" class="browser-default" >
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
