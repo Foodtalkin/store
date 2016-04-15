@@ -200,7 +200,7 @@
                 </div>
                 <div class="col s12 m6 l6">
                   <label for="response">Have you ever eaten at Wendy's? *</label>
-                  <select name="response" id="veg-nv" class="browser-default" >
+                  <select name="response" id="response" class="browser-default" >
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                   </select>
