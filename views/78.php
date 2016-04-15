@@ -201,8 +201,8 @@
                 <div class="col s12 m6 l6">
                   <label for="response">Have you ever eaten at Wendy's? *</label>
                   <select name="response" id="veg-nv" class="browser-default" >
-                    <option value="Veg"><span><img src="../img/drinks/veg.png" class="drinks " alt=""></span> Veg</option>
-                    <option value="Non-veg"><span><img src="../img/drinks/nonveg.png" class="drinks " alt=""></span> Non-veg</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
                   </select>
                 </div>
               </div>
