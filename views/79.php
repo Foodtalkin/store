@@ -160,10 +160,13 @@
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center mt-l">
-            <h4 class="">Foodtalk Wants to Know you Better<h4>
+          	<h3>Offroads India & Food Talk India</h3>
+          	<p>present</p>
+            <h4 class="">Kashmir a Culinary Exploration<h4>
+            <p>June 2-5</p>
           </div>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
-            
+            <p>Fill your details </p>
           </div>
           
           <div class="col s12 m12 l12  red-c">
