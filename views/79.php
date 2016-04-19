@@ -163,25 +163,9 @@
             <h4 class="">Foodtalk Wants to Know you Better<h4>
           </div>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
-            <!-- <h5>Hey there tippler!</h5>
-            <p>Liquid Studio is back and this time we are looking to invite someone that likes to Sip in Style.</p>
-            <p>Tell us your favourite cocktails and stand a chance to win two passes to India's most interactive bar concept!</p>
-            <p>PS- We are amping up the cocktails this time around with two of India's best Mixologist Arijit Bose and Yangdup Lama...You really don't wanna miss out on this one!</p> -->
+            
           </div>
-          <!-- <div class="col s12 m8 offset-m2 l8 offset-l2" >
-              <div class="col l4 m4 s6 center-align">
-                 <i class="fa fa-calendar-o"></i>
-                <p class="center">Thursday, 10th March'16</p>
-              </div>
-              <div class="col l4 m4 s6 center-align">
-                 <i class="fa fa-clock-o"></i>
-                <p class="center">8:30 PM onwards</p>
-              </div>
-              <div class="col l4 m4 s12 center-align">
-                 <i class="fa fa-map-marker"></i>
-                <p class="center">S Bar, N 10, N block Market, GK 1, New Delhi</p>
-              </div>
-            </div> -->
+          
           <div class="col s12 m12 l12  red-c">
             <form id="frm">
               <div class="col s12 m12 l12">
@@ -224,66 +208,8 @@
                     <option value="Non-veg"><span><img src="../img/drinks/nonveg.png" class="drinks " alt=""></span> Non-veg</option>
                   </select>
                 </div>
-                <div class="col s12 m12 l12">
-                  <p>Select Your buddies</p>
-                  <p class="error">Please select atleast one Drink</p>
-                  <div class="col s12 m4 l4">
-                    <p>
-                      <input type="checkbox" id="Whiskey" name="AlcoholType" value="Whiskey" />
-                      <span><img src="../img/drinks/whiskey.png" class="drinks " alt="Whiskey"></span>
-                      <label for="Whiskey" class="drinks-l">Whiskey</label>
-                    </p>
-                  </div>
-                  <div class="col s12 m4 l4">
-                    <p>
-                      <input type="checkbox" id="Vodka" name="AlcoholType" value="Vodka" />
-                      <span><img src="../img/drinks/vodka.png" class="drinks " alt="Vodka"></span>
-                      <label for="Vodka" class="drinks-l">Vodka</label>
-                    </p>
-                  </div>
-                  <div class="col s12 m4 l4">
-                    <p>
-                      <input type="checkbox" id="Rum" name="AlcoholType" value="Rum" />
-                      <span><img src="../img/drinks/rum.png" class="drinks " alt="Rum"></span>
-                      <label for="Rum" class="drinks-l">Rum</label>
-                    </p>
-                  </div>
-                  <div class="col s12 m4 l4">
-                    <p>
-                      <input type="checkbox" id="Beer" name="AlcoholType" value="Beer" />
-                      <span><img src="../img/drinks/beer.png" class="drinks " alt="Beer"></span>
-                      <label for="Beer" class="drinks-l">Beer</label>
-                    </p>
-                  </div>
-                  <div class="col s12 m4 l4">
-                    <p>
-                      <input type="checkbox" id="Wine" name="AlcoholType" value="Wine" />
-                      <span><img src="../img/drinks/wine.png" class="drinks " alt="Wine"></span>
-                      <label for="Wine" class="drinks-l">Wine</label>
-                    </p>
-                  </div>
-                  <div class="col s12 m4 l4">
-                    <p>
-                      <input type="checkbox" id="Tequila" name="AlcoholType" value="Tequila" />
-                      <span><img src="../img/drinks/tequila.png" class="drinks " alt="Tequila"></span>
-                      <label for="Tequila" class="drinks-l">Tequila</label>
-                    </p>
-                  </div>
-                  <div class="col s12 m4 l4">
-                    <p>
-                      <input type="checkbox" id="Gin" name="AlcoholType" value="Gin" />
-                      <span><img src="../img/drinks/gin.png" class="drinks " alt="Gin"></span>
-                      <label for="Gin" class="drinks-l">Gin</label>
-                    </p>
-                  </div>
-                </div>
               </div>
-              <!-- <div class="col s12 m10 offset-m1 l10 offset-l1 ">
-                <p>
-                  <input type="checkbox" id="test6" checked="checked" name="sub"/>
-                  <label for="test6">Yes, Subscribe me to your mailer list</label>
-                </p>
-              </div> -->
+              
               <div class="col s12 m10 l10 offset-l1 offset-m1">
                 <button class="waves-effect waves-light btn right" id="submit">Submit</button>
               </div>
@@ -324,16 +250,8 @@
         //console.log("ready");
         $('#submit').on('click', function(event) {
           event.preventDefault();
-          console.log("submit");
-          $(this).attr("disabled", 'disabled');
-          var favorite = [];
-          $.each($("input[name='AlcoholType']:checked"), function(){            
-              favorite.push($(this).val());
-          });
-          if(favorite.length === 0){
-            $('#submit').attr('disabled',false);
-            $('.error').show();
-          }else{
+          
+          
           if(validateForm() == true){
             //Serialize the form data
               //console.log("validatetrue");
@@ -375,13 +293,11 @@
               console.log(meta);
               if(meta == null){
                 var meta = {
-                  VegNonVeg: $('#veg-nv').val(),
-                  AlcoholType: favorite
+                  VegNonVeg: $('#veg-nv').val()
                 }
               }else{
                 if($('#veg-nv').val() != ''){
                   meta['VegNonVeg']= $('#veg-nv').val();
-                  meta['AlcoholType']= favorite;
                 }
               }
               // var response = {
@@ -446,7 +362,7 @@
 
               }else{
                 $('#submit').attr('disabled',false);
-              }}
+              }
         });
         //SET UP THE URLS FOR BOTH INSERT AND UPDATE QUERIES
         //function to validate form, Don't call this function anywhere, it will validate the form when it's submitted

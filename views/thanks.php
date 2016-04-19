@@ -40,14 +40,14 @@ session_start();
         $msg = "Your name is on 'The List' <br>
                 Please Note: Club Rules Apply**";
       } elseif ($_SESSION['type'] == "contest") {
-        $icon = "../img/thankyou.png";
         $icon = "../img/goodluck.png";
         $msg = "Now that was a piece of cake right? <br>
                 Stay tuned to know if you made it to 'The List'";
       } else{
         $icon = "../img/thankyou.png";
-        $msg = "You just booked yourself a Food Talk Event <br>
+        $msg1 = "You just booked yourself a Food Talk Event <br>
       It's going to be one helluva ride";
+      $msg="";
       } 
  
 
