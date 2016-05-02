@@ -72,7 +72,7 @@
           	<?php 
 
 
-			$url = "http://api.foodtalkindia.com/event/upcomming";
+			$url = "http://api.foodtalk.in/event/upcomming";
 			$ch = curl_init();
 			curl_setopt($ch,CURLOPT_URL,$url);
 			curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
@@ -132,7 +132,7 @@
           <?php 
 
 
-      $url1 = "http://api.foodtalkindia.com/contest/ongoing";
+      $url1 = "http://api.foodtalk.in/contest/ongoing";
       $ch1 = curl_init();
       curl_setopt($ch1,CURLOPT_URL,$url1);
       curl_setopt($ch1,CURLOPT_RETURNTRANSFER,true);
