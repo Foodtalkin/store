@@ -278,8 +278,8 @@
               
               var data = $('#frm').serializeArray();
 
-              if($('dob').val() != ''){
-                var dob = moment($('dob').val()).format("YYYY-MM-DD");
+              if($('#dob').val() != ''){
+                var dob = moment($('#dob').val()).format("YYYY-MM-DD");
               }else{
                 var dob = <?php if($user['dob'] == null){
                   echo "0000-00-00";
@@ -287,23 +287,23 @@
                   echo $user['dob'];
                 } ?>;
               }
-              if($('name').val() != ''){
-                var name = $('name').val();
+              if($('#name').val() != ''){
+                var name = $('#name').val();
               }else{
                 var name = "<?php echo $user['name']; ?>";
               }
-              if($('email').val() != ''){
-                var email = $('email').val();
+              if($('#email').val() != ''){
+                var email = $('#email').val();
               }else{
                 var email = "<?php echo $user['email']; ?>";
               }
-              if($('phone').val() != ''){
-                var contact = $('phone').val();
+              if($('#phone').val() != ''){
+                var contact = $('#phone').val();
               }else{
                 var contact = "<?php echo $user['contact']; ?>";
               }
-              if($('insta').val() != ''){
-                var contact = $('insta').val();
+              if($('#insta').val() != ''){
+                var contact = $('#insta').val();
               }else{
                 var contact = "<?php echo $user['instagram_handle']; ?>";
               }
@@ -326,11 +326,11 @@
               //   }
               // }
               var response = {
-                companyNmae : $('c_name').val(),
-                Team1 : $('s_name1').val(),
-                Team2 : $('s_name2').val(),
-                Team3 : $('s_name3').val(),
-                Team4 : $('s_name4').val()
+                companyNmae : $('#c_name').val(),
+                Team1 : $('#s_name1').val(),
+                Team2 : $('#s_name2').val(),
+                Team3 : $('#s_name3').val(),
+                Team4 : $('#s_name4').val()
               }
               console.log(data);
               var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
