@@ -160,7 +160,7 @@
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center mt-l">
-            <h3>Offroads India & Food Talk India</h3>
+            <h3>May day</h3>
             <p>present</p>
             <h4 class="">Kashmir a Culinary Exploration<h4>
             <p>June 2-5</p>
@@ -175,19 +175,19 @@
                 <div class="col s12 m12 l12 center mt-mid">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="name" data-error="wrong" data-success="">Name *</label>
+                  <label for="name" >Name *</label>
                   <input id="name" type="text" name="name" class="validate imp" value="<?php echo $user['name']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="email" data-error="wrong email" data-success="">Email Address *</label>
+                  <label for="email">Email Address *</label>
                   <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="phone" data-error="invalid Number" data-success="">Phone number *</label>
+                  <label for="phone">Phone number *</label>
                   <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="email" data-error="wrong" data-success="">Date of Birth *</label>
+                  <label for="email" >Date of Birth *</label>
                   <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
                 </div>
                 <!-- <div class="col s12 m6 l6">
@@ -205,27 +205,27 @@
                   <input type="text" id="other" class="validate" name="other">
                 </div> -->
                 <div class="col s12 m6 l6">
-                  <label for="insta"  data-error="wrong" data-success="">Instagram Handle *</label>
+                  <label for="insta">Instagram Handle *</label>
                   <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="c_name"  data-error="wrong" data-success="">Company Name *</label>
+                  <label for="c_name" >Company Name *</label>
                   <input type="text" class="validate imp" name="c_name" id="c_name" value="">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="s_name1"  data-error="wrong" data-success="">Member 1</label>
+                  <label for="s_name1" >Member 1</label>
                   <input type="text" class="validate" name="s_name1" id="s_name1" value="">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="s_name2"  data-error="wrong" data-success="">Member 2</label>
+                  <label for="s_name2" >Member 2</label>
                   <input type="text" class="validate" name="s_name2" id="s_name2" value="">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="s_name3"  data-error="wrong" data-success="">Member 3</label>
+                  <label for="s_name3" >Member 3</label>
                   <input type="text" class="validate" name="s_name3" id="s_name3" value="">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="s_name4"  data-error="wrong" data-success="">Member 4</label>
+                  <label for="s_name4" >Member 4</label>
                   <input type="text" class="validate" name="s_name4" id="s_name4" value="">
                 </div>
               </div>
@@ -244,7 +244,7 @@
       <script>
       $(document).ready(function() {
         $('select').material_select();
-          $('.error').hide();
+          
           // $('#other').prop('disabled', true);
           // $('#city').on('change', function(event) {
           //   event.preventDefault();
@@ -276,7 +276,8 @@
             //Serialize the form data
               //console.log("validatetrue");
               
-              var data = $('#frm').serializeArray();
+              // var data = $('#frm').serializeArray();
+
 
               if($('#dob').val() != ''){
                 var dob = moment($('#dob').val()).format("YYYY-MM-DD");
@@ -287,26 +288,31 @@
                   echo $user['dob'];
                 } ?>;
               }
+              console.log(dob);
               if($('#name').val() != ''){
                 var name = $('#name').val();
               }else{
                 var name = "<?php echo $user['name']; ?>";
               }
+              console.log(name);
               if($('#email').val() != ''){
                 var email = $('#email').val();
               }else{
                 var email = "<?php echo $user['email']; ?>";
               }
+              console.log(email);
               if($('#phone').val() != ''){
                 var contact = $('#phone').val();
               }else{
                 var contact = "<?php echo $user['contact']; ?>";
               }
+              console.log(contact);
               if($('#insta').val() != ''){
-                var contact = $('#insta').val();
+                var insta = $('#insta').val();
               }else{
-                var contact = "<?php echo $user['instagram_handle']; ?>";
+                var insta = "<?php echo $user['instagram_handle']; ?>";
               }
+              console.log(insta);
               // if($('#city').val() == "Other"){
               //   var city = $('#other').val();
               // }else{
@@ -326,15 +332,17 @@
               //   }
               // }
               var response = {
-                companyNmae : $('#c_name').val(),
+                companyName : $('#c_name').val(),
                 Team1 : $('#s_name1').val(),
                 Team2 : $('#s_name2').val(),
                 Team3 : $('#s_name3').val(),
                 Team4 : $('#s_name4').val()
               }
-              console.log(data);
+              console.log(response);
               var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
               var URL_UPDATE = "http://api.foodtalk.in/user/"+id;
+              console.log(URL_INSERT);
+              console.log(URL_UPDATE);
               // if($('#test6').prop('checked') == true){
               //   var sub = 1;
               // }else{

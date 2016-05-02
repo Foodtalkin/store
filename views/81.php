@@ -332,7 +332,7 @@
               //   }
               // }
               var response = {
-                companyNmae : $('#c_name').val(),
+                companyName : $('#c_name').val(),
                 Team1 : $('#s_name1').val(),
                 Team2 : $('#s_name2').val(),
                 Team3 : $('#s_name3').val(),
