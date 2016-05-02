@@ -160,8 +160,8 @@
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center mt-l">
-          	<h3>May day</h3>
-          	<p>present</p>
+            <h3>May day</h3>
+            <p>present</p>
             <h4 class="">Kashmir a Culinary Exploration<h4>
             <p>June 2-5</p>
           </div>
@@ -288,31 +288,31 @@
                   echo $user['dob'];
                 } ?>;
               }
-              console.log(dob);
+              // console.log(dob);
               if($('#name').val() != ''){
                 var name = $('#name').val();
               }else{
                 var name = "<?php echo $user['name']; ?>";
               }
-              console.log(name);
+              // console.log(name);
               if($('#email').val() != ''){
                 var email = $('#email').val();
               }else{
                 var email = "<?php echo $user['email']; ?>";
               }
-              console.log(email);
+              // console.log(email);
               if($('#phone').val() != ''){
                 var contact = $('#phone').val();
               }else{
                 var contact = "<?php echo $user['contact']; ?>";
               }
-              console.log(contact);
+              // console.log(contact);
               if($('#insta').val() != ''){
                 var insta = $('#insta').val();
               }else{
                 var insta = "<?php echo $user['instagram_handle']; ?>";
               }
-              console.log(insta);
+              // console.log(insta);
               // if($('#city').val() == "Other"){
               //   var city = $('#other').val();
               // }else{
@@ -338,11 +338,10 @@
                 Team3 : $('#s_name3').val(),
                 Team4 : $('#s_name4').val()
               }
-              console.log(response);
+              // console.log(response);
               var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
               var URL_UPDATE = "http://api.foodtalk.in/user/"+id;
-              console.log(URL_INSERT);
-              console.log(URL_UPDATE);
+              
               // if($('#test6').prop('checked') == true){
               //   var sub = 1;
               // }else{
