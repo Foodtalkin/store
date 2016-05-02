@@ -12,7 +12,7 @@
     <head>
       <meta charset="utf-8">
       <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -54,7 +54,7 @@
       }
 
      .btn{
-      background-color: #12532B !important;
+      background-color: #3e2723 !important;
       margin-top: 30px;
       float: right;
      }
@@ -104,7 +104,7 @@
       display: inline;
      }
      .fa{
-      color: #12532B !important;
+      color: #3c3c3c !important;
       font-size: 21px;
      }
      
@@ -120,92 +120,106 @@
         .borderR{
       border-color: red !important;
      }
+     .mt-l{
+      margin-top: 20px;
+     }
+     .drinks{
+      height: 24px;
+      margin: 0 5px 0 9px;
+     }
+     .drinks-l{
+      font-size: 20px !important;
+     }
+     input[type="checkbox"]:not(:checked), input[type="checkbox"]:checked {
+          position: relative!important;
+          left:0!important;
+          content: '';
+          width: 18px;
+          height: 18px;
+          z-index: 0;
+          border: 2px solid #5a5a5a;
+          border-radius: 1px;
+          margin-top: 2px;
+          transition: .2s;
+      }
+      
       </style>
     </head>
 
     <body>
       <div class="intro hide-on-med-and-up">
-        <img src="../img/cover64.jpg" class="responsive-img">
+        <img src="../img/cover79.jpg" class="responsive-img">
       </div>
       <div class="container">
         <div class="row hide-on-small-only">
           <div class="col s12 m12 l12">
             <div class="intro">
-              <img src="../img/cover64.jpg" class="responsive-img">
+              <img src="../img/cover79.jpg" class="responsive-img">
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col s12 m12 l12 center">
-            <h4 class="">Food Talk India and Absolut Elyx presents Liquid Studio at S Bar<h4>
+          <div class="col s12 m12 l12 center mt-l">
+            <h3>May day</h3>
+            <p>present</p>
+            <h4 class="">Kashmir a Culinary Exploration<h4>
+            <p>June 2-5</p>
           </div>
-          <div class="col s12 m8 offset-m2 l8 offset-l2">
-            <p>We're looking for someone that likes to sip in Style. Tell us your favourite cocktails and stand a chance to win two passes to India's most interactive bar concept: Liquid Studio, a Bespoke bar. </p>
+          <div class="col s12 m10 offset-m1 l10 offset-l1 center">
+            <p>Fill your details </p>
           </div>
-          <div class="col s12 m8 offset-m2 l8 offset-l2" >
-              <div class="col l4 m4 s6 center-align">
-                 <i class="fa fa-calendar-o"></i>
-                <p class="center">Thursday, 10th March'16</p>
-              </div>
-              <div class="col l4 m4 s6 center-align">
-                 <i class="fa fa-clock-o"></i>
-                <p class="center">8:30 PM onwards</p>
-              </div>
-              <div class="col l4 m4 s12 center-align">
-                 <i class="fa fa-map-marker"></i>
-                <p class="center">S Bar, N 10, N block Market, GK 1, New Delhi</p>
-              </div>
-            </div>
-          <div class="col s12 m10 l10 offset-l1 offset-m1 red-c">
+          
+          <div class="col s12 m12 l12  red-c">
             <form id="frm">
-              <div class="col s12 m10 l10 offset-l1 offset-m1">
+              <div class="col s12 m12 l12">
                 <div class="col s12 m12 l12 center mt-mid">
-                  <h6 class="mb-mid">Leave Your Details to Win</h6>
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="name" data-error="wrong" data-success="">Name *</label>
+                  <label for="name" >Name *</label>
                   <input id="name" type="text" name="name" class="validate imp" value="<?php echo $user['name']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="email" data-error="wrong email" data-success="">Email Address *</label>
+                  <label for="email">Email Address *</label>
                   <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="phone" data-error="invalid Number" data-success="">Phone number *</label>
+                  <label for="phone">Phone number *</label>
                   <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="insta" data-error="wrong" data-success="">Instagram handle *</label>
-                  <input id="insta" type="text" name="insta" class="validate imp" value="<?php echo $user['instagram_handle']; ?>">
+                  <label for="email" >Date of Birth *</label>
+                  <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
+                </div>
+                <!-- <div class="col s12 m6 l6">
+                  <label for="city">City *</label>
+                  <select name="city" id="city" class="browser-default">
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Other">Other</option>
+                  </select>
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="email" data-error="wrong" data-success="">Date of Birth *</label>
-                  <input type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
+                  <label for="other">Other</label>
+                  <input type="text" id="other" class="validate" name="other">
+                </div> -->
+                <div class="col s12 m6 l6">
+                  <label for="insta">Instagram Handle *</label>
+                  <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="insta" data-error="wrong" data-success="">Pincode *</label>
-                  <input id="insta" type="number" name="insta" class="validate imp" value="<?php echo $metadata['pincode']; ?>">
+                  <label for="address">Instagram Handle *</label>
+                  <input type="text" class="validate imp" name="address" id="address" value="<?php echo $user['address']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="address" data-error="wrong" data-success="">Address</label>
-                  <input id="address" type="text" name="address" class="validate" value="<?php echo $user['address']; ?>">
+                  <label for="response" >question *</label>
+                  <input type="text" class="validate imp" name="response" id="response" value="">
                 </div>
-                <div class="col s12 m6 l6">
-                  <label for="cocktail1" data-error="wrong" data-success="">Cocktail 1 *</label>
-                  <input id="cocktail1" type="text" name="cocktail1" class="validate imp" >
-                </div>
-                <div class="col s12 m6 l6">
-                  <label for="cocktail2" data-error="wrong" data-success="">Cocktail 2 *</label>
-                  <input id="cocktail2" type="text" name="cocktail2" class="validate imp">
-                </div>
+                
               </div>
-              <div class="col s12 m10 offset-m1 l10 offset-l1 ">
-                <p>
-                  <input type="checkbox" id="test6" checked="checked" name="sub"/>
-                  <label for="test6">Yes, Subscribe me to your mailer list</label>
-                </p>
-              </div>
-              <div class="col s12 m10 l10 offset-l1 offset-m1">
+              
+              <div class="col s12 m12 l12">
                 <button class="waves-effect waves-light btn right" id="submit">Submit</button>
               </div>
             </form>
@@ -218,6 +232,20 @@
       <script type="text/javascript" src="../js/materialize.min.js"></script>
       <script>
       $(document).ready(function() {
+        $('select').material_select();
+          
+          // $('#other').prop('disabled', true);
+          // $('#city').on('change', function(event) {
+          //   event.preventDefault();
+          //   if($('#city').val() == "Other"){
+          //     $('#other').prop('disabled', false);
+          //     $('#other').focus();
+          //     $('#other').addClass('imp');
+          //   }else{
+          //     $('#other').prop('disabled', true);
+          //     $('#other').removeClass('imp');
+          //   }
+          // });
         var e_id = <?php echo $_SESSION['target']; ?>;
         
         var source = "<?php echo $_SESSION['source']; ?>";
@@ -231,71 +259,84 @@
         //console.log("ready");
         $('#submit').on('click', function(event) {
           event.preventDefault();
-          console.log("submit");
-          $(this).attr("disabled", 'disabled');
+          
+          
           if(validateForm() == true){
             //Serialize the form data
               //console.log("validatetrue");
               
-              var data = $('#frm').serializeArray();
+              // var data = $('#frm').serializeArray();
 
-              if(data[4]['value'] != ''){
-                var dob = moment(data[4]['value']).format("YYYY-MM-DD");
+
+              if($('#dob').val() != ''){
+                var dob = moment($('#dob').val()).format("YYYY-MM-DD");
               }else{
-                var dob = <?php echo $user['dob']; ?>;
+                var dob = <?php if($user['dob'] == null){
+                  echo "0000-00-00";
+                }else{
+                  echo $user['dob'];
+                } ?>;
               }
-              var meta = <?php echo json_encode($user['metadata']); ?>;
-              //console.log(meta);
-              if(meta == null){
-                var meta = {
-                  pincode: data[5]['value']
-                }
-              }else{
-                if(data[5]['value'] != ''){
-                  meta['pincode']= data[5]['value'];
-                }
-              }
-              if(data[0]['value'] != ''){
-                var name = data[0]['value'];
+              // console.log(dob);
+              if($('#name').val() != ''){
+                var name = $('#name').val();
               }else{
                 var name = "<?php echo $user['name']; ?>";
               }
-              if(data[1]['value'] != ''){
-                var email = data[1]['value'];
+              // console.log(name);
+              if($('#email').val() != ''){
+                var email = $('#email').val();
               }else{
                 var email = "<?php echo $user['email']; ?>";
               }
-              if(data[2]['value'] != ''){
-                var contact = data[2]['value'];
+              // console.log(email);
+              if($('#phone').val() != ''){
+                var contact = $('#phone').val();
               }else{
                 var contact = "<?php echo $user['contact']; ?>";
               }
-              if(data[3]['value'] != ''){
-                var instagram_handle = data[3]['value'];
+              // console.log(contact);
+              if($('#insta').val() != ''){
+                var insta = $('#insta').val();
               }else{
-                var instagram_handle = "<?php echo $user['instagram_handle']; ?>";
+                var insta = "<?php echo $user['instagram_handle']; ?>";
               }
-              if(data[6]['value'] != ''){
-                var address = data[6]['value'];
+              // console.log(insta);
+              if($('#address').val() != ''){
+                var address = $('#address').val();
               }else{
                 var address = "<?php echo $user['address']; ?>";
               }
-              
-              // var meta = {
-              //   pincode: data[5]['value']
+              // if($('#city').val() == "Other"){
+              //   var city = $('#other').val();
+              // }else{
+              //   var city = $('#city').val();
+              // }
+              // var meta = <?php echo json_encode($user['metadata']); ?>;
+
+
+              // console.log(meta);
+              // if(meta == null){
+              //   var meta = {
+              //     VegNonVeg: $('#veg-nv').val()
+              //   }
+              // }else{
+              //   if($('#veg-nv').val() != ''){
+              //     meta['VegNonVeg']= $('#veg-nv').val();
+              //   }
               // }
               var response = {
-                Cocktail1 : data[7]['value'],
-                Cocktail2 : data[8]['value']
+                response : $('#response').val()
               }
-              console.log(data);
-              var URL_INSERT = "http://api.foodtalkindia.com/user/"+id+"/rsvp";
-              var URL_UPDATE = "http://api.foodtalkindia.com/user/"+id;
-              if($('#test6').prop('checked') == true){
-                var sub = 1;
-              }else{
-                var sub = 0;
-              }
+              // console.log(response);
+              var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
+              var URL_UPDATE = "http://api.foodtalk.in/user/"+id;
+              
+              // if($('#test6').prop('checked') == true){
+              //   var sub = 1;
+              // }else{
+              //   var sub = 0;
+              // }
 
               var toinsertdata = {events_id: e_id,
                      email: email,
@@ -303,14 +344,14 @@
                      source: source,
                      payment_id: '',
                      response: response,
-                     subscribe: sub};
+                     subscribe: 0};
               var toupdate = {name: name,
                      email: email,
                      contact: contact,
-                     instagram_handle: instagram_handle,
-                      address: address,
-                      metadata: meta,
-                      dob : dob};
+                     dob : dob,
+                     address : address,
+                     instagram_handle: insta
+                     };
               
               //console.log(URL_INSERT);
              
