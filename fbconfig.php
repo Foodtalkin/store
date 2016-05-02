@@ -54,7 +54,7 @@ if ( isset( $session ) ) {
       //checking if user exist or not
       
       //post rquest
-      $url = "http://api.foodtalkindia.com/user";    
+      $url = "http://api.foodtalk.in/user";    
       $dataarray = array('facebook_id' => $_SESSION['FBID'],'name' => $_SESSION['FULLNAME'],'email' => $_SESSION['EMAIL'],'gender' => $_SESSION['GENDER']);
       $data_string = json_encode($dataarray);
                                                                                 
@@ -75,7 +75,7 @@ if ( isset( $session ) ) {
       curl_close($ch);
       function url_exists($ur) {
           if($_SESSION['type'] == "contest"){
-            $url = "http://api.foodtalkindia.com/contest/".$ur;
+            $url = "http://api.foodtalk.in/contest/".$ur;
             $ch = curl_init();
             curl_setopt($ch,CURLOPT_URL,$url);
             curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
@@ -85,7 +85,7 @@ if ( isset( $session ) ) {
               $response = (array) $response;
               return $response['message'];
           }else{
-            $url = "http://api.foodtalkindia.com/event/".$ur;
+            $url = "http://api.foodtalk.in/event/".$ur;
             $ch = curl_init();
             curl_setopt($ch,CURLOPT_URL,$url);
             curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);

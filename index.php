@@ -65,7 +65,7 @@
 	// If source is app and no fbid is provided
 	if($SOURCE == 'APP'){
 		if($FBID && $USER){
-			$url = "http://api.foodtalkindia.com/user";    
+			$url = "http://api.foodtalk.in/user";    
 		      $dataarray = array('facebook_id' => $FBID,'name' => $_SESSION['username']);
 		      $data_string = json_encode($dataarray);
 		                                                                                
@@ -88,7 +88,7 @@
 		      curl_close($ch);
 		      function url_exists($ur) {
 		          if($TYPE == "contest"){
-		            $url = "http://api.foodtalkindia.com/contest/".$ur;
+		            $url = "http://api.foodtalk.in/contest/".$ur;
 		            $ch = curl_init();
 		            curl_setopt($ch,CURLOPT_URL,$url);
 		            curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
@@ -98,7 +98,7 @@
 		              $response = (array) $response;
 		              return $response['message'];
 		          }else{
-		            $url = "http://api.foodtalkindia.com/event/".$ur;
+		            $url = "http://api.foodtalk.in/event/".$ur;
 		            $ch = curl_init();
 		            curl_setopt($ch,CURLOPT_URL,$url);
 		            curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
