@@ -333,8 +333,8 @@
                 Team4 : $('s_name4').val()
               }
               console.log(data);
-              var URL_INSERT = "http://api.foodtalkindia.com/user/"+id+"/rsvp";
-              var URL_UPDATE = "http://api.foodtalkindia.com/user/"+id;
+              var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
+              var URL_UPDATE = "http://api.foodtalk.in/user/"+id;
               // if($('#test6').prop('checked') == true){
               //   var sub = 1;
               // }else{
