@@ -148,85 +148,102 @@
 
     <body>
       <div class="intro hide-on-med-and-up">
-        <img src="../img/cover79.jpg" class="responsive-img">
+        <img src="../img/cover80.jpg" class="responsive-img">
       </div>
       <div class="container">
         <div class="row hide-on-small-only">
           <div class="col s12 m12 l12">
             <div class="intro">
-              <img src="../img/cover79.jpg" class="responsive-img">
+              <img src="../img/cover80.jpg" class="responsive-img">
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col s12 m12 l12 center mt-l">
-            <h3>May day</h3>
-            <p>present</p>
-            <h4 class="">Kashmir a Culinary Exploration<h4>
-            <p>June 2-5</p>
+          <div class="col s12 m12 l12 center">
+            <h3>May-Day! May-Day!</h3>
+            <p>It's time to let loose and come out and play with your work Peeps! </p>
+            <h6>Ballantine's Out of Office Night at Monkey Bar Delhi <br>
+                  Friday, 6th May'16 | 7:30pm onwards</h6>
+                  <p>We've got Cocktail ,Team challenges & a Bar that's doing Over Time. </p>
+                  <p>So turn on your Autoresponder to -Out off-Office - and get ready for some Monkey Madness & After-Office work fun with Food Talk India</p>
+                  <h6>RSVP your Office team below </h6>
+                  <p>PS-First 50 to register here get their first drink on us!</p>
+                  
+                  <br>
+                  <p>Dress Code I Casual Friday's <br>
+                    Date | Friday, 6th May 2016 <br>
+                    Time |7:30 pm <br>
+                    Venue | Monkey Bar, Vasant Kunj</p>
+
+                 
           </div>
-          <div class="col s12 m10 offset-m1 l10 offset-l1 center">
-            <p>Fill your details </p>
-          </div>
-          
           <div class="col s12 m12 l12  red-c">
             <form id="frm">
               <div class="col s12 m12 l12">
-                <div class="col s12 m12 l12 center mt-mid">
+                <div class="row">
+                  <div class="col s12 m6 l6">
+                    <label for="name" >Name *</label>
+                    <input id="name" type="text" name="name" class="validate imp" value="<?php echo $user['name']; ?>">
+                  </div>
+                  <div class="col s12 m6 l6">
+                    <label for="email">Email Address *</label>
+                    <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
+                  </div>
+                  <div class="col s12 m6 l6">
+                    <label for="phone">Phone number *</label>
+                    <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
+                  </div>
+                  <div class="col s12 m6 l6">
+                    <label for="email" >Date of Birth *</label>
+                    <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
+                  </div>
+                  <!-- <div class="col s12 m6 l6">
+                    <label for="city">City *</label>
+                    <select name="city" id="city" class="browser-default">
+                      <option value="Delhi">Delhi</option>
+                      <option value="Mumbai">Mumbai</option>
+                      <option value="Pune">Pune</option>
+                      <option value="Bangalore">Bangalore</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                  <div class="col s12 m6 l6">
+                    <label for="other">Other</label>
+                    <input type="text" id="other" class="validate" name="other">
+                  </div> -->
+                  <div class="col s12 m6 l6">
+                    <label for="insta">Instagram Handle *</label>
+                    <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
+                  </div>
                 </div>
-                <div class="col s12 m6 l6">
-                  <label for="name" >Name *</label>
-                  <input id="name" type="text" name="name" class="validate imp" value="<?php echo $user['name']; ?>">
-                </div>
-                <div class="col s12 m6 l6">
-                  <label for="email">Email Address *</label>
-                  <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
-                </div>
-                <div class="col s12 m6 l6">
-                  <label for="phone">Phone number *</label>
-                  <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
-                </div>
-                <div class="col s12 m6 l6">
-                  <label for="email" >Date of Birth *</label>
-                  <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
-                </div>
-                <!-- <div class="col s12 m6 l6">
-                  <label for="city">City *</label>
-                  <select name="city" id="city" class="browser-default">
-                    <option value="Delhi">Delhi</option>
-                    <option value="Mumbai">Mumbai</option>
-                    <option value="Pune">Pune</option>
-                    <option value="Bangalore">Bangalore</option>
-                    <option value="Other">Other</option>
-                  </select>
-                </div>
-                <div class="col s12 m6 l6">
-                  <label for="other">Other</label>
-                  <input type="text" id="other" class="validate" name="other">
-                </div> -->
-                <div class="col s12 m6 l6">
-                  <label for="insta">Instagram Handle *</label>
-                  <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
-                </div>
-                <div class="col s12 m6 l6">
-                  <label for="c_name" >Company Name *</label>
-                  <input type="text" class="validate imp" name="c_name" id="c_name" value="">
-                </div>
-                <div class="col s12 m6 l6">
-                  <label for="s_name1" >Member 1</label>
-                  <input type="text" class="validate" name="s_name1" id="s_name1" value="">
-                </div>
-                <div class="col s12 m6 l6">
-                  <label for="s_name2" >Member 2</label>
-                  <input type="text" class="validate" name="s_name2" id="s_name2" value="">
-                </div>
-                <div class="col s12 m6 l6">
-                  <label for="s_name3" >Member 3</label>
-                  <input type="text" class="validate" name="s_name3" id="s_name3" value="">
-                </div>
-                <div class="col s12 m6 l6">
-                  <label for="s_name4" >Member 4</label>
-                  <input type="text" class="validate" name="s_name4" id="s_name4" value="">
+                <div class="row">
+                  <div class="col s12 m12 l12">
+                    <h6>Register your Office Team</h6>
+                  </div>
+                  <div class="col s12 m6 l6">
+                    <label for="c_name" >Company Name *</label>
+                    <input type="text" class="validate imp" name="c_name" id="c_name" value="">
+                  </div>
+                  <div class="col s12 m6 l6">
+                    <label for="s_name1" >Member 1</label>
+                    <input type="text" class="validate" name="s_name1" id="s_name1" value="">
+                  </div>
+                  <div class="col s12 m6 l6">
+                    <label for="s_name2" >Member 2</label>
+                    <input type="text" class="validate" name="s_name2" id="s_name2" value="">
+                  </div>
+                  <div class="col s12 m6 l6">
+                    <label for="s_name3" >Member 3</label>
+                    <input type="text" class="validate" name="s_name3" id="s_name3" value="">
+                  </div>
+                  <div class="col s12 m6 l6">
+                    <label for="s_name4" >Member 4</label>
+                    <input type="text" class="validate" name="s_name4" id="s_name4" value="">
+                  </div>
+                  <div class="col s12 m6 l6">
+                    <label for="s_name5" >Member 5</label>
+                    <input type="text" class="validate" name="s_name5" id="s_name5" value="">
+                  </div>
                 </div>
               </div>
               
@@ -336,7 +353,8 @@
                 Team1 : $('#s_name1').val(),
                 Team2 : $('#s_name2').val(),
                 Team3 : $('#s_name3').val(),
-                Team4 : $('#s_name4').val()
+                Team4 : $('#s_name4').val(),
+                Team5 : $('#s_name5').val()
               }
               // console.log(response);
               var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
