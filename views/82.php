@@ -213,6 +213,13 @@
                   <input type="text" class="validate imp" name="address" id="address" value="<?php echo $user['address']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
+                  <label for="veg-nv">Veg or Non-Veg? *</label>
+                  <select name="veg-nv" id="veg-nv" class="browser-default" >
+                    <option value="Veg"><span><img src="../img/drinks/veg.png" class="drinks " alt=""></span> Veg</option>
+                    <option value="Non-veg"><span><img src="../img/drinks/nonveg.png" class="drinks " alt=""></span> Non-veg</option>
+                  </select>
+                </div>
+                <div class="col s12 m6 l6">
                   <label for="response" >question *</label>
                   <input type="text" class="validate imp" name="response" id="response" value="">
                 </div>
@@ -316,15 +323,15 @@
 
 
               // console.log(meta);
-              // if(meta == null){
-              //   var meta = {
-              //     VegNonVeg: $('#veg-nv').val()
-              //   }
-              // }else{
-              //   if($('#veg-nv').val() != ''){
-              //     meta['VegNonVeg']= $('#veg-nv').val();
-              //   }
-              // }
+              if(meta == null){
+                var meta = {
+                  VegNonVeg: $('#veg-nv').val()
+                }
+              }else{
+                if($('#veg-nv').val() != ''){
+                  meta['VegNonVeg']= $('#veg-nv').val();
+                }
+              }
               var response = {
                 response : $('#response').val()
               }
@@ -350,6 +357,7 @@
                      contact: contact,
                      dob : dob,
                      address : address,
+                     metadata : meta,
                      instagram_handle: insta
                      };
               
