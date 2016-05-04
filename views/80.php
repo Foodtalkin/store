@@ -164,19 +164,18 @@
             <p>It's time to let loose and come out and play with your work Peeps! </p>
             <h6>Ballantine's Out of Office Night at Monkey Bar Delhi <br>
                   Friday, 6th May'16 | 7:30pm onwards</h6>
-                  <p>We got Cocktail ,Team challenges & a Bar that's doing Over Time. <br>
-                  RSVP your Office team below <br>
-                  PS-First 50 to register here get their first drink on us!</p>
+                  <p>We've got Cocktail ,Team challenges & a Bar that's doing Over Time. </p>
                   <p>So turn on your Autoresponder to -Out off-Office - and get ready for some Monkey Madness & After-Office work fun with Food Talk India</p>
+                  <h6>RSVP your Office team below </h6>
+                  <p>PS-First 50 to register here get their first drink on us!</p>
+                  
                   <br>
                   <p>Dress Code I Casual Friday's <br>
                     Date | Friday, 6th May 2016 <br>
                     Time |7:30 pm <br>
                     Venue | Monkey Bar, Vasant Kunj</p>
 
-                  <h6>Offer Includes</h6>
-                  <p>Ballantine's Cocktails at a special rate</p>
-                  <p>Games & Team Challenges</p>
+                 
           </div>
           <div class="col s12 m12 l12  red-c">
             <form id="frm">
@@ -242,7 +241,7 @@
                     <input type="text" class="validate" name="s_name4" id="s_name4" value="">
                   </div>
                   <div class="col s12 m6 l6">
-                    <label for="s_name5" >Member 4</label>
+                    <label for="s_name5" >Member 5</label>
                     <input type="text" class="validate" name="s_name5" id="s_name5" value="">
                   </div>
                 </div>
