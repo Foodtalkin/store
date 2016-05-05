@@ -167,10 +167,10 @@
               Monkey Bar, Vasant Kunj <br>
               Friday, 6th May, 7:30 pm</p>
 
-                  <p>To participate all you have to do is: <br>
+                  <h6>To participate all you have to do is: <br>
 1. Take a cool Boomerang video with your Office Friends <br>
 2. Upload it on Instagram with the hashtag #StayTrue <br>
-3. Fill up the form below to register your team</p>
+3. Fill up the form below to register your team</h6>
 
 <p>3 of our favourite video's will win a Bottle of Ballantine's to come Out Of Office and party with us at Monkey Bar</p>
                  
