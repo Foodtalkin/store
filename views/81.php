@@ -148,33 +148,31 @@
 
     <body>
       <div class="intro hide-on-med-and-up">
-        <img src="../img/cover80.jpg" class="responsive-img">
+        <img src="../img/cover81.gif" class="responsive-img">
       </div>
       <div class="container">
         <div class="row hide-on-small-only">
           <div class="col s12 m12 l12">
             <div class="intro">
-              <img src="../img/cover80.jpg" class="responsive-img">
+              <img src="../img/cover81.gif" class="responsive-img">
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center">
-            <h3>May-Day! May-Day!</h3>
-            <p>It's time to let loose and come out and play with your work Peeps! </p>
-            <h6>Ballantine's Out of Office Night at Monkey Bar Delhi <br>
-                  Friday, 6th May'16 | 7:30pm onwards</h6>
-                  <p>We've got Cocktail ,Team challenges & a Bar that's doing Over Time. </p>
-                  <p>So turn on your Autoresponder to -Out off-Office - and get ready for some Monkey Madness & After-Office work fun with Food Talk India</p>
-                  <h6>RSVP your Office team below </h6>
-                  <p>PS-First 50 to register here get their first drink on us!</p>
-                  
-                  <br>
-                  <p>Dress Code I Casual Friday's <br>
-                    Date | Friday, 6th May 2016 <br>
-                    Time |7:30 pm <br>
-                    Venue | Monkey Bar, Vasant Kunj</p>
+            <h3>#ContestAlert</h3>
+            <p>#StayTrue and show us your Work-Crew </p>
+            <h6>Upload a Boomerang video and show us just how cool your Work-Crew is and win a bottle of Ballantine's at the Out Of Office Night</h6>
+            <p>Ballantine's Out Of Office Party <br>
+              Monkey Bar, Vasant Kunj <br>
+              Friday, 6th May, 7:30 pm</p>
 
+                  <p>To participate all you have to do is: <br>
+1. Take a cool Boomerang video with your Office Friends <br>
+2. Upload it on Instagram with the hashtag #StayTrue <br>
+3. Fill up the form below to register your team</p>
+
+<p>3 of our favourite video's will win a Bottle of Ballantine's to come Out Of Office and party with us at Monkey Bar</p>
                  
           </div>
           <div class="col s12 m12 l12  red-c">
