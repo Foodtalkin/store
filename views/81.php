@@ -166,8 +166,8 @@
             <p>Ballantine's Out Of Office Party <br>
               Monkey Bar, Vasant Kunj <br>
               Friday, 6th May, 7:30 pm</p>
-
-                  <h6>To participate all you have to do is: <br>
+              <h4>To participate all you have to do is:</h4>
+                  <h6>
 1. Take a cool Boomerang video with your Office Friends <br>
 2. Upload it on Instagram with the hashtag #StayTrue <br>
 3. Fill up the form below to register your team</h6>
