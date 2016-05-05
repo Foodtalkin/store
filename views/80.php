@@ -225,25 +225,14 @@
                     <input type="text" class="validate imp" name="c_name" id="c_name" value="">
                   </div>
                   <div class="col s12 m6 l6">
-                    <label for="s_name1" >Member 1</label>
-                    <input type="text" class="validate" name="s_name1" id="s_name1" value="">
-                  </div>
-                  <div class="col s12 m6 l6">
-                    <label for="s_name2" >Member 2</label>
-                    <input type="text" class="validate" name="s_name2" id="s_name2" value="">
-                  </div>
-                  <div class="col s12 m6 l6">
-                    <label for="s_name3" >Member 3</label>
-                    <input type="text" class="validate" name="s_name3" id="s_name3" value="">
-                  </div>
-                  <div class="col s12 m6 l6">
-                    <label for="s_name4" >Member 4</label>
-                    <input type="text" class="validate" name="s_name4" id="s_name4" value="">
-                  </div>
-                  <div class="col s12 m6 l6">
-                    <label for="s_name5" >Member 5</label>
-                    <input type="text" class="validate" name="s_name5" id="s_name5" value="">
-                  </div>
+                    <label for="s_name">How many members are in your team *</label>
+                    <select name="s_name" id="s_name" class="browser-default">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
                 </div>
               </div>
               
@@ -350,11 +339,7 @@
               // }
               var response = {
                 companyName : $('#c_name').val(),
-                Team1 : $('#s_name1').val(),
-                Team2 : $('#s_name2').val(),
-                Team3 : $('#s_name3').val(),
-                Team4 : $('#s_name4').val(),
-                Team5 : $('#s_name5').val()
+                Team : $('#s_name').val()
               }
               // console.log(response);
               var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
