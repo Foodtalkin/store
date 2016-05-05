@@ -225,7 +225,7 @@
                     <input type="text" class="validate imp" name="c_name" id="c_name" value="">
                   </div>
                   <div class="col s12 m6 l6">
-                    <label for="s_name">How many members are in your team *</label>
+                    <label for="s_name">How many team members are you coming with? *</label>
                     <select name="s_name" id="s_name" class="browser-default">
                       <option value="1">1</option>
                       <option value="2">2</option>
