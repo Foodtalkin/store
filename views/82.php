@@ -162,8 +162,11 @@
           <div class="col s12 m12 l12 center mt-l">
             <h3>May day</h3>
             <p>present</p>
-            <h4 class="">Kashmir a Culinary Exploration<h4>
-            <p>June 2-5</p>
+            <h4 class="">Hawaiian Express at PizzaExpress<h4>
+            <p>Get on board as we're taking you to the HawaiianExpress at PizzaExpress. Answer the question below and win a chance to get invited for a evening filled with Hawaiian Shirts Tiki cocktails and whole lotta fun.</p>
+            <p>Date: Wednesday, 11th May</p>
+            <p> Time: 7:30pm onwards</p>
+            <p>Location: PizzaExpress, Ambiance Mall, Vasant Kunj</p>
           </div>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
             <p>Fill your details </p>
@@ -209,7 +212,7 @@
                   <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="address">Instagram Handle *</label>
+                  <label for="address">Address *</label>
                   <input type="text" class="validate imp" name="address" id="address" value="<?php echo $user['address']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
@@ -220,8 +223,13 @@
                   </select>
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="response" >question *</label>
-                  <input type="text" class="validate imp" name="response" id="response" value="">
+                  <label for="response" >What fruit goes on a Hawaiian Pizza? *</label>
+                  <select name="response" id="response" class="browser-default validate" >
+                    <option value="cherries">Cherries</option>
+                    <option value="pineapples">Pineapples</option>
+                     <option value="mangos">Mangos</option>
+                  </select>
+                  
                 </div>
                 
               </div>
