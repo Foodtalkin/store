@@ -160,12 +160,10 @@
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center mt-l">
-            <h3>May day</h3>
-            <p>present</p>
-            <h4 class="">Hawaiian Express at PizzaExpress<h4>
+            <h3>Hawaiian Express at PizzaExpress</h3>
             <p>Get on board as we're taking you to the HawaiianExpress at PizzaExpress. Answer the question below and win a chance to get invited for a evening filled with Hawaiian Shirts Tiki cocktails and whole lotta fun.</p>
             <p>Date: Wednesday, 11th May</p>
-            <p> Time: 7:30pm onwards</p>
+            <p>Time: 7:30pm onwards</p>
             <p>Location: PizzaExpress, Ambiance Mall, Vasant Kunj</p>
           </div>
           <div class="col s12 m10 offset-m1 l10 offset-l1 center">
