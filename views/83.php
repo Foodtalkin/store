@@ -160,7 +160,7 @@
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center mt-l">
-            <h3>Kylin contest</h3>
+            <h3>Beyond the Curry at Kylin Premier</h3>
             <p>Register below and get a chance to win a spot on the exclusive table hosted by Kylin and Chef Nikhil Kanwar for the Beyond The Curry, A feast of Authentic Thai Cuisine. 15 lucky winners will be selected for a special tasting menu. </p>
           </div>
           <div class="col l12 m12 s12" style="font-size:12px">
