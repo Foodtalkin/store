@@ -218,7 +218,7 @@ Answer the question below and you might one of our lucky winner's- 5 people from
                 
                 <!-- <div class="col s12 m6 l6">
                   <label for="address">Instagram Handle *</label>
-                  <input type="text" class="validate imp" name="address" id="address" value="<?php echo $user['address']; ?>">
+                  <input type="text" class="validate imp" name="address" id="address" value="">
                 </div>
                 <div class="col s12 m6 l6">
                   <label for="veg-nv">Veg or Non-Veg? *</label>
