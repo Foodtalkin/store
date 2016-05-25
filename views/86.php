@@ -177,10 +177,12 @@ Answer the question below and you might one of our lucky winner's- 5 people from
               <div class="col s12 m12 l12">
                 <div class="col s12 m12 l12 center mt-mid">
                 </div>
-                <div class="col s12 m12 l12">
-                	<label for="" class="col s12 m12 l12">Complete the sentence *</label>
-                  <label for="response" class="col s12 m6 l6">#TalkChandonToMe Baby </label>
-                  <input id="response" type="text" name="response" class="validate col imp s12 m6 l6" >
+                <div class="col s12 m6 l6">
+                	<label for="" class="col s12 m12 l12"></label>
+                  <label for="response">#TalkChandonToMe Baby <br>
+                  Complete the sentence *
+                   </label>
+                  <input id="response" type="text" name="response" class="validate  imp" >
                 </div>
                 <div class="col s12 m6 l6">
                   <label for="name" >Name *</label>
