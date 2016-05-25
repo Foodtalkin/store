@@ -199,6 +199,10 @@ Answer the question below and you might one of our lucky winner's- 5 people from
                   <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
+                  <label for="insta"><h6>Instagram Handle *</h6></label>
+                  <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
+                </div>
+                <div class="col s12 m6 l6">
                   <label for="city"><h6>City *</h6></label>
                   <select name="city" id="city" class="browser-default">
                     <option value="Delhi">Delhi</option>
@@ -211,10 +215,7 @@ Answer the question below and you might one of our lucky winner's- 5 people from
                   <label for="other">Other</label>
                   <input type="text" id="other" class="validate" name="other">
                 </div> -->
-                <div class="col s12 m6 l6">
-                  <label for="insta"><h6>Instagram Handle *</h6></label>
-                  <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
-                </div>
+                
                 <!-- <div class="col s12 m6 l6">
                   <label for="address">Instagram Handle *</label>
                   <input type="text" class="validate imp" name="address" id="address" value="<?php echo $user['address']; ?>">
