@@ -154,6 +154,9 @@
 	    border: 0;
 	    border-bottom: 2px solid #cecece;
       }
+      .mainquecon{
+			border: 1px solid #3c3c3c;
+      }
       </style>
     </head>
 
@@ -186,12 +189,16 @@ Answer the question below and you might one of our lucky winner's- 5 people from
           <div class="col s12 m12 l12  red-c">
             <form id="frm">
               <div class="col s12 m12 l12">
-                <div class="col s12 m12 l12 center mt-mid">
+                
+                <div class="col s12 m12 l12 mainquecon">
+                	<div class="col s12 m12 l12"><h5>Q1. Complete the sentence *</h5></div>
+	                <div class="col s12 m12 l12 mainque">
+	                  <label for="Question">#TalkChandonToMe Baby </label>
+	                  <input id="Question" type="text" name="Question" class="validate  imp" >
+	                </div>
                 </div>
-                <div class="col s12 m12 l12"><h5>Q1. Complete the sentence *</h5></div>
-                <div class="col s12 m12 l12 mainque">
-                  <label for="Question">#TalkChandonToMe Baby </label>
-                  <input id="Question" type="text" name="Question" class="validate  imp" >
+                <div class="col s12 m12 l12 center mt-mid">
+                	<h5>Contact Details</h5>
                 </div>
                 <div class="col s12 m6 l6">
                   <label for="name" ><h6>Name *</h6></label>
