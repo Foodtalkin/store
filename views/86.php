@@ -177,29 +177,29 @@ Answer the question below and you might one of our lucky winner's- 5 people from
               <div class="col s12 m12 l12">
                 <div class="col s12 m12 l12 center mt-mid">
                 </div>
-                <div class="col s12 m12 l12"><p>Complete the sentence *</p></div>
+                <div class="col s12 m12 l12"><h5>Q1. Complete the sentence *</h5></div>
                 <div class="col s12 m6 l6">
-                  <label for="Question"> #TalkChandonToMe Baby </label>
+                  <label for="Question"> <h6>#TalkChandonToMe Baby __________ </h6></label>
                   <input id="Question" type="text" name="Question" class="validate  imp" >
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="name" >Name *</label>
+                  <label for="name" ><h6>Name *</h6></label>
                   <input id="name" type="text" name="name" class="validate imp" value="<?php echo $user['name']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="email">Email Address *</label>
+                  <label for="email"><h6>Email Address *</h6></label>
                   <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="phone">Phone number *</label>
+                  <label for="phone"><h6>Phone number *</h6></label>
                   <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="email" >Date of Birth *</label>
+                  <label for="email" ><h6>Date of Birth *</h6></label>
                   <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
                 </div>
                 <div class="col s12 m6 l6">
-                  <label for="city">City *</label>
+                  <label for="city"><h6>City *</h6></label>
                   <select name="city" id="city" class="browser-default">
                     <option value="Delhi">Delhi</option>
                     <option value="Mumbai">Mumbai</option>
@@ -212,7 +212,7 @@ Answer the question below and you might one of our lucky winner's- 5 people from
                   <input type="text" id="other" class="validate" name="other">
                 </div> -->
                 <div class="col s12 m6 l6">
-                  <label for="insta">Instagram Handle *</label>
+                  <label for="insta"><h6>Instagram Handle *</h6></label>
                   <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
                 </div>
                 <!-- <div class="col s12 m6 l6">
