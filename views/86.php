@@ -142,7 +142,18 @@
           margin-top: 2px;
           transition: .2s;
       }
-      
+      .mainque label{
+		display: inline;
+		width: auto;
+		font-size: 1.5em;
+      }
+
+      .mainque input{
+		display: inline;
+		width: 300px;
+	    border: 0;
+	    border-bottom: 2px solid #cecece;
+      }
       </style>
     </head>
 
@@ -178,8 +189,8 @@ Answer the question below and you might one of our lucky winner's- 5 people from
                 <div class="col s12 m12 l12 center mt-mid">
                 </div>
                 <div class="col s12 m12 l12"><h5>Q1. Complete the sentence *</h5></div>
-                <div class="col s12 m6 l6">
-                  <label for="Question"> <h6>#TalkChandonToMe Baby __________ </h6></label>
+                <div class="col s12 m12 l12 mainque">
+                  <label for="Question">#TalkChandonToMe Baby </label>
                   <input id="Question" type="text" name="Question" class="validate  imp" >
                 </div>
                 <div class="col s12 m6 l6">
