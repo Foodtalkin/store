@@ -156,6 +156,7 @@
       }
       .mainquecon{
 			border: 1px solid #3c3c3c;
+			padding: 20px !important;
       }
       </style>
     </head>
@@ -197,7 +198,7 @@ Answer the question below and you might one of our lucky winner's- 5 people from
 	                  <input id="Question" type="text" name="Question" class="validate  imp" >
 	                </div>
                 </div>
-                <div class="col s12 m12 l12 center mt-mid">
+                <div class="col s12 m12 l12 center">
                 	<h5>Contact Details</h5>
                 </div>
                 <div class="col s12 m6 l6">
