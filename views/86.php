@@ -146,17 +146,17 @@
 		display: inline;
 		width: auto;
 		font-size: 1.5em;
+		    float: left;
       }
 
       .mainque input{
 		display: inline;
-		width: 300px;
 	    border: 0;
 	    border-bottom: 2px solid #cecece;
       }
       .mainquecon{
 			border: 1px solid #3c3c3c;
-			padding: 20px !important;
+			padding: 20px 10px !important;
       }
       </style>
     </head>
@@ -195,7 +195,7 @@ Answer the question below and you might one of our lucky winner's- 5 people from
                 	<div class="col s12 m12 l12"><h5>Q1. Complete the sentence *</h5></div>
 	                <div class="col s12 m12 l12 mainque">
 	                  <label for="Question">#TalkChandonToMe Baby </label>
-	                  <input id="Question" type="text" name="Question" class="validate  imp" >
+	                  <input id="Question" type="text" name="Question" class="validate  imp s12 m4 l4 col" >
 	                </div>
                 </div>
                 <div class="col s12 m12 l12 center">
