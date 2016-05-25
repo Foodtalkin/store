@@ -174,12 +174,12 @@
             <h3>When we hear PARTY we say CHANDON!</h3>
             <h5>Chandon Chandon Party Party!! <br>
 It's Summer Spritzer time with the Party Starter!</h5>
-            <p>Calling all you Delhi, Bombay & Bangalore folks! <br>
+            <h5>Calling all you Delhi, Bombay & Bangalore folks! <br>
 Here's your chance to win a Chandon Party Starter and get your Party Started! <br>
 Answer the question below and you might one of our lucky winner's- 5 people from each city will win the Party Starter Kit!
-</p>
-	<p>It's time to #TalkChandonToMe Baby ;)</p>
-	<p>Participate Now:</p>
+</h5>
+	<h5>It's time to #TalkChandonToMe Baby ;)</h5>
+	<h5>Participate Now:</h5>
           </div>
          
           
