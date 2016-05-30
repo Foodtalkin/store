@@ -200,7 +200,7 @@
                 
                 
                 <div class="col s12 m6 l6">
-                  <label for="Question">What's your favourite cocktail? *</label>
+                  <label for="Question"><h6>What's your favourite cocktail? *</h6></label>
                     <input id="Question" type="text" name="Question" class="validate imp" >
                 </div>
                 <div class="col s12 m6 l6">
