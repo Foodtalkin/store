@@ -145,7 +145,7 @@
       .mainque label{
 		display: inline;
 		width: auto;
-		font-size: 1.5em;
+		font-size: 1.2em;
 		    float: left;
       }
 
