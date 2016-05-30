@@ -177,7 +177,7 @@
 	
           </div>
          
-          <div class="col s12 m8 offset-m2 l8 offset-l2" >
+          <div class="col s12 m8 offset-m2 l8 offset-l2 mt-l" >
               <div class="col l4 m4 s6 center-align">
                  <i class="fa fa-calendar-o"></i>
                 <p class="center">Thursday, 9th June 16</p>
