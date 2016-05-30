@@ -180,7 +180,7 @@
           <div class="col s12 m8 offset-m2 l8 offset-l2" >
               <div class="col l4 m4 s6 center-align">
                  <i class="fa fa-calendar-o"></i>
-                <p class="center">Wednesday, 9th June 16</p>
+                <p class="center">Thursday, 9th June 16</p>
               </div>
               <div class="col l4 m4 s6 center-align">
                  <i class="fa fa-clock-o"></i>
@@ -198,14 +198,10 @@
             <form id="frm">
               <div class="col s12 m12 l12">
                 
-                <div class="col s12 m12 l12 mainquecon">
-	                <div class="col s12 m12 l12 mainque">
-	                  <label for="Question" class=" col s12 m6 l6">What's your favourite cocktail? *</label>
-	                  <input id="Question" type="text" name="Question" class="validate imp col s12 m6 l6" >
-	                </div>
-                </div>
-                <div class="col s12 m12 l12 center">
-                	<h5>Contact Details</h5>
+                
+                <div class="col s12 m6 l6">
+                  <label for="Question">What's your favourite cocktail? *</label>
+                    <input id="Question" type="text" name="Question" class="validate imp" >
                 </div>
                 <div class="col s12 m6 l6">
                   <label for="name" ><h6>Name *</h6></label>
