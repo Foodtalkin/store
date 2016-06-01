@@ -148,29 +148,26 @@
 
     <body>
       <div class="intro hide-on-med-and-up">
-        <img src="../img/cover84.jpg" class="responsive-img">
+        <img src="../img/cover84.png" class="responsive-img">
       </div>
       <div class="container">
         <div class="row hide-on-small-only">
           <div class="col s12 m12 l12">
             <div class="intro">
-              <img src="../img/cover84.jpg" class="responsive-img">
+              <img src="../img/cover84.png" class="responsive-img">
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center mt-l">
             <h3>Get a Triangle on us!</h3>
-            <h5>Win a Bottle of Grant's and come party with us</h5>
-            <p>Triangle Effect <br>
-                The Grant's Part <br>
-                at Ek Bar <br>
-                In association with Food Talk India</p>
-            <p>Friday, 13th May, 8:30pm</p>
-            <h4>Participate now to Win a Bottle of Grant's Whisky at the party that's three times as fun as an average Friday Night</h4>
-            <p>There's not one, not two but three sides to this Party! <br>
-We've got Delhi's hippest new Cocktail bar serving Grant's Cocktails, Three amazing artists collaborating to create some amazing Fusion Music and some Triangular Fun</p>
-<p>Come win a bottle and party with your friends and Food Talk India at Ek Bar:</p>
+            <h5>Participate in the contest and stand a chance to be our Special Grant's Guests at</h5>
+            <h5>The Triangle Effect Party <br>
+                With Grant's  <br>
+                at Ek Bar</h5>
+            <h5>Friday, 3rd June, 9pm</h5>
+            <h5>Winner's will get coupons to avail 15 Grant's Cocktails on the house at the Triangle Effect Party!</h5>
+            <h5>There's not one, not two but three sides to this Party! Join us for a fun night of Cocktails, Progressive AV Music and a whole lotta fun</h5>
           </div>
          
           
