@@ -158,19 +158,19 @@
 
     <body>
       <div class="intro hide-on-med-and-up">
-        <img src="../img/cover87.jpg" class="responsive-img">
+        <img src="../img/cover87.png" class="responsive-img">
       </div>
       <div class="container">
         <div class="row hide-on-small-only">
           <div class="col s12 m12 l12">
             <div class="intro">
-              <img src="../img/cover87.jpg" class="responsive-img">
+              <img src="../img/cover87.png" class="responsive-img">
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col s12 m12 l12 center mt-l">
-            <h3>Cocktails and Conversations at Wolfgang and Co. </h3>
+            <h3>Tipples and Tales at Wolfgang and Co. </h3>
             <h6>There's a new bar in town and we can't wait to show it to you. We're inviting 50 food talkers to sip on delicious hand crafted cocktails and listen to live music. </h6>
             <h6>Tell us your favourite cocktail and get a chance to be invited to the chicest bar in town! </h6>
 	
