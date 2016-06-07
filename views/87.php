@@ -389,7 +389,7 @@
                      email: email,
                      contact: contact,
                      dob : dob,
-                     city : $('#city').val(),
+                     city : 'Delhi',
                      metadata : meta,
                      instagram_handle: insta
                      };
