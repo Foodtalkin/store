@@ -389,7 +389,7 @@
                      email: email,
                      contact: contact,
                      dob : dob,
-                     city : 'Delhi',
+                     city : 'Delhi NCR',
                      metadata : meta,
                      instagram_handle: insta
                      };
