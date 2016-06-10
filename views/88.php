@@ -175,10 +175,7 @@
             <p>5 Lucky winners will get a chance to win a voucher worth Rs. 1500 from IOrderFresh to order some amazing products -delivered right to your doorstep.</p>
 			
 			<br>
-			<h5><a href=" https://www.iorderfresh.com/">About IOrderFresh</a></h5>
-			<p>IOrderFresh is an easy to use app and website where you can order everything from your fresh morning milk & artisan breads to freshly ripened {preservative free} fruits and vegetables and a wide variety of meats and seafood.</p>
-			<p>All this goodness delivered straight to your doorstep, simply with a few clicks! </p>
-			<p>But wait, the fun doesn’t stop here! Not just limited to groceries, through iOrderFresh, you get access to exclusive offerings like Natural Ice Cream, Cold-Pressed Juices, Organic Homemade Dips and Butter and you can enjoy them all at home!</p>
+			
           </div>
          
           
@@ -212,6 +209,10 @@
 					    </p>
                 </div>
                 <div class="col s12 m12 l12 mt-l center">
+                	<h5><a href=" https://www.iorderfresh.com/">About IOrderFresh</a></h5>
+					<p>IOrderFresh is an easy to use app and website where you can order everything from your fresh morning milk & artisan breads to freshly ripened {preservative free} fruits and vegetables and a wide variety of meats and seafood.</p>
+					<p>All this goodness delivered straight to your doorstep, simply with a few clicks! </p>
+					<p>But wait, the fun doesn’t stop here! Not just limited to groceries, through iOrderFresh, you get access to exclusive offerings like Natural Ice Cream, Cold-Pressed Juices, Organic Homemade Dips and Butter and you can enjoy them all at home!</p>
                 	<h5>Contact Details:</h5>
                 </div>
                 <div class="col s12 m6 l6">
