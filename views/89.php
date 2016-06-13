@@ -380,7 +380,7 @@
                      contact: contact,
                      dob : dob,
                      city : 'Delhi NCR',
-                     metadata : meta,
+                     // metadata : meta,
                      instagram_handle: insta
                      };
               
