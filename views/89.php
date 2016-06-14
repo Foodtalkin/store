@@ -172,7 +172,8 @@
           <div class="col s12 m12 l12 center mt-l">
             <h5>Breaking Bread with Dad</h5>
             <p>#ContestAlert</p>
-            <p>This Father's day forget the tie you were going to give him! The lovely folks at Artful Baker are sending 5 lucky winners a hamper filled with goodies and a personalised message to break bread with dad. All you have to do is tell us your favourite memory with dad!</p>
+            <p>This Father's day forget the tie you were going to give him! The lovely folks at Artful Baker are sending 5 lucky winners a hamper filled with goodies and a personalised message to break bread with dad. All you have to do is tell us one of your favourite memory with dad!
+</p>
 			
 			<br>
 			
@@ -190,7 +191,11 @@
                     <input id="Question1" type="text" name="Question1" class="validate imp" >
                 </div>
                 
-                
+                <div class="col s12 m12 l12 mt-l center">
+                  <h5><a href=" https://www.iorderfresh.com/">The Artful Baker</a></h5>
+          <p>The Artful Baker is a bakery located in Khan market that serves artisanal breads and french patisseries. Their menu also offers Whole wheat breads, Ham & Cheese Croissants and a newly launched breakfast menu with muffins, cookies and a variety of cold pressed juices and coffees made with 100% arabica beans. </p>
+                  <h5>Contact Details:</h5>
+                </div>
                 <div class="col s12 m6 l6">
                   <label for="name" ><h6>Name *</h6></label>
                   <input id="name" type="text" name="name" class="validate imp" value="<?php echo $user['name']; ?>">
