@@ -52,7 +52,6 @@
         border: 0px;
         border: 1px solid #CECACA;
       }
-
      .btn{
       background-color: #3e2723 !important;
       margin-top: 30px;
@@ -143,15 +142,14 @@
           transition: .2s;
       }
       .mainque label{
-		display: inline;
-		width: auto;
-		font-size: 1.2em;
-		    float: left;
+    display: inline;
+    width: auto;
+    font-size: 1.2em;
+        float: left;
       }
-
       .mainquecon{
-			border: 1px solid #3c3c3c;
-			padding: 20px 10px !important;
+      border: 1px solid #3c3c3c;
+      padding: 20px 10px !important;
       }
       </style>
     </head>
@@ -173,9 +171,9 @@
             <h5>IOrderFresh Do you?</h5>
             <p>#ContestAlert</p>
             <p>5 Lucky winners will get a chance to win a voucher worth Rs. 1500 from IOrderFresh to order some amazing products -delivered right to your doorstep.</p>
-			
-			<br>
-			
+      
+      <br>
+      
           </div>
          
           
@@ -191,29 +189,29 @@
                 </div>
                 <div class="col s12 m12 l12">
                   <label for="Question2"><h6>What do you love most about the IOrderFresh service? *</h6></label>
-                     	<p>
-					      <input name="Question2" type="radio" id="test1" value="Delivered To Your Doorstep" checked />
-					      <label for="test1">Delivered To Your Doorstep</label>
-					    </p>
-					    <p>
-					      <input name="Question2" type="radio" id="test2" value="Convenience- Now everything is just a few clicks away" />
-					      <label for="test2">Convenience- Now everything is just a few clicks away</label>
-					    </p>
-					    <p>
-					      <input name="Question2" type="radio" id="test3" value="Super Cool product line- Naturals Ice Cream, Depaul's, Artisan Meats, L'Opera, etc "  />
-					      <label for="test3">Super Cool product line- Naturals Ice Cream, Depaul's, Artisan Meats, L'Opera, etc </label>
-					    </p>
-					      <p>
-					        <input name="Question2" type="radio" id="test4" value="Fresh, Preservative-free Fruit's & Vegetables" />
-					        <label for="test4">Fresh, Preservative-free Fruit's & Vegetables</label>
-					    </p>
+                      <p>
+                <input name="Question2" type="radio" id="test1" value="Delivered To Your Doorstep" checked />
+                <label for="test1">Delivered To Your Doorstep</label>
+              </p>
+              <p>
+                <input name="Question2" type="radio" id="test2" value="Convenience- Now everything is just a few clicks away" />
+                <label for="test2">Convenience- Now everything is just a few clicks away</label>
+              </p>
+              <p>
+                <input name="Question2" type="radio" id="test3" value="Super Cool product line- Naturals Ice Cream, Depaul's, Artisan Meats, L'Opera, etc "  />
+                <label for="test3">Super Cool product line- Naturals Ice Cream, Depaul's, Artisan Meats, L'Opera, etc </label>
+              </p>
+                <p>
+                  <input name="Question2" type="radio" id="test4" value="Fresh, Preservative-free Fruit's & Vegetables" />
+                  <label for="test4">Fresh, Preservative-free Fruit's & Vegetables</label>
+              </p>
                 </div>
                 <div class="col s12 m12 l12 mt-l center">
-                	<h5><a href=" https://www.iorderfresh.com/">About IOrderFresh</a></h5>
-					<p>IOrderFresh is an easy to use app and website where you can order everything from your fresh morning milk & artisan breads to freshly ripened {preservative free} fruits and vegetables and a wide variety of meats and seafood.</p>
-					<p>All this goodness delivered straight to your doorstep, simply with a few clicks! </p>
-					<p>But wait, the fun doesn’t stop here! Not just limited to groceries, through iOrderFresh, you get access to exclusive offerings like Natural Ice Cream, Cold-Pressed Juices, Organic Homemade Dips and Butter and you can enjoy them all at home!</p>
-                	<h5>Contact Details:</h5>
+                  <h5><a href=" https://www.iorderfresh.com/">About IOrderFresh</a></h5>
+          <p>IOrderFresh is an easy to use app and website where you can order everything from your fresh morning milk & artisan breads to freshly ripened {preservative free} fruits and vegetables and a wide variety of meats and seafood.</p>
+          <p>All this goodness delivered straight to your doorstep, simply with a few clicks! </p>
+          <p>But wait, the fun doesn’t stop here! Not just limited to groceries, through iOrderFresh, you get access to exclusive offerings like Natural Ice Cream, Cold-Pressed Juices, Organic Homemade Dips and Butter and you can enjoy them all at home!</p>
+                  <h5>Contact Details:</h5>
                 </div>
                 <div class="col s12 m6 l6">
                   <label for="name" ><h6>Name *</h6></label>
@@ -227,18 +225,18 @@
                   <label for="phone"><h6>Phone number *</h6></label>
                   <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
                 </div>
-                <!-- <div class="col s12 m6 l6">
+                <div class="col s12 m6 l6">
                   <label for="email" ><h6>Date of Birth *</h6></label>
-                  <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php //echo $user['dob']; ?>">
-                </div> -->
+                  <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
+                </div>
                 <div class="col s12 m6 l6">
                   <label for="insta"><h6>Instagram Handle *</h6></label>
                   <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
                 </div>
-                <!-- <div class="col s12 m6 l6">
+                <div class="col s12 m6 l6">
                   <label for="address"><h6>Address *</h6></label>
-                  <input type="text" class="validate imp" name="address" id="address" value="<?php  ?>">
-                </div> -->
+                  <input type="text" class="validate imp" name="address" id="address" value="<?php echo $user['address']; ?>">
+                </div>
                 <!-- <div class="col s12 m6 l6">
                   <label for="city"><h6>City *</h6></label>
                   <select name="city" id="city" class="browser-default">
@@ -320,16 +318,15 @@
               
               var data = $('#frm').serializeArray();
               // console.log(data[1]['value']);
-
-              // if($('#dob').val() != ''){
-              //   var dob = moment($('#dob').val()).format("YYYY-MM-DD");
-              // }else{
-              //   var dob = <?php if($user['dob'] == null){
-              //     echo "0000-00-00";
-              //   }else{
-              //     echo $user['dob'];
-              //   } ?>;
-              // }
+              if($('#dob').val() != ''){
+                var dob = moment($('#dob').val()).format("YYYY-MM-DD");
+              }else{
+                var dob = <?php if($user['dob'] == null){
+                  echo "0000-00-00";
+                }else{
+                  echo $user['dob'];
+                } ?>;
+              }
               // console.log(dob);
               if($('#name').val() != ''){
                 var name = $('#name').val();
@@ -355,19 +352,17 @@
                 var insta = "<?php echo $user['instagram_handle']; ?>";
               }
               // console.log(insta);
-              // if($('#address').val() != ''){
-              //   var address = $('#address').val();
-              // }else{
-              //   var address = "<?php echo $user['address']; ?>";
-              // }
+              if($('#address').val() != ''){
+                var address = $('#address').val();
+              }else{
+                var address = "<?php echo $user['address']; ?>";
+              }
               // if($('#city').val() == "Other"){
               //   var city = $('#other').val();
               // }else{
               //   var city = $('#city').val();
               // }
               var meta = <?php echo json_encode($user['metadata']); ?>;
-
-
               // // console.log(meta);
               // if(meta == null){
               //   var meta = {
@@ -391,7 +386,6 @@
               // }else{
               //   var sub = 0;
               // }
-
               var toinsertdata = {events_id: e_id,
                      email: email,
                      contact: contact,
@@ -402,7 +396,7 @@
               var toupdate = {name: name,
                      email: email,
                      contact: contact,
-                     // dob : dob,
+                     dob : dob,
                      city : 'Delhi NCR',
                      metadata : meta,
                      instagram_handle: insta
@@ -410,12 +404,9 @@
               
               //console.log(URL_INSERT);
              
-
               
               
-
               //insert
-
                $.ajax({
                  url: "createsession.php",
                  type: 'POST',
@@ -440,7 +431,6 @@
                 console.log("complete");
                 //$(location).attr('href', 'http://imojo.in/47vvf9');
               });
-
               }else{
                 $('#submit').attr('disabled',false);
               }
