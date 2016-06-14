@@ -219,7 +219,7 @@ session_start();
 
   </html>
   <?php 
-    if($_SESSION['target'] == 88){
+    if($_SESSION['target'] == "88"){
       header('Location: https://www.iorderfresh.com/');
     }
    $_SESSION['source'] = null;
