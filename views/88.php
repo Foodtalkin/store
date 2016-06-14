@@ -3,7 +3,7 @@
     
    $user =(array) $_SESSION['USER']['result'];
     
-    $metadata = (array) $user['metadata'];
+    // $metadata = (array) $user['metadata'];
     //var_dump($user);
 ?>
 
@@ -180,9 +180,9 @@
          
           
           <div class="col s12 m12 l12  red-c">
-          <dov class="col s12 m12 l12 center">
+          <div class="col s12 m12 l12 center">
             <h5>Participate Now:</h5>
-          </dov>
+          </div>
             <form id="frm">
               <div class="col s12 m12 l12">
                 <div class="col s12 m6 l6">
@@ -305,10 +305,10 @@
         var id= <?php echo $user['id']; ?>;
         
         
-        $('.datepicker').pickadate({
-          selectMonths: true, // Creates a dropdown to control month
-          selectYears: 90 // Creates a dropdown of 15 years to control year
-        });
+        // $('.datepicker').pickadate({
+        //   selectMonths: true, // Creates a dropdown to control month
+        //   selectYears: 90 // Creates a dropdown of 15 years to control year
+        // });
         //console.log("ready");
         $('#submit').on('click', function(event) {
           event.preventDefault();
@@ -404,7 +404,6 @@
                      contact: contact,
                      // dob : dob,
                      city : 'Delhi NCR',
-                     // metadata : meta,
                      instagram_handle: insta
                      };
               
