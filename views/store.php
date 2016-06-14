@@ -38,7 +38,7 @@
     .card-action{
     	padding: 7px !important;
 	    text-align: right !important;
-	    margin-top: -15px !important;
+	    /*margin-top: -15px !important;*/
     }
     .venue .fa{
     	font-size: 16px;
