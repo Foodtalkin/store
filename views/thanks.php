@@ -216,7 +216,7 @@ session_start();
         </div>
       </div>
       <script>
-          var a = <?php echo $toredirect; ?>
+          var a = <?php echo $toredirect; ?>;
           if(a==88){
             window.location = "https://www.iorderfresh.com/";
           }
