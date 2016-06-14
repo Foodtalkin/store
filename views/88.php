@@ -319,7 +319,7 @@
               //console.log("validatetrue");
               
               var data = $('#frm').serializeArray();
-              console.log(data[1]['value']);
+              // console.log(data[1]['value']);
 
               if($('#dob').val() != ''){
                 var dob = moment($('#dob').val()).format("YYYY-MM-DD");

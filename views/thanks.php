@@ -1,6 +1,6 @@
 <?php 
 session_start();
-
+  $toredirect = $_SESSION['target'];
   $toins = $_SESSION['toinsertdata'];
   //var_dump($toins ["payment_id"]);
     if($_SESSION['source'] != null || isset($_SESSION['source'])){
@@ -215,14 +215,18 @@ session_start();
           </div>
         </div>
       </div>
+      <script>
+          var a = <?php echo $toredirect; ?>
+          if(a==88){
+            window.location = "https://www.iorderfresh.com/";
+          }
+          
+      </script>
     </body>
 
   </html>
   <?php 
-    echo $_SESSION['target'];
-    if($_SESSION['target'] == 88){
-      header('Location: https://www.iorderfresh.com/');
-    }
+    
    $_SESSION['source'] = null;
   $_SESSION['target'] = null;
   $_SESSION['USER'] = null;
