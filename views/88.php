@@ -227,18 +227,18 @@
                   <label for="phone"><h6>Phone number *</h6></label>
                   <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
                 </div>
-                <div class="col s12 m6 l6">
+                <!-- <div class="col s12 m6 l6">
                   <label for="email" ><h6>Date of Birth *</h6></label>
-                  <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
-                </div>
+                  <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php //echo $user['dob']; ?>">
+                </div> -->
                 <div class="col s12 m6 l6">
                   <label for="insta"><h6>Instagram Handle *</h6></label>
                   <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
                 </div>
-                <div class="col s12 m6 l6">
+                <!-- <div class="col s12 m6 l6">
                   <label for="address"><h6>Address *</h6></label>
-                  <input type="text" class="validate imp" name="address" id="address" value="<?php echo $user['address']; ?>">
-                </div>
+                  <input type="text" class="validate imp" name="address" id="address" value="<?php  ?>">
+                </div> -->
                 <!-- <div class="col s12 m6 l6">
                   <label for="city"><h6>City *</h6></label>
                   <select name="city" id="city" class="browser-default">
@@ -321,15 +321,15 @@
               var data = $('#frm').serializeArray();
               // console.log(data[1]['value']);
 
-              if($('#dob').val() != ''){
-                var dob = moment($('#dob').val()).format("YYYY-MM-DD");
-              }else{
-                var dob = <?php if($user['dob'] == null){
-                  echo "0000-00-00";
-                }else{
-                  echo $user['dob'];
-                } ?>;
-              }
+              // if($('#dob').val() != ''){
+              //   var dob = moment($('#dob').val()).format("YYYY-MM-DD");
+              // }else{
+              //   var dob = <?php if($user['dob'] == null){
+              //     echo "0000-00-00";
+              //   }else{
+              //     echo $user['dob'];
+              //   } ?>;
+              // }
               // console.log(dob);
               if($('#name').val() != ''){
                 var name = $('#name').val();
@@ -355,17 +355,17 @@
                 var insta = "<?php echo $user['instagram_handle']; ?>";
               }
               // console.log(insta);
-              if($('#address').val() != ''){
-                var address = $('#address').val();
-              }else{
-                var address = "<?php echo $user['address']; ?>";
-              }
+              // if($('#address').val() != ''){
+              //   var address = $('#address').val();
+              // }else{
+              //   var address = "<?php echo $user['address']; ?>";
+              // }
               // if($('#city').val() == "Other"){
               //   var city = $('#other').val();
               // }else{
               //   var city = $('#city').val();
               // }
-              var meta = <?php echo json_encode($user['metadata']); ?>;
+              // var meta = <?php echo json_encode($user['metadata']); ?>;
 
 
               // // console.log(meta);
@@ -402,9 +402,9 @@
               var toupdate = {name: name,
                      email: email,
                      contact: contact,
-                     dob : dob,
+                     // dob : dob,
                      city : 'Delhi NCR',
-                     metadata : meta,
+                     // metadata : meta,
                      instagram_handle: insta
                      };
               
