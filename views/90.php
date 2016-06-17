@@ -101,6 +101,10 @@
       .highlights{
         color: #32004b;
       }
+      .form{
+        height: 100%;
+        overflow-y: scroll;
+      }
       </style>
     </head>
 
@@ -124,9 +128,9 @@
               <h5>#GetOnTheList</h5>
               </div>
           </div>
-          <div class="col s12 m6 l6">
+          <div class="col s12 m6 l6 form">
             
-            <div class="row">
+            <div class="row mb0">
               <div class="col s12 m11 l11 offset-m1 offset-l1">
                 <h4 class="center highlights">Contact Details</h4>
                 <form action="">
