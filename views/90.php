@@ -46,7 +46,7 @@
         border-radius: 5px;
         padding: 5px;
         height: 2rem;
-        margin: 10px 0;
+        margin: 7px 0;
         width: 97%
       }
       select{
@@ -54,7 +54,7 @@
         border-radius: 5px;
         padding: 5px;
         height: 3rem;
-        margin: 10px 0;
+        margin: 7px 0;
         width: 100%;
         background-color: inherit;
       }
@@ -84,7 +84,7 @@
         border-radius: 5px;
         color: #32004b;
         background-color: inherit;
-        margin-top: 20px;
+        margin-top: 15px;
       }
       .full-btn:hover, .full-btn:active{
         background-color: #32004b;
@@ -101,6 +101,10 @@
       .highlights{
         color: #32004b;
       }
+      /*.form{
+        height: 100vh;
+        overflow-y: scroll;
+      }*/
       </style>
     </head>
 
@@ -124,9 +128,9 @@
               <h5>#GetOnTheList</h5>
               </div>
           </div>
-          <div class="col s12 m6 l6">
+          <div class="col s12 m6 l6 form">
             
-            <div class="row">
+            <div class="row mb0">
               <div class="col s12 m11 l11 offset-m1 offset-l1">
                 
                 <form action="">
