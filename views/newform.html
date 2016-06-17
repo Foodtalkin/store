@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <!--Import Google Icon Font-->
+     <!--  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <style>
+      body{
+        background-color: #f2e9fc;
+        color: #404040;
+      }
+      h3{
+        font-size: 24px;
+        line-height: 2.212em;
+      }
+      h4{
+        font-size: 22px;
+      }
+      h5{
+        font-size: 18px;
+        line-height: 1.5em;
+      }
+      h6{
+        font-size: 16px;
+        line-height: 1.5em;
+        margin: 20px 0;
+      }
+      label{
+        font-size: 16px;
+      }
+      input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+        border: 2px solid #32004b;
+        border-radius: 5px;
+        padding: 5px;
+        height: 2rem;
+        margin: 10px 0;
+        width: 97%
+      }
+      select{
+        border: 2px solid #32004b;
+        border-radius: 5px;
+        padding: 5px;
+        height: 3rem;
+        margin: 10px 0;
+        width: 100%;
+        background-color: inherit;
+      }
+      .borderbox{
+          margin-top: 20px;
+          margin-bottom: 20px;
+          width: 100%;
+          padding: 10px;
+          border: 3px solid #32004b;
+          color: #32004b;
+         
+      }
+      select:focus, input:focus{
+        outline: none;
+      }
+      .mt20{
+        margin-top: 20px;
+      }
+      .mb0{
+        margin-bottom: 0;
+      }
+      .full-btn{
+        width: 100%;
+        padding: 5px;
+        height: 46px;
+        border: 2px solid #32004b;
+        border-radius: 5px;
+        color: #32004b;
+        background-color: inherit;
+        margin-top: 20px;
+      }
+      .full-btn:hover, .full-btn:active{
+        background-color: #32004b;
+        color: #fff;
+      }
+      .details{
+        min-height: 100vh;
+        background-color: #fff;
+        padding: 0 !important;
+      }
+      .padd20{
+        padding: 0 20px !important;
+      }
+      .highlights{
+        color: #32004b;
+      }
+      </style>
+    </head>
+
+    <body>
+      <div class="container">
+        <div class="row mb0">
+          <div class="col s12 m6 l6 center details">
+            <img src="../img/cover73.jpg" alt="" class="responsive-img">
+              <div class="col s12 m12 l12 padd20">
+                <h3>The Sexiest Plate in Town</h3>
+              <h5>#Bangalore it's time to get you Farzified</h5>
+              <div class="borderbox">
+                <h5>Farzi Cafe, UB City</h5>
+                <h5>Friday, 24th June, 8pm onwards</h5>
+              </div>
+              <h6>Bold Favours & a Visual Delight! Bangalore get ready to get a taste of the Sexiest plate in town.</h6>
+              <h6>The much loved Farzi Cafe is finally making it's way to Bangalore. <br>
+  Food Talk India is looking to invite some awesome folks from Bangalore for a special peek at what Farzi has in store for the city.</h6>
+              <h5>Fill up the form and stand a chance to get on the exclusive Food Talk Guest list!</h5>
+              <h5>#GetOnTheList</h5>
+              </div>
+          </div>
+          <div class="col s12 m6 l6">
+            
+            <div class="row">
+              <div class="col s12 m11 l11 offset-m1 offset-l1">
+                <h4 class="center highlights">Contact Details</h4>
+                <form action="">
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="">Name *</label>
+                    <input type="text">
+                  </div>
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="">Email Address *</label>
+                    <input type="email">
+                  </div>
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="">Phone number *</label>
+                    <input type="tel">
+                  </div>
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="">Date of Birth *</label>
+                    <input type="date">
+                  </div>
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="">Instagram Handle *</label>
+                    <input type="text">
+                  </div>
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="city">City *</label>
+                    <select name="city" id="city" class="browser-default">
+                      <!-- <option value="Delhi">Delhi</option>
+                      <option value="Mumbai">Mumbai</option>
+                      <option value="Pune">Pune</option> -->
+                      <option value="Bangalore">Bangalore</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                  <div class="col s12 m12 l12 mt20">
+                    <button class="waves-effect waves-light btn full-btn" id="submit">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="../js/moment.min.js"></script>
+      <script type="text/javascript" src="../js/materialize.min.js"></script>
+      
+    </body>
+  </html>
