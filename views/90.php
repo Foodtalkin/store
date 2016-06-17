@@ -114,7 +114,8 @@
               <h5>#Bangalore it's time to get you Farzified</h5>
               <div class="borderbox">
                 <h5>Farzi Cafe, UB City</h5>
-                <h5>Friday, 24th June, 8pm onwards</h5>
+                <h5>Friday, 24th June</h5>
+                <h5> 8pm onwards</h5>
               </div>
               <h6>Bold Favours & a Visual Delight! Bangalore get ready to get a taste of the Sexiest plate in town.</h6>
               <h6>The much loved Farzi Cafe is finally making it's way to Bangalore. <br>
