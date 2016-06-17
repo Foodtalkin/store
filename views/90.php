@@ -19,7 +19,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <style>
       body{
-        /*background-color: #f2e9fc;*/
+        background-color: #f2e9fc;
         color: #404040;
       }
       h3{
@@ -46,7 +46,7 @@
         border-radius: 5px;
         padding: 5px;
         height: 2rem;
-        margin: 10px 0;
+        margin: 7px 0;
         width: 97%
       }
       select{
@@ -54,7 +54,7 @@
         border-radius: 5px;
         padding: 5px;
         height: 3rem;
-        margin: 10px 0;
+        margin: 7px 0;
         width: 100%;
         background-color: inherit;
       }
@@ -84,7 +84,7 @@
         border-radius: 5px;
         color: #32004b;
         background-color: inherit;
-        margin-top: 20px;
+        margin-top: 15px;
       }
       .full-btn:hover, .full-btn:active{
         background-color: #32004b;
