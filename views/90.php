@@ -19,7 +19,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <style>
       body{
-        background-color: #f2e9fc;
+        /*background-color: #f2e9fc;*/
         color: #404040;
       }
       h3{
@@ -101,10 +101,10 @@
       .highlights{
         color: #32004b;
       }
-      .form{
-        height: 100%;
+      /*.form{
+        height: 100vh;
         overflow-y: scroll;
-      }
+      }*/
       </style>
     </head>
 
