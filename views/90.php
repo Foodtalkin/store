@@ -119,7 +119,7 @@
               <div class="borderbox">
                 <h5>Farzi Cafe, UB City</h5>
                 <h5>Friday, 24th June</h5>
-                <h5>8pm onwards</h5>
+                <h5>7:30 pm onwards</h5>
               </div>
               <h6>Keep the indian cuisine ‘ in- Vogue’  ! Bangalore, get ready to get a taste of the Sexiest plate in town.</h6>
               <h6>Allow the much loved Farzi Cafe to create an illusion for you with its cuisine. Take a seat as they transport you to a world that is a little chic and a little quirky. <br>
