@@ -115,11 +115,9 @@
             <img src="../img/cover73.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
                 <h3>#AsianInMyHaus</h3>
-              <!-- <h5>#Bangalore it's time to get you Farzified</h5> -->
+              <h5>We love us some Asian food in our Haus. The lovely folks at Asian Haus and Sushi Haus want to share the love to get some ASIAN grub in your HAUS and all you have to do is answer the question.</h5>
               <div class="borderbox">
-                <h5>Farzi Cafe, UB City</h5>
-                <h5>Friday, 24th June</h5>
-                <h5> 8pm onwards</h5>
+                <h4>Win a Voucher worth Rs. 2500</h4>
               </div>
               <h5>About Asian Haus and Sushi Haus</h5>
               <h6>Notorious for their supreme packaging and Restaurant Quality food. Asian Haus delivers a variety of delicious Pan Asian Cuisines to satisfy your asian craving. Sushi Haus Delivers delicous and fresh sushi and other delicous rolls. Both outlets deliver across Delhi NCR non stop from 12 noon until 4am. </h6>
