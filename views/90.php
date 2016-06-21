@@ -112,18 +112,18 @@
       <div class="container">
         <div class="row mb0">
           <div class="col s12 m6 l6 center details">
-            <img src="../img/cover73.jpg" alt="" class="responsive-img">
+            <img src="../img/cover90.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
                 <h3>The Sexiest Plate in Town</h3>
               <h5>#Bangalore it's time to get you Farzified</h5>
               <div class="borderbox">
                 <h5>Farzi Cafe, UB City</h5>
                 <h5>Friday, 24th June</h5>
-                <h5> 8pm onwards</h5>
+                <h5>7:30 pm onwards</h5>
               </div>
-              <h6>Bold Favours & a Visual Delight! Bangalore get ready to get a taste of the Sexiest plate in town.</h6>
-              <h6>The much loved Farzi Cafe is finally making it's way to Bangalore. <br>
-  Food Talk India is looking to invite some awesome folks from Bangalore for a special peek at what Farzi has in store for the city.</h6>
+              <h6>Keep the indian cuisine ‘ in- Vogue’  ! Bangalore, get ready to get a taste of the Sexiest plate in town.</h6>
+              <h6>Allow the much loved Farzi Cafe to create an illusion for you with its cuisine. Take a seat as they transport you to a world that is a little chic and a little quirky. <br>
+  Food Talk India is looking to invite some awesome folks from Bangalore for a special peek at what the urbane Farzi has in store for the city.</h6>
               <h5>Fill up the form and stand a chance to get on the exclusive Food Talk Guest list!</h5>
               <h5>#GetOnTheList</h5>
               </div>
@@ -132,8 +132,9 @@
             
             <div class="row mb0">
               <div class="col s12 m11 l11 offset-m1 offset-l1">
-                <h4 class="center highlights">Contact Details</h4>
+                
                 <form action="">
+                  <h4 class="center highlights">Contact Details</h4>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Name *</label>
                     <input id="name" type="text" name="name" class="validate imp" value="<?php echo $user['name']; ?>">
@@ -277,6 +278,7 @@
                 var toupdate = {name: name,
                        email: email,
                        contact: contact,
+                       // metadata : meta,
                        dob : dob,
                        city : $('#city').val(),
                        instagram_handle: insta
