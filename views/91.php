@@ -105,6 +105,9 @@
         height: 100vh;
         overflow-y: scroll;
       }*/
+      .borderR{
+        border-color: red;
+      }
       </style>
     </head>
 
