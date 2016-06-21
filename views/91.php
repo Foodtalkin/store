@@ -181,10 +181,10 @@
           var source = "<?php echo $_SESSION['source']; ?>";
           var id= <?php echo $user['id']; ?>;
 
-          // $('.datepicker').pickadate({
-          //   selectMonths: true, // Creates a dropdown to control month
-          //   selectYears: 90 // Creates a dropdown of 15 years to control year
-          // });
+          $('.datepicker').pickadate({
+            selectMonths: true, // Creates a dropdown to control month
+            selectYears: 90 // Creates a dropdown of 15 years to control year
+          });
 
           $('#submit').on('click', function(event) {
             event.preventDefault();           
@@ -192,15 +192,15 @@
                 var data = $('#frm').serializeArray();
                 // console.log(data[1]['value']);
 
-                // if($('#dob').val() != ''){
-                //   var dob = moment($('#dob').val()).format("YYYY-MM-DD");
-                // }else{
-                //   var dob = <?php if($user['dob'] == null){
-                //     echo "0000-00-00";
-                //   }else{
-                //     echo $user['dob'];
-                //   } ?>;
-                // }
+                if($('#dob').val() != ''){
+                  var dob = moment($('#dob').val()).format("YYYY-MM-DD");
+                }else{
+                  var dob = <?php if($user['dob'] == null){
+                    echo "0000-00-00";
+                  }else{
+                    echo $user['dob'];
+                  } ?>;
+                }
                 // console.log(dob);
                 if($('#name').val() != ''){
                   var name = $('#name').val();
