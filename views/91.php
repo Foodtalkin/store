@@ -115,7 +115,7 @@
       <div class="container">
         <div class="row mb0">
           <div class="col s12 m6 l6 center details">
-            <img src="../img/cover73.jpg" alt="" class="responsive-img">
+            <img src="../img/cover91.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
                 <h3>#AsianInMyHaus</h3>
               <h5>We love us some Asian food especially when it's delivered at home. The lovely folks at Asian Haus and Sushi Haus want to share the love to get some ASIAN grub in your HAUS and all you have to do is answer the question.</h5>
