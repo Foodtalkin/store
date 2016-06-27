@@ -188,7 +188,7 @@
                     <i class="fa fa-map-marker"></i>
                   </div>
                   <div class="col l11 m11 s11 right left-align">
-                    <h6> Like duhh...we ain't telling you that</h6>
+                    <h6> Burma Burma, Cyber Hub</h6>
                     <!-- <p>Khan Market</p> -->
                   </div>
                 </div>
