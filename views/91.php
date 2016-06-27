@@ -106,7 +106,7 @@
         overflow-y: scroll;
       }*/
       .borderR{
-        border-color: red;
+        border-color: red !important;
       }
       </style>
     </head>
@@ -319,7 +319,7 @@
               var allIsOk = true;
               //Check if empty of not
               $('#frm').find( '.imp' ).each(function () {
-                  if ( ! $(this).val() ) { 
+                  if ( ! $(this).val().trim() ) { 
                       $(this).addClass('borderR');
                       $(this).focus();
                       allIsOk = false;
