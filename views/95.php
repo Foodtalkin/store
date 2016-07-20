@@ -93,7 +93,7 @@
         
         <div class="row">
           <div class="col l12 m12 s12 left-align">
-            <h4>Sunday Brunch with a Crafty touch!</h4>
+            <h4>Crafternoon Brunch at Fio Cookhouse & Bar</h4>
           </div>
         </div>
         <div class="row">
@@ -145,7 +145,8 @@
           <div class="col l7 m7 s12 center-align">
             <div class="card">
                 <div class="col m12 s12 l12 hide-on-small-only justify">
-                  <h5>Let's get Crafty together!</h5>
+                  <h5>Sunday Brunch with a Crafty touch!</h5>
+                  <h6>Let's get Crafty together!</h6>
                   <br>
                   <p>This Sunday join us for Brunch as we show you that #Adulting doesn't always need to be serious ;)</p>
                   <p>We've got a beautiful Sunday Brunch menu by FIO - Cookhouse & Bar +Hoegaarden India Craft beer and some Crafternoon fun - we're keeping it messy ;)</p>
@@ -163,7 +164,8 @@
                  
                 </div>
                 <div class="col m12 s12 l12 flow-text hide-on-med-and-up justify">
-                  <h5>Let's get Crafty together!</h5>
+                  <h5>Sunday Brunch with a Crafty touch!</h5>
+                  <h6>Let's get Crafty together!</h6>
                   <br>
                   <p>This Sunday join us for Brunch as we show you that #Adulting doesn't always need to be serious ;)</p>
                   <p>We've got a beautiful Sunday Brunch menu by FIO - Cookhouse & Bar +Hoegaarden India Craft beer and some Crafternoon fun - we're keeping it messy ;)</p>
