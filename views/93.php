@@ -17,8 +17,8 @@
               
     $_SESSION['toinsertdata'] = $toinsertdata;
     $_SESSION['toupdate'] = $toupdate;
-    $_SESSION['URL_UPDATE'] = "http://api.foodtalkindia.com/user/".$user['id'];
-    $_SESSION['URL_INSERT'] = "http://api.foodtalkindia.com/user/".$user['id']."/participation";
+    $_SESSION['URL_UPDATE'] = "http://api.foodtalk.in/user/".$user['id'];
+    $_SESSION['URL_INSERT'] = "http://api.foodtalk.in/user/".$user['id']."/participation";
     //var_dump($metadata['pincode']);
     $link = "https://www.instamojo.com/foodtalk/a-burmese-affaire-at-burma-burma?embed=form&data_name=";
     $link .= $user['name'];

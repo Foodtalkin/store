@@ -188,7 +188,7 @@ session_start();
                   <?php echo $msg; ?>
                 </h4>
                 <div class="col s12 m6 l6">
-                  <a href="https://itunes.apple.com/in/app/food-talk-plus/id923340748?mt=8" title="" class="Download_App not-active" >Download App</a>
+                  <a href="http://foodtalk.in/download.html" title="" class="Download_App not-active" >Download App</a>
                 </div>
                 <div class="col s12 m6 l6">
                   <a href="https://www.facebook.com/notes/food-talk-india/contest-tc/808169439312376?__mref=message_bubble" title="" class="Can_t_log_in" >Terms & conditions</a>

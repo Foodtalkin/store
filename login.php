@@ -48,10 +48,10 @@ if($_SESSION['USER'] && ($_SESSION['target']!= null)){
 			  z-index: 5;
 			}
 			.logo{
-				margin-top: 17px;
-				margin-bottom: 6px;
-				width: 80px;
-				height: auto;
+				margin-top: 10px;
+    margin-bottom: 0px;
+    width: 100px;
+    height: auto;
 			}
 			.top-text{
 			  font-size: 22px;
@@ -140,7 +140,7 @@ if($_SESSION['USER'] && ($_SESSION['target']!= null)){
 								Your Information is safe with us, <strong>Maa Kasam!</strong>
 							</h5>
 							<div class="col s12 m6 l6">
-								<a href="https://itunes.apple.com/in/app/food-talk-plus/id923340748?mt=8" title="" class="Download_App ">Download App</a>
+								<a href="http://foodtalk.in/download.html" title="" class="Download_App ">Download App</a>
 							</div>
 							<div class="col s12 m6 l6">
 								<a href="" title="" class="Can_t_log_in">Can't log in?</a>
