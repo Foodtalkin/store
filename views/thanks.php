@@ -53,7 +53,7 @@ session_start();
       It's going to be one helluva ride";
       $msg="";
       } 
- 
+      echo $eventid;
       if($eventid == "97"){
         $icon = "../img/seeyou.png";
         $msg = "Your name is on 'The List' <br>
