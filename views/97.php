@@ -76,6 +76,9 @@
       .mt20{
         margin-top: 20px;
       }
+      .mt10{
+        margin-top: 10px;
+      }
       .mb0{
         margin-bottom: 0;
       }
@@ -170,7 +173,7 @@
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Food Talk profile Username</label>
-                    <input id="name" type="text" name="name" class="validate" value="">
+                    <input id="Question1" type="text" name="Question1" class="validate" value="">
                   </div>
                   <!-- <div class="col s12 m12 l12 mt20">
                     <label for="city">City *</label>
@@ -191,7 +194,7 @@
                       <a href="https://ad.apps.fm/9MpxPO99wKQgBEPRqzDo815KLoEjTszcQMJsV6-2VnHFDLXitVHB6BlL95nuoNYfYvrzlFgS_zzkrHYzgzi8dsJvx-g4JaFUTDh_-g1MzffBHpUDVnJfCIp-45MBCvZW0EBbbxphpu_GHoB5DVgsXw" target="_blank"><img class="responsive-img" src="../img/android.png" alt="dish reviews, food reviews, restaurant reviews india, dish reviews site india"/></a>
                     </div>
                   </div>
-                  <div class="col s12 m12 l12 mt20">
+                  <div class="col s12 m12 l12 mt10">
                     <button class="waves-effect waves-light btn full-btn" id="submit">Submit</button>
                   </div>
                 </form>
@@ -280,10 +283,10 @@
                 //     meta['FavCocktail']= $('#Question').val();
                 //   }
                 // }
-                // var response = {
-                //   ans1 : $('#Question1').val()
+                var response = {
+                  ans1 : $('#Question1').val()
 
-                // }
+                }
                 // console.log(response);
                 var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
                 var URL_UPDATE = "http://api.foodtalk.in/user/"+id;
