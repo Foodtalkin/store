@@ -54,7 +54,7 @@ session_start();
       $msg="";
       } 
       echo $eventid;
-      if($eventid == "97"){
+      if($toredirect == 97){
         $icon = "../img/seeyou.png";
         $msg = "Your name is on 'The List' <br>
                 Pass code to enter: <STRONG>  FONDANT NAZI </STRONG>";
@@ -225,10 +225,10 @@ session_start();
         </div>
       </div>
       <script>
-          var a = <?php echo $toredirect; ?>;
-          if(a==88){
-            window.location = "https://www.iorderfresh.com/";
-          }
+          // var a = <?php echo $toredirect; ?>;
+          // if(a==88){
+          //   window.location = "https://www.iorderfresh.com/";
+          // }
           
       </script>
     </body>
