@@ -8,10 +8,6 @@ session_start();
           $toins = json_decode($_SESSION['toinsertdata']);
           $toins = (array)$toins;
          $toins ["payment_id"] = $_GET['payment_id'];
-        }else{
-          $toins = json_decode($_SESSION['toinsertdata']);
-          $toins = (array)$toins;
-         $eventid = $toins ["events_id"];
         }
           $toupdate = json_encode($_SESSION['toupdate']);
           $ch = curl_init($_SESSION['URL_UPDATE']);                                                                      
@@ -184,6 +180,10 @@ session_start();
        pointer-events: none;
        cursor: default;
       }
+      strong{
+        font-size: 28px;
+        color: #f39aca;
+      }
     </style>
     </head>
     <body class="background-img">
@@ -194,7 +194,7 @@ session_start();
               <div class="center-align col s12 m12 l12">
                 <img src="<?php echo $icon; ?>" alt="" class="logo">
                 <h4 class="top-text">
-                  <?php echo $msg; echo $eventid;?>
+                  <?php echo $msg;?>
                 </h4>
                 <div class="col s12 m6 l6">
                   <a href="http://foodtalk.in/download.html" title="" class="Download_App not-active" >Download App</a>
