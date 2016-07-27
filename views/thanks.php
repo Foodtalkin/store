@@ -194,7 +194,7 @@ session_start();
               <div class="center-align col s12 m12 l12">
                 <img src="<?php echo $icon; ?>" alt="" class="logo">
                 <h4 class="top-text">
-                  <?php echo $msg; ?>
+                  <?php echo $msg; echo $eventid;?>
                 </h4>
                 <div class="col s12 m6 l6">
                   <a href="http://foodtalk.in/download.html" title="" class="Download_App not-active" >Download App</a>
