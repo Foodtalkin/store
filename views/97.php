@@ -124,8 +124,8 @@
             <img src="../img/cover97.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
                 <h3>MIAM turns ONE!</h3>
-              <h5>MIAM i s turning#1 this weekendand well... Birthday's call for CAKE! </h5>
-              <h5>It's a #Dessert Party and everyone's invited! </h5>
+              <h5>MIAM is turning #1 this weekend and ...</h5>
+              <h5>We are throwing a #Dessert Party and everyone's invited! </h5>
               <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5>
               <div class="borderbox">
                 <h4 class="center">What's planned for the day:</h4>
@@ -134,14 +134,14 @@
                   <li>Birthday Cake!!</li>
                   <li>A Lavish dessert spread full of surprises</li>
                 </ul>
-                <h5>Perch special Menu to order:{ at Birthday special price}</h5>
+                <h5>Perch special Menu to order:</h5>
                 <ul>
                   <li>Bubbles and birthday's go hand in hand- Chandon Spritzer cocktails at Rs 250/cocktail</li>
                   <li>Food Talk Curated menu- all our favourites at Perch</li>
                 </ul>
               </div>
               
-              <h5>RSVP and get on the guest list</h5>
+              <!-- <h5>RSVP and get on the guest list</h5> -->
               </div>
           </div>
           <div class="col s12 m6 l6 form">
@@ -150,7 +150,7 @@
               <div class="col s12 m11 l11 offset-m1 offset-l1">
                 
                 <form action="">
-                  <h4 class="center highlights">RSVP</h4>
+                  <h4 class="center highlights">RSVP and get on the guest list</h4>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Name *</label>
                     <input id="name" type="text" name="name" class="validate imp" value="<?php echo $user['name']; ?>">
