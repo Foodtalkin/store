@@ -54,7 +54,7 @@ session_start();
       $msg="";
       } 
  
-      if($eventid == 97){
+      if($eventid == "97"){
         $icon = "../img/seeyou.png";
         $msg = "Your name is on 'The List' <br>
                 Pass code to enter: <STRONG>  FONDANT NAZI </STRONG>";
