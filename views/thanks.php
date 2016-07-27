@@ -8,6 +8,10 @@ session_start();
           $toins = json_decode($_SESSION['toinsertdata']);
           $toins = (array)$toins;
          $toins ["payment_id"] = $_GET['payment_id'];
+        }else{
+          $toins = json_decode($_SESSION['toinsertdata']);
+          $toins = (array)$toins;
+         $eventid = $toins ["events_id"];
         }
           $toupdate = json_encode($_SESSION['toupdate']);
           $ch = curl_init($_SESSION['URL_UPDATE']);                                                                      
@@ -50,6 +54,11 @@ session_start();
       $msg="";
       } 
  
+      if($eventid == 97){
+        $icon = "../img/seeyou.png";
+        $msg = "Your name is on 'The List' <br>
+                Pass code to enter: <STRONG>  FONDANT NAZI </STRONG>";
+      }
 
 
 ?>
