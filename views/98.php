@@ -118,14 +118,14 @@
             <img src="../img/cover98.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
                 <h3>Taco Bell, All Grown up</h3>
-              <h5>That's right folks! Taco Bell is all grown up and we are inviting 20 Food Talkers to come in with their friends and celebrate the all new Taco Bell.</h5>
+              <h5>That's right folks! Taco Bell is all grown up and we are inviting 20 Food Talkers to come in with their friends and celebrate the all new Taco Bell.  Register with us and stand a chance to get invited!</h5>
               <div class="borderbox">
                 <h4>Date: Wednesday, 10th August</h4>
                 <h4>Time: 7:30 pm</h4>
                 <h4>Venue: Taco Bell, Nehru Place</h4>
               </div>
               <h5>We're Talkin Taco's- Grown Up Style</h5>
-              <h5>From salads, to starters to mains and dessert- Now you can sit and indulge at Taco Bell for hours as you catch up with friends. </h5>
+              <h5>From salads, to starters to mains and dessert- Now you can sit and indulge at Taco Bell for hours as you catch up with friends. For the First time Taco Bell in India is now serving up Beer, Spiked milkshakes and Twisted Freezers! </h5>
               <h5>Now it ain't a "Grown Ups" style party without some yummy cocktails! But Taco Bell's got you covered. India's first Grown UpTaco Bell- now add a beer to your meal or twist up your Freeze with a shot of Tequila and indulge in some spiked milkshakes!</h5>
               <h5>So join us as we celebrate in true Grown - Fashion. <br>
               let's raise a taco to Taco Bell</h5>
