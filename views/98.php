@@ -126,7 +126,7 @@
               </div>
               <h5>We're Talkin Taco's- Grown Up Style</h5>
               <h5>From salads, to starters to mains and dessert- Now you can sit and indulge at Taco Bell for hours as you catch up with friends. For the First time Taco Bell in India is now serving up Beer, Spiked milkshakes and Twisted Freezers! </h5>
-              <h5>Now it ain't a "Grown Ups" style party without some yummy cocktails! But Taco Bell's got you covered. India's first Grown UpTaco Bell- now add a beer to your meal or twist up your Freeze with a shot of Tequila and indulge in some spiked milkshakes!</h5>
+              
               <h5>So join us as we celebrate in true Grown - Fashion. <br>
               let's raise a taco to Taco Bell</h5>
               <h6>*the venue has the right to refuse alcohol to people under 25 years of age. </h6>
