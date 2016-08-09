@@ -118,7 +118,7 @@
             <img src="../img/cover98.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
                 <h3>Taco Bell, All Grown up</h3>
-              <h5>That's right folks! Taco Bell is all grown up and we are inviting 20 Food Talkers to come in with their friends and celebrate the all new Taco Bell.  <br>Register with us and stand a chance to get invited!</h5>
+              <h5>That's right folks! Taco Bell is all grown up and we are inviting 50 Food Talkers to come in with their friends and celebrate the all new Taco Bell.  <br>Register with us and stand a chance to get invited!</h5>
               <div class="borderbox">
                 <h4>Date:  Thursday, 11th August</h4>
                 <h4>Time: 7:30 pm</h4>
