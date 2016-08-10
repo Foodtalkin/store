@@ -282,12 +282,12 @@
                        source: source,
                        payment_id: '',
                        // response: response,
-                       subscribe: 0};
+                       subscribe: 1};
                 var toupdate = {name: name,
                        email: email,
                        contact: contact,
                        dob : dob,
-                       // city : $('#city').val(),
+                       city_id : 1,
                        instagram_handle: insta
                        };
                 
