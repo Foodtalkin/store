@@ -42,7 +42,7 @@ session_start();
       } elseif ($_SESSION['type'] == "contest") {
         $icon = "../img/goodluck.png";
         $msg = "Now that was a piece of cake right? <br>
-                Stay tuned to know if you made it to 'The List'";
+                Await an email from Food Talk if you are the lucky one";
       } else{
         $icon = "../img/thankyou.png";
         $msg1 = "You just booked yourself a Food Talk Event <br>
