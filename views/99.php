@@ -124,12 +124,12 @@
             <img src="../img/cover99.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
                 <h3>Purple Foodie Baking Class</h3>
-              <h5>Learn to bake like a Pro! From breads, cakes to pastries, Join the Shaheen Peerbhai famously known as Purple Foodie for a fun baking class. <br> 
+              <h5>Learn to bake like a Pro! From breads, cakes to pastries, Join Shaheen Peerbhai famously known as Purple Foodie for a fun baking class. <br> 
 Download the Food Talk App for you could win a spot at an exclusive baking class! </h5>
               <!-- <h5>We are throwing a #Dessert Party and everyone's invited! </h5> -->
              <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
               <div class="borderbox">
-                <h4 class="center">Win a free seat to at the Purple Foodie's workshop in #Delhi <br>
+                <h4 class="center">Win a  seat at the Purple Foodie's workshop in #Delhi <br>
                 All you need to do it enter the form</h4>
                 
               </div>
@@ -143,10 +143,14 @@ Download the Food Talk App for you could win a spot at an exclusive baking class
               <div class="col s12 m11 l11 offset-m1 offset-l1">
                 
                 <form action="">
-                  <h4 class="center highlights">Participate and get on the guest list</h4>
+                  <h4 class="center highlights">Participate here</h4>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Tell us why you want to attend the Purple Foodie Baking Class? *</label>
                     <input type="text" id="question" name="question" class="validate imp">
+                  </div>
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="">Food Talk profile Username</label>
+                    <input id="Question1" type="text" name="Question1" class="validate" value="">
                   </div>
                   <h4 class="center highlights">Contact Details</h4>
                   <div class="col s12 m12 l12 mt20">
@@ -165,10 +169,7 @@ Download the Food Talk App for you could win a spot at an exclusive baking class
                     <label for="">Date of Birth *</label>
                     <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
                   </div>
-                  <div class="col s12 m12 l12 mt20">
-                    <label for="">Food Talk profile Username</label>
-                    <input id="Question1" type="text" name="Question1" class="validate" value="">
-                  </div>
+                  
                   <div class="col s12 m12 l12 mt20">
                     <label for="city">City *</label>
                     <select name="city" id="city" class="browser-default">
