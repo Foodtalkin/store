@@ -160,8 +160,8 @@ Download the Food Talk App for you could win a spot at an exclusive baking class
                     <input type="text" id="question" name="question" class="validate imp">
                   </div>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Food Talk APP Username</label>
-                    <input id="Question1" type="text" name="Question1" class="validate" value="">
+                    <label for="">Food Talk APP Username *</label>
+                    <input id="Question1" type="text" name="Question1" class="validate imp" value="">
                   </div>
                   <h4 class="center highlights">Contact Details</h4>
                   <div class="col s12 m12 l12 mt20">
