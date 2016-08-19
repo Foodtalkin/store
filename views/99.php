@@ -160,7 +160,10 @@
                     <label for="">Phone number *</label>
                     <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
                   </div>
-                  
+                  <div class="col s12 m12 l12 mt20 hide">
+                    <label for="">Date of Birth *</label>
+                    <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
+                  </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Food Talk profile Username</label>
                     <input id="Question1" type="text" name="Question1" class="validate" value="">
@@ -216,15 +219,15 @@
                 var data = $('#frm').serializeArray();
                 // console.log(data[1]['value']);
 
-                // if($('#dob').val() != ''){
-                //   var dob = moment($('#dob').val()).format("YYYY-MM-DD");
-                // }else{
-                //   var dob = <?php if($user['dob'] == null){
-                //     echo "0000-00-00";
-                //   }else{
-                //     echo $user['dob'];
-                //   } ?>;
-                // }
+                if($('#dob').val() != ''){
+                  var dob = moment($('#dob').val()).format("YYYY-MM-DD");
+                }else{
+                  var dob = <?php if($user['dob'] == null){
+                    echo "0000-00-00";
+                  }else{
+                    echo $user['dob'];
+                  } ?>;
+                }
                 // console.log(dob);
                 if($('#name').val() != ''){
                   var name = $('#name').val();
@@ -255,11 +258,7 @@
                 // }else{
                 //   var address = "<?php echo $user['address']; ?>";
                 // }
-                if($('#city').val() == "Other"){
-                  var city = $('#other').val();
-                }else{
-                  var city = $('#city').val();
-                }
+                
                 // var meta = <?php echo json_encode($user['metadata']); ?>;
 
 
@@ -299,7 +298,7 @@
                        email: email,
                        contact: contact,
                        // metadata : meta,
-                       // dob : dob,
+                       dob : dob,
                        city : $('#city').val()
                        // instagram_handle: insta
                        };
