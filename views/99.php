@@ -124,7 +124,8 @@
             <img src="../img/cover99.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
                 <h3>Purple Foodie Baking Class</h3>
-              <h5>The Purple Foodie aka Shaheen is a Classically trained Le Cordon Bleu Paris chef now living in London. She flies down once a year to host these workshops that are a huge rage in Mumbai. This is her first foray into Delhi. It's the first ever India tour of the Purple Foodie Baking Classes in Delhi, Bombay and Bangalore- and we are excited to be partnering with the fabulous Shaheen Peerbhai here for the Delhi edition.</h5>
+              <h5>Learn to bake like a Pro! From breads, cakes to pastries, Join the Shaheen Peerbhai famously known as Purple Foodie for a fun baking class. <br> 
+Download the Food Talk App for you could win a spot at an exclusive baking class! </h5>
               <!-- <h5>We are throwing a #Dessert Party and everyone's invited! </h5> -->
              <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
               <div class="borderbox">
