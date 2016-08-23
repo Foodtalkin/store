@@ -313,7 +313,7 @@ Download the Food Talk App for you could win a spot at an exclusive baking class
                        email: email,
                        contact: contact,
                        // metadata : meta,
-                       dob : dob,
+                       // dob : dob,
                        city : $('#city').val()
                        // instagram_handle: insta
                        };
