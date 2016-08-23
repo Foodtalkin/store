@@ -176,10 +176,7 @@ Download the Food Talk App for you could win a spot at an exclusive baking class
                     <label for="">Phone number *</label>
                     <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
                   </div>
-                  <div class="col s12 m12 l12 mt20 hide">
-                    <label for="">Date of Birth *</label>
-                    <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
-                  </div>
+                  
                   
                   <div class="col s12 m12 l12 mt20">
                     <label for="city">City *</label>
@@ -223,10 +220,10 @@ Download the Food Talk App for you could win a spot at an exclusive baking class
           var source = "<?php echo $_SESSION['source']; ?>";
           var id= <?php echo $user['id']; ?>;
 
-          $('.datepicker').pickadate({
-            selectMonths: true, // Creates a dropdown to control month
-            selectYears: 90 // Creates a dropdown of 15 years to control year
-          });
+          // $('.datepicker').pickadate({
+          //   selectMonths: true, // Creates a dropdown to control month
+          //   selectYears: 90 // Creates a dropdown of 15 years to control year
+          // });
 
           $('#submit').on('click', function(event) {
             event.preventDefault();           
@@ -234,15 +231,15 @@ Download the Food Talk App for you could win a spot at an exclusive baking class
                 var data = $('#frm').serializeArray();
                 // console.log(data[1]['value']);
 
-                if($('#dob').val() != ''){
-                  var dob = moment($('#dob').val()).format("YYYY-MM-DD");
-                }else{
-                  var dob = <?php if($user['dob'] == null){
-                    echo "0000-00-00";
-                  }else{
-                    echo $user['dob'];
-                  } ?>;
-                }
+                // if($('#dob').val() != ''){
+                //   var dob = moment($('#dob').val()).format("YYYY-MM-DD");
+                // }else{
+                //   var dob = <?php if($user['dob'] == null){
+                //     echo "0000-00-00";
+                //   }else{
+                //     echo $user['dob'];
+                //   } ?>;
+                // }
                 // console.log(dob);
                 if($('#name').val() != ''){
                   var name = $('#name').val();
