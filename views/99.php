@@ -223,10 +223,10 @@ Download the Food Talk App for you could win a spot at an exclusive baking class
           var source = "<?php echo $_SESSION['source']; ?>";
           var id= <?php echo $user['id']; ?>;
 
-          // $('.datepicker').pickadate({
-          //   selectMonths: true, // Creates a dropdown to control month
-          //   selectYears: 90 // Creates a dropdown of 15 years to control year
-          // });
+          $('.datepicker').pickadate({
+            selectMonths: true, // Creates a dropdown to control month
+            selectYears: 90 // Creates a dropdown of 15 years to control year
+          });
 
           $('#submit').on('click', function(event) {
             event.preventDefault();           
