@@ -176,7 +176,7 @@ Download the Food Talk App for you could win a spot at an exclusive baking class
                     <label for="">Phone number *</label>
                     <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
                   </div>
-                  <div class="col s12 m12 l12 mt20 hide">
+                  <div class="col s12 m12 l12 mt20">
                     <label for="">Date of Birth *</label>
                     <input id="dob" type="date" class="datepicker" class="validate" name="dob" value="<?php echo $user['dob']; ?>">
                   </div>
