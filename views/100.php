@@ -220,15 +220,7 @@
                 var data = $('#frm').serializeArray();
                 // console.log(data[1]['value']);
 
-                // if($('#dob').val() != ''){
-                //   var dob = moment($('#dob').val()).format("YYYY-MM-DD");
-                // }else{
-                //   var dob = <?php if($user['dob'] == null){
-                //     echo "0000-00-00";
-                //   }else{
-                //     echo $user['dob'];
-                //   } ?>;
-                // }
+                
                 // console.log(dob);
                 if($('#name').val() != ''){
                   var name = $('#name').val();
@@ -300,7 +292,7 @@
                        contact: contact,
                        // metadata : meta,
                        // dob : dob,
-                       city : $('#city').val()
+                       city : $('#city').val(),
                        instagram_handle: insta
                        };
                 
