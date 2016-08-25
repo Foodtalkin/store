@@ -124,14 +124,14 @@
             <img src="../img/cover99.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
                 <h3>Chi Comes To Noida</h3>
-                <h5>Date: 1st August 2016, Thursday</br>Time: 7:30 PM Onwards</h5>
+                <h5>Date: 1st September 2016, Thursday</br>Time: 7:30 PM Onwards</h5>
               <h5>Celebrating all things Asian - Chi Asian Cookhouse is opening it's doors in Noida at the DLF Mall of India. We're inviting 40 food talkers for an exclusive peak at their newest and yummiest menu. 
 
 </br>All you have to do is register with us and await and invite</h5>
               <!-- <h5>We are throwing a #Dessert Party and everyone's invited! </h5> -->
              <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
               <div class="borderbox">
-                <h4 class="center">Invite for a fabulous Asian Meal & some Food Talk Fun!</h4>
+                <h4 class="center">Invite for a <br>fabulous Asian Meal & some Food Talk Fun!</h4>
                 
               </div>
               
@@ -145,7 +145,7 @@
               <div class="col s12 m11 l11 offset-m1 offset-l1">
                 
                 <form action="">
-                  <h4 class="center highlights">Participate here</h4>
+                  <h4 class="center highlights">Register here</h4>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Food Talk APP Username *</label>
                     <input id="Question1" type="text" name="Question1" class="validate imp" value="">
