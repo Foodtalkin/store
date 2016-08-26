@@ -131,7 +131,7 @@
                 <!-- <h5>We are throwing a #Dessert Party and everyone's invited! </h5> -->
                 <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
                 <div class="borderbox">
-                  <h4 class="center">Invite for a <br>fabulous Asian Meal & some Food Talk Fun!</h4>
+                  <h4 class="center">Get an Invite for a <br>fabulous Asian Meal & some Food Talk Fun!</h4>
                   
                 </div>
                 <h5>Chi Asian Cookhouse is a celebration of the best street foods found all over Asia. <br>It is as vibrant as the streets these foods come from, bringing together flavours and history from regions as diverse as Thailand to Japan to Vietnam to China. It is fun, friendly, casual and colourful. Chi Asian Cookhouse is a place to unwind, to relax, to be yourself.</h5>
@@ -146,7 +146,7 @@
             <div class="row mb0">
               <div class="col s12 m11 l11 offset-m1 offset-l1">
                 
-                <form action="">
+                <form action="" id="frm">
                   <h4 class="center highlights">Register here</h4>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Food Talk APP Username *</label>
