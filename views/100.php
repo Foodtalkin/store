@@ -121,7 +121,7 @@
       <div class="container">
         <div class="row mb0">
           <div class="col s12 m6 l6 center details">
-            <img src="../img/cover99.jpg" alt="" class="responsive-img">
+            <img src="../img/cover100.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
                 <h3>Chi Comes To Noida</h3>
                 <h5>Date: 1st September 2016, Thursday</br>Time: 7:30 PM Onwards</h5>
