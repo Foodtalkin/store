@@ -125,17 +125,19 @@
               <div class="col s12 m12 l12 padd20">
                 <h3>Chi Comes To Noida</h3>
                 <h5>Date: 1st September 2016, Thursday</br>Time: 7:30 PM Onwards</h5>
-              <h5>Celebrating all things Asian - Chi Asian Cookhouse is opening it's doors in Noida at the DLF Mall of India. We're inviting 40 food talkers for an exclusive peak at their newest and yummiest menu. 
+                <h5>Celebrating all things Asian - Chi Asian Cookhouse is opening it's doors in Noida at the DLF Mall of India. We're inviting 40 food talkers for an exclusive peak at their newest and yummiest menu. 
 
-</br>All you have to do is register with us and await and invite</h5>
-              <!-- <h5>We are throwing a #Dessert Party and everyone's invited! </h5> -->
-             <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
-              <div class="borderbox">
-                <h4 class="center">Invite for a <br>fabulous Asian Meal & some Food Talk Fun!</h4>
-                
-              </div>
+                </br>All you have to do is register with us and await and invite</h5>
+                <!-- <h5>We are throwing a #Dessert Party and everyone's invited! </h5> -->
+                <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
+                <div class="borderbox">
+                  <h4 class="center">Invite for a <br>fabulous Asian Meal & some Food Talk Fun!</h4>
+                  
+                </div>
+                <h5>Chi Asian Cookhouse is a celebration of the best street foods found all over Asia. <br>It is as vibrant as the streets these foods come from, bringing together flavours and history from regions as diverse as Thailand to Japan to Vietnam to China. It is fun, friendly, casual and colourful. Chi Asian Cookhouse is a place to unwind, to relax, to be yourself.</h5>
+                <h5>Chi Asian Cookhouse is now open in Mall of India, Noida</h5>
               
-              <!-- <h5>RSVP and get on the guest list</h5> -->
+                <!-- <h5>RSVP and get on the guest list</h5> -->
               </div>
               
           </div>
