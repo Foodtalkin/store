@@ -149,7 +149,7 @@
                 <form action="" id="frm">
                   <h4 class="center highlights">Register here</h4>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Food Talk APP Username *</label>
+                    <label for="">Food Talk APP Username </label>
                     <input id="Question1" type="text" name="Question1" class="validate" value="">
                   </div>
                   <h4 class="center highlights">Contact Details</h4>
