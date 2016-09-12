@@ -18,6 +18,10 @@
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <style>
+      @font-face {
+        font-family: myFirstFont;
+        src: url(verlag/Verlag-Book.woff);
+      }
       body{
         background-color: #f2e9fc;
         color: #404040;
