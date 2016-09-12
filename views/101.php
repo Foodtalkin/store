@@ -19,12 +19,13 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <style>
       @font-face {
-        font-family: myFirstFont;
-        src: url(verlag/Verlag-Book.woff);
-      }
+        font-family: verlag;
+        src: url(../font/verlag/Verlag-Book.ttf)!important;
+       }
       body{
         background-color: #f2e9fc;
         color: #404040;
+        font-family: verlag;
       }
       h3{
         font-size: 24px;
