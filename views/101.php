@@ -179,7 +179,7 @@ So come and let us spoil your boss with a VIP Treatment.
                   
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Your Age? *</label>
-                    <input id="Question2" type="text" name="Question2" class="validate imp" value="<?php echo $user['name5']; ?>">
+                    <input id="Question2" type="number" name="Question2" class="validate imp" value="<?php echo $user['name5']; ?>">
                   </div>
                   <h4 class="center highlights">Contact Details</h4>
                   <div class="col s12 m12 l12 mt20">
@@ -243,7 +243,7 @@ So come and let us spoil your boss with a VIP Treatment.
 
           $('#submit').on('click', function(event) {
             event.preventDefault();           
-            if(validateForm() == true && namevalidate() == true){               
+            if(validateForm() == true || namevalidate() == true){               
                 var data = $('#frm').serializeArray();
                 // console.log(data[1]['value']);
                 
