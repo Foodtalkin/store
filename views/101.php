@@ -20,7 +20,7 @@
       <style>
       @font-face {
         font-family: verlag;
-        src: url(../font/verlag/Verlag-Book.ttf)!important;
+        src: url('../font/verlag/Verlag-Book.ttf');
        }
       body{
         background-color: #f2e9fc;
@@ -162,15 +162,15 @@ So come and let us spoil your boss with a VIP Treatment.
                   <!-- <h4 class="center highlights">Contact Details</h4> -->
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Your Name *</label>
-                    <input id="name" type="text" name="name" class="validate imp" value="<?php echo $user['name']; ?>">
+                    <input id="name" type="text" name="name" class="validate imp namevalid" value="<?php echo $user['name']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Company Name *</label>
-                    <input id="name2" type="text" name="name2" class="validate imp" value="<?php echo $user['name2']; ?>">
+                    <input id="name2" type="text" name="name2" class="validate imp namevalid" value="<?php echo $user['name2']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Name your #AwesomeBoss *</label>
-                    <input id="name3" type="text" name="name3" class="validate imp" value="<?php echo $user['name3']; ?>">
+                    <input id="name3" type="text" name="name3" class="validate imp namevalid" value="<?php echo $user['name3']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Tell us how awesome he/she is- on a scale of One to Fun *</label>
@@ -243,7 +243,7 @@ So come and let us spoil your boss with a VIP Treatment.
 
           $('#submit').on('click', function(event) {
             event.preventDefault();           
-            if(validateForm() == true){               
+            if(validateForm() == true && namevalidate() == true){               
                 var data = $('#frm').serializeArray();
                 // console.log(data[1]['value']);
                 
@@ -371,6 +371,18 @@ So come and let us spoil your boss with a VIP Treatment.
               });
               return allIsOk
           };
+
+          function namevalidate() {
+            var allok = true;
+            var regex = /^[a-zA-Z ]*$/;
+            $('#frm').find('.namevalid').each(function (){
+                if( ! regex.test($(this).val())){
+                  $(this).addClass('borderR');
+                  $(this).focus();
+                  allok = false;
+                }
+            })
+          }
         });
       </script>
     </body>
