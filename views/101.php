@@ -181,7 +181,7 @@
                     <input id="Question2" type="number" name="Question2" class="validate imp" value="<?php echo $user['name5']; ?>">
                   </div>
                   <h4 class="center highlights">Contact Details</h4>
-				  <h4 class="center highlights">{So we can send you a memo if you win a table}</h4>
+				  <h5 class="center highlights">{So we can send you a memo if you win a table}</h5>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Email Address *</label>
                     <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
