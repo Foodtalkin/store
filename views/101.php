@@ -91,6 +91,7 @@
         color: #32004b;
         background-color: inherit;
         margin-top: 15px;
+        margin-bottom: 10px;
       }
       .full-btn:hover, .full-btn:active{
         background-color: #32004b;
@@ -126,13 +127,13 @@
                 <h3>Boss by Day, Buddy by Night</h3>
                 <h5>Date: Friday, 16th September'16</br>Time: 7:00 PM Onwards</h5>
                 <h5>A​​ Boss, A Mentor, A Buddy- not everyone is lucky to have someone this awesome in their life.
-So come and let us spoil your boss with the VIP Treatment. 
+So come and let us spoil your boss with a VIP Treatment. 
 
-                </br>Nominate your #AwesomeBoss for the VIP treatment - and we will host your table of 6</h5>
+                </br>Nominate your #AwesomeBoss for a VIP treatment - and we will host you a table of 6</h5>
                 <!-- <h5>We are throwing a #Dessert Party and everyone's invited! </h5> -->
                 <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
                 <div class="borderbox">
-                  <h4 class="center">Let's get #OutOfOffice with the #AwesomeBoss</h4>
+                  <h4 class="center">Let's get #OutOfOffice with an #AwesomeBoss</h4>
                   
                 </div>
                 <h5>​Ballantine's Out Of Office<br>Feat, Vir Das' Alien Chutney</h5>
