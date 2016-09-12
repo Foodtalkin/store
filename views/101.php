@@ -381,7 +381,8 @@ So come and let us spoil your boss with a VIP Treatment.
                   $(this).focus();
                   allok = false;
                 }
-            })
+            });
+            return allok
           }
         });
       </script>
