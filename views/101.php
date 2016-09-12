@@ -243,7 +243,7 @@ So come and let us spoil your boss with a VIP Treatment.
 
           $('#submit').on('click', function(event) {
             event.preventDefault();           
-            if(validateForm() == true || namevalidate() == true){               
+            if(validateForm() == true && namevalidate() == true){               
                 var data = $('#frm').serializeArray();
                 // console.log(data[1]['value']);
                 
