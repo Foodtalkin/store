@@ -145,9 +145,9 @@
                 <h4>Food Talk India presents - The Cocktail Workshop</h4>
                 <h5>Time to Meet and Greet with a tipple and a tale!</h5>
                 <div class="borderbox">
-                  <h4 class="center">Stand a chance to get invited for the official Food Instameet in Delhi</h4>
+                  <h4 class="center">Sign up and stand a chance to get invited! Be part of the Tastiest day of the year</h4>
                 </div>
-                <h4>Sign up and stand a chance to get invited! Be part of the Tastiest day of the year.</h4>
+                
                 <h5>This isn't your regular Cocktail workshop! The theme is ABC - Anything But Cups. That's right folks bring your own drinking vessel - be it a shoe, boot, vase or ever a flower cup that you can drink out of. Learn to whip up delicious cocktails and drink in an unconventional way!</h5>
                 
                 <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
