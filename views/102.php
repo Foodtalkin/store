@@ -141,7 +141,7 @@
       <div class="container">
         <div class="row mb0">
           <div class="col s12 m6 l6 center details">
-            <img src="../img/cover102.jpg" alt="" class="responsive-img">
+            <img src="../img/cover102.png" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
               
                 <h4 class="brand-heading">Food Talk India Presents #WWIM14-<img class="fork-img" src="../img/fork.jpg"/> in partnership with Instagram</h4>
