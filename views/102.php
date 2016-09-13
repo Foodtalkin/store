@@ -37,8 +37,8 @@
       .fork-img{
         display: inline;
         width: auto;
-        height: 40px;
-        margin-bottom: -10px;
+        height: 20px;
+        margin-bottom: -2px;
       }
       h3{
         font-size: 24px;
