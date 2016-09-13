@@ -202,7 +202,7 @@
                     </div>
                   </div>
                   <div class="col s12 m12 l12 mt10">
-                    <button class="waves-effect waves-light btn full-btn" id="submit">Submit</button>
+                    <button class="waves-effect waves-light btn full-btn" id="submit">Register Now</button>
                   </div>
                 </form>
               </div>
