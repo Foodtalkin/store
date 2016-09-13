@@ -27,7 +27,7 @@
         src: url('../font/verlag/REIS-Regular.otf') format('otf');
        }
       body{
-        background-color: #67c2be;
+        background-color: #fff;
         color: #404040;
         font-family: verlag;
       }
@@ -117,8 +117,8 @@
         color: #fff;
       }
       .details{
-        min-height: 100vh;
-        background-color: #fff;
+        min-height: 100vh !important;
+        background-color: #ffed00;
         padding: 0 !important;
       }
       .padd20{
@@ -144,7 +144,7 @@
             <img src="../img/cover102.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
               
-                <h4 class="brand-heading">Food Talk India Presents #WWIM14 <img class="fork-img" src="../img/fork.png"/> in partnership with Instagram</h4>
+                <h2 class="brand-heading">Food Talk India Presents #WWIM14 <img class="fork-img" src="../img/fork.png"/> in partnership with Instagram</h2>
                 <h5>AntiSocial, HKV | Time: 3pm- 6pm | Designed by Rani Pink</h5>
                 <h5>It's time for the official #WWIM14 and this years its all about Food - in case you haven't been following their awesome blog it's the "World Wide Insta Meet No.14"!</h5>
 				        <h4>Food Talk India presents - The Dessert Potluck</h4>
@@ -196,7 +196,9 @@
                   </div>-->
                    
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Not on the Food Talk App? Download now</label>
+                    <div class="col s12">
+                      <label for="">Not on the Food Talk App? Download now</label>
+                    </div>
                     <div class="col s6 l6 m6 padd-20">
                       <a href="https://ad.apps.fm/jmXM2toyVlrwIvmv8VZDkPE7og6fuV2oOMeOQdRqrE125Vg6lhH50uF5NCjHXTL9ndN7N82s3TL60zJZOK6POUBYEUDp6GpykR5a_XD8NGKkdSPWlsFH6ajCbGh5uIRv" target="_blank"><img class="responsive-img" src="../img/app.png" alt="dish reviews, food reviews, restaurant reviews india, food reviews site india"/></a>
                     </div>
