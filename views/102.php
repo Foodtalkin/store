@@ -152,6 +152,7 @@
                 <div class="borderbox">
                   <h4 class="center">Sign up and stand a chance to get invited! Be part of the Tastiest day of the year.</h4>
                 <!-- <h5>RSVP and get on the guest list</h5> -->
+                </div>
               </div>
               
             </div>
