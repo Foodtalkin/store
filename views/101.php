@@ -205,7 +205,9 @@
                     <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
                   </div> -->
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Not on the Food Talk App? Download now</label>
+                    <div class="col s12 m12 l12">
+                      <label for="">Not on the Food Talk App? Download now</label>
+                    </div>
                     <div class="col s6 l6 m6 padd-20">
                       <a href="https://ad.apps.fm/jmXM2toyVlrwIvmv8VZDkPE7og6fuV2oOMeOQdRqrE125Vg6lhH50uF5NCjHXTL9ndN7N82s3TL60zJZOK6POUBYEUDp6GpykR5a_XD8NGKkdSPWlsFH6ajCbGh5uIRv" target="_blank"><img class="responsive-img" src="../img/app.png" alt="dish reviews, food reviews, restaurant reviews india, food reviews site india"/></a>
                     </div>
