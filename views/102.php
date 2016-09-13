@@ -32,7 +32,7 @@
         font-family: 'verlag';
       }
       .brand-heading {
-        font-family:'reis';
+        font-family:'reis','verlag';
       }
       .fork-img{
         display: inline;
