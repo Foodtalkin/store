@@ -34,7 +34,12 @@
       .brand-heading {
         font-family:reis;
       }
-      .fork-img{}
+      .fork-img{
+        display: inline;
+        width: auto;
+        height: 40px;
+        margin-bottom: -10px;
+      }
       h3{
         font-size: 24px;
         line-height: 2.212em;
@@ -136,7 +141,7 @@
       <div class="container">
         <div class="row mb0">
           <div class="col s12 m6 l6 details">
-            <img src="../img/cover101.jpg" alt="" class="responsive-img">
+            <img src="../img/cover102.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
               <div class="center">
                 <h4 class="brand-heading">Food Talk India Presents #WWIM14-<img class="fork-img" src="../img/fork.jpg"/> in partnership with Instagram</h4>
