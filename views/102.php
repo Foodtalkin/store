@@ -34,6 +34,7 @@
       .brand-heading {
         font-family:reis;
       }
+      .fork-img{}
       h3{
         font-size: 24px;
         line-height: 2.212em;
@@ -138,7 +139,7 @@
             <img src="../img/cover101.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
               <div class="center">
-                <h4 class="brand-heading">Food Talk India Presents #WWIM14-<img src="../img/fork.jpg"/> in partnership with Instagram</h4>
+                <h4 class="brand-heading">Food Talk India Presents #WWIM14-<img class="fork-img" src="../img/fork.jpg"/> in partnership with Instagram</h4>
                 <h5>AntiSocial, HKV | Time: 3PM- 6PM | Designed by Rani Pink</h5>
                 <h5>It's time for the official #WWIM14 and this year's it's all about Food - in case you haven't been following their awesome blog it's the "World Wide Insta Meet No.14"!</h5>
 				        <h4>Food Talk India present's - The Dessert Potluck</h4>
