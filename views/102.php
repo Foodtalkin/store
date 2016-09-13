@@ -27,12 +27,12 @@
         src: url('../font/verlag/REIS-Regular.otf') format('otf');
        }
       body{
-        background-color: #fff;
+        background-color: #e3f8f7;
         color: #404040;
-        font-family: verlag;
+        font-family: 'verlag';
       }
       .brand-heading {
-        font-family:reis;
+        font-family:'reis';
       }
       .fork-img{
         display: inline;
@@ -118,7 +118,7 @@
       }
       .details{
         min-height: 100vh !important;
-        background-color: #ffed00;
+        background-color: #fff;
         padding: 0 !important;
       }
       .padd20{
@@ -144,7 +144,7 @@
             <img src="../img/cover102.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
               
-                <h2 class="brand-heading">Food Talk India Presents #WWIM14 <img class="fork-img" src="../img/fork.png"/> in partnership with Instagram</h2>
+                <h3 class="brand-heading">Food Talk India Presents #WWIM14 <img class="fork-img" src="../img/fork.png"/> in partnership with Instagram</h3>
                 <h5>AntiSocial, HKV | Time: 3pm- 6pm | Designed by Rani Pink</h5>
                 <h5>It's time for the official #WWIM14 and this years its all about Food - in case you haven't been following their awesome blog it's the "World Wide Insta Meet No.14"!</h5>
 				        <h4>Food Talk India presents - The Dessert Potluck</h4>
