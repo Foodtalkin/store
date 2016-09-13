@@ -132,9 +132,14 @@
               <div class="center">
                 <h4>Food Talk India Presents #WWIM14- in partnership with Instagram</h4>
                 <h5>AntiSocial, HKV | Time: 3PM- 6PM | Designed by Rani Pink</h5>
-                <h5>It's time for the official #WWIM14 and this year's it's all about Food - in case you haven't been following their awesome blog it's the "World Wide Insta Meet No.14"!!
-				        </br>Food Talk India present's - The Dessert Potluck</br>Time to Meet and Greet with your favourite Sugary Treats </h5>
-                <h4>Sign up and stand a chance to get invited! Be part of the Tastiest day of the year. </h4>
+                <h5>It's time for the official #WWIM14 and this year's it's all about Food - in case you haven't been following their awesome blog it's the "World Wide Insta Meet No.14"!</h5>
+				        <h4>Food Talk India present's - The Dessert Potluck</h4>
+                <h5>Time to Meet and Greet with your favourite Sugary Treats </h5>
+                <div class="borderbox">
+                  <h4 class="center">Sign up and stand a chance to get invited! Be part of the Tastiest day of the year.</h4>
+                  
+                </div>
+                
                 <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
                  <h5>​It's a Potluck- so bring along your favourite dessert<br>Bake a batch of cupcakes, bring along some jalebis from your absolute favourite halwai or even your favourite Candy - just bring along enough to share.</h5>
                  </div>
@@ -145,10 +150,7 @@
                 <li>Desi Meetha- now no Instameet around the world can beat this one.</li>
                 <li>Extraordinary - let sugar be your inspiration and let your creativity go wild.</li>
                 </ul>
-                <div class="borderbox">
-                  <h4 class="center">Stand a chance to get invited for the official Food Instameet in Delhi</h4>
-                  
-                </div>
+                
 
               
                 <!-- <h5>RSVP and get on the guest list</h5> -->
