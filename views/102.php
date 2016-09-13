@@ -24,7 +24,7 @@
        }
        @font-face {
         font-family: reis;
-        src: url('../font/verlag/REIS-Regular.otf');
+        src: url('../font/verlag/REIS-Regular.otf') format('otf');
        }
       body{
         background-color: #e3f8f7;
