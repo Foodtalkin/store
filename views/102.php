@@ -126,16 +126,18 @@
     <body>
       <div class="container">
         <div class="row mb0">
-          <div class="col s12 m6 l6 center details">
+          <div class="col s12 m6 l6 details">
             <img src="../img/cover101.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
+              <div class="center">
                 <h4>Food Talk India Presents #WWIM14- in partnership with Instagram</h4>
-                <h5>AntiSocial, HKV</br>Time: 3PM- 6PM</br> Designed by Rani Pink</h5>
+                <h5>AntiSocial, HKV | Time: 3PM- 6PM | Designed by Rani Pink</h5>
                 <h5>It's time for the official #WWIM14 and this year's it's all about Food - in case you haven't been following their awesome blog it's the "World Wide Insta Meet No.14"!!
-				</br>Food Talk India present's - The Dessert Potluck</br>Time to Meet and Greet with your favourite Sugary Treats </h5>
+				        </br>Food Talk India present's - The Dessert Potluck</br>Time to Meet and Greet with your favourite Sugary Treats </h5>
                 <h4>Sign up and stand a chance to get invited! Be part of the Tastiest day of the year. </h4>
                 <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
                  <h5>​It's a Potluck- so bring along your favourite dessert<br>Bake a batch of cupcakes, bring along some jalebis from your absolute favourite halwai or even your favourite Candy - just bring along enough to share.</h5>
+                 </div>
                 <ul>
                 <h5>Theme for the day</h5>
                 <li>All things Frosted- frosting and sprinkles always make our day</li>
