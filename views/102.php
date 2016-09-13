@@ -132,8 +132,7 @@
                 <h3>Food Talk India Presents #WWIM14- in partnership with Instagram</h3>
                 <h5>AntiSocial, HKV</br>Time: 3PM- 6PM</br> Designed by Rani Pink</h5>
                 <h5>It's time for the official #WWIM14 and this year's it's all about Food - in case you haven't been following their awesome blog it's the "World Wide Insta Meet No.14"!!
-				</br>Food Talk India present's - The Dessert Potluck</h5>
-        <h5>Time to Meet and Greet with your favourite Sugary Treats </h5>
+				</br>Food Talk India present's - The Dessert Potluck</br>Time to Meet and Greet with your favourite Sugary Treats </h5>
                 <h4>Sign up and stand a chance to get invited! Be part of the Tastiest day of the year. </h4>
                 <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
                  <h5>​It's a Potluck- so bring along your favourite dessert<br>Bake a batch of cupcakes, bring along some jalebis from your absolute favourite halwai or even your favourite Candy - just bring along enough to share.</h5>
