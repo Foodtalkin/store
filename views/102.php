@@ -138,7 +138,7 @@
             <img src="../img/cover101.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
               <div class="center">
-                <h4 class="brand-heading">Food Talk India Presents #WWIM14- in partnership with Instagram</h4>
+                <h4 class="brand-heading">Food Talk India Presents #WWIM14-<img src="../img/fork.jpg"/> in partnership with Instagram</h4>
                 <h5>AntiSocial, HKV | Time: 3PM- 6PM | Designed by Rani Pink</h5>
                 <h5>It's time for the official #WWIM14 and this year's it's all about Food - in case you haven't been following their awesome blog it's the "World Wide Insta Meet No.14"!</h5>
 				        <h4>Food Talk India present's - The Dessert Potluck</h4>
@@ -149,7 +149,7 @@
                 </div>
                 
                 <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
-                 <h5>​It's a Potluck- so bring along your favourite dessert<br>Bake a batch of cupcakes, bring along some jalebis from your absolute favourite halwai or even your favourite Candy - just bring along enough to share.</h5>
+                 <!-- <h5>​It's a Potluck- so bring along your favourite dessert<br>Bake a batch of cupcakes, bring along some jalebis from your absolute favourite halwai or even your favourite Candy - just bring along enough to share.</h5>
                  </div>
                 <ul>
                 <h5>Theme for the day</h5>
@@ -157,7 +157,7 @@
                 <li>Chocolate- I'm in love with the Cocoa</li>
                 <li>Desi Meetha- now no Instameet around the world can beat this one.</li>
                 <li>Extraordinary - let sugar be your inspiration and let your creativity go wild.</li>
-                </ul>
+                </ul> -->
                 
 
               
