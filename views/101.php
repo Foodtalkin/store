@@ -140,7 +140,7 @@
                   <h4 class="center">Get #OutOfOffice with your #AwesomeBoss</h4>
                   
                 </div>
-                <!--<h5>​Ballantine's Out Of Office<br>Feat, Vir Das' Alien Chutney</h5>-->
+                <h5>​Ballantine's Out Of Office</h5>
                 <!-- <h5>Chi Asian Cookhouse is now open in Mall of India, Noida</h5> -->
               
                 <!-- <h5>RSVP and get on the guest list</h5> -->
