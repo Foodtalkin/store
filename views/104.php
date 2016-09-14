@@ -22,10 +22,23 @@
         font-family: verlag;
         src: url('../font/verlag/Verlag-Book.ttf');
        }
+       @font-face {
+        font-family: reis;
+        src: url('../font/verlag/REIS-Regular.otf') format('otf');
+       }
       body{
-        background-color: #f2e9fc;
+        background-color: #e3f8f7;
         color: #404040;
-        font-family: verlag;
+        font-family: 'verlag';
+      }
+      .brand-heading {
+        font-family:'reis','verlag';
+      }
+      .fork-img{
+        display: inline;
+        width: auto;
+        height: 20px;
+        margin-bottom: -2px;
       }
       h3{
         font-size: 24px;
@@ -45,9 +58,10 @@
       }
       label{
         font-size: 16px;
+        color: #000;
       }
       input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
-        border: 2px solid #32004b;
+        border: 2px solid #005b7f ;
         border-radius: 5px;
         padding: 5px;
         height: 2rem;
@@ -55,7 +69,7 @@
         width: 97%
       }
       select{
-        border: 2px solid #32004b;
+        border: 2px solid #005b7f ;
         border-radius: 5px;
         padding: 5px;
         height: 3rem;
@@ -68,8 +82,8 @@
           margin-bottom: 20px;
           width: 100%;
           padding: 10px 30px;
-          border: 3px solid #32004b;
-          color: #32004b;
+          border: 3px solid #005b7f ;
+          color: #005b7f ;
           text-align: left;
       }
       .borderbox ul li{
@@ -91,19 +105,19 @@
         width: 100%;
         padding: 5px;
         height: 46px;
-        border: 2px solid #32004b;
+        border: 2px solid #005b7f ;
         border-radius: 5px;
-        color: #32004b;
+        color: #005b7f ;
         background-color: inherit;
         margin-top: 15px;
         margin-bottom: 10px;
       }
       .full-btn:hover, .full-btn:active{
-        background-color: #32004b;
+        background-color: #005b7f ;
         color: #fff;
       }
       .details{
-        min-height: 100vh;
+        min-height: 100vh !important;
         background-color: #fff;
         padding: 0 !important;
       }
@@ -111,7 +125,7 @@
         padding: 0 20px !important;
       }
       .highlights{
-        color: #32004b;
+        color: #005b7f ;
       }
       .padd-20{
         padding: 20px !important;
@@ -127,24 +141,23 @@
       <div class="container">
         <div class="row mb0">
           <div class="col s12 m6 l6 center details">
-            <img src="../img/cover101.jpg" alt="" class="responsive-img">
+            <img src="../img/cover104.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
-                <h3>Boss by Day, Buddy by Night</h3>
-				<h5>Celebrate with your #AwesomeBoss</h5>
-                <h5>Date: Friday, 16th September'16</br>Time: 7:00 PM Onwards</h5>
-                <h5>A​​ Boss, A Mentor, A Buddy- not everyone is lucky to have someone this awesome in their life.
-				</br>Nominate your #AwesomeBoss for the VIP treatment - and stand a chance to win a table for 6 at the Ballantine's #OutOfOffice Party</h5>
-                <!-- <h5>We are throwing a #Dessert Party and everyone's invited! </h5> -->
-                <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
+             
+                <h4 class="brand-heading">Food Talk India Presents #WWIM14- in partnership with Instagram</h4>
+                <h5>AntiSocial, HKV | Time: 8PM- 10PM | Designed by Rani Pink</h5>
+                <h5>It's time for the official #WWIM14 and this year's it's all about Food  - in case you haven't been following their awesome blog it's the "World Wide Insta Meet No.14"!!</h5>
+                <h5>What goes best with Food? Cocktails!</h5>
+                <h4>Food Talk India presents - The Cocktail Workshop</h4>
+                <h5>Time to Meet and Greet with a tipple and a tale!</h5>
                 <div class="borderbox">
-                  <h4 class="center">Get #OutOfOffice with your #AwesomeBoss</h4>
-                  
+                  <h4 class="center">Sign up and stand a chance to get invited! Be part of the Tastiest day of the year</h4>
                 </div>
-                <h5>​Ballantine's Out Of Office</h5>
-                <h5>*This only gives access to to a curated event. Passes for Vir Das’ Aliens Chutney can be purchase in the box office at the venue or online through this booking link.</h5>
-                  <h5><a href="http://goo.gl/hfWEVm">Booking link</a></h5>
-                <!-- <h5>Chi Asian Cookhouse is now open in Mall of India, Noida</h5> -->
-              
+                
+                <h5>This isn't your regular Cocktail workshop! The theme is ABC - Anything But Cups. That's right folks bring your own drinking vessel - be it a shoe, boot, vase or ever a flower cup that you can drink out of. Learn to whip up delicious cocktails and drink in an unconventional way!</h5>
+                
+                <!--  <h5>Sunday, 31st July | 6PM Onwards | Perch, Vasant Vihar</h5> -->
+                 
                 <!-- <h5>RSVP and get on the guest list</h5> -->
               </div>
               
@@ -155,35 +168,20 @@
               <div class="col s12 m11 l11 offset-m1 offset-l1">
                 
                 <form action="" id="frm">
-                  <h4 class="center highlights">Nominate your Boss here:</h4>
+                  <h4 class="center highlights">Contact Details</h4>
                   <!-- <div class="col s12 m12 l12 mt20">
                     <label for="">Food Talk APP Username </label>
                     <input id="Question1" type="text" name="Question1" class="validate" value="">
                   </div> -->
                   <!-- <h4 class="center highlights">Contact Details</h4> -->
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Your Name *</label>
+                    <label for="">Name *</label>
                     <input id="name" type="text" name="name" class="validate imp namevalid" value="<?php echo $user['name']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Company Name *</label>
-                    <input id="name2" type="text" name="name2" class="validate imp namevalid" value="<?php echo $user['name2']; ?>">
+                    <label for="">Instagram Handle *</label>
+                    <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
                   </div>
-                  <div class="col s12 m12 l12 mt20">
-                    <label for="">Name your #AwesomeBoss *</label>
-                    <input id="name3" type="text" name="name3" class="validate imp namevalid" value="<?php echo $user['name3']; ?>">
-                  </div>
-                  <div class="col s12 m12 l12 mt20">
-                    <label for="">Tell us how awesome he/she is- on a scale of One to Fun *</label>
-                    <input id="Question1" type="text" name="Question1" class="validate imp" value="<?php echo $user['name4']; ?>">
-                  </div>
-                  
-                  <div class="col s12 m12 l12 mt20">
-                    <label for="">Your Age? *</label>
-                    <input id="Question2" type="number" name="Question2" class="validate imp" value="<?php echo $user['name5']; ?>">
-                  </div>
-                  <h4 class="center highlights">Contact Details</h4>
-				  <h5 class="center highlights">{So we can send you a memo if you win a table}</h5>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Email Address *</label>
                     <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
@@ -191,6 +189,10 @@
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Phone number *</label>
                     <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
+                  </div>
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="">Your Age? *</label>
+                    <input id="Question2" type="number" name="Question2" class="validate imp" value="<?php echo $user['name5']; ?>">
                   </div>
                   <!-- <div class="col s12 m12 l12 mt20">
                     <label for="city">City *</label>
@@ -201,15 +203,10 @@
                       <option value="Bangalore">Bangalore</option>
                       <option value="Other">Other</option>
                     </select>
-                  </div>
+                  </div>-->
+                   
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Instagram Handle *</label>
-                    <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
-                  </div> -->
-                  <div class="col s12 m12 l12 mt20">
-                    <div class="col s12 m12 l12">
-                      <label for="">Not on the Food Talk App? Download now</label>
-                    </div>
+                    <label for="">Not on the Food Talk App? Download now</label>
                     <div class="col s6 l6 m6 padd-20">
                       <a href="https://ad.apps.fm/jmXM2toyVlrwIvmv8VZDkPE7og6fuV2oOMeOQdRqrE125Vg6lhH50uF5NCjHXTL9ndN7N82s3TL60zJZOK6POUBYEUDp6GpykR5a_XD8NGKkdSPWlsFH6ajCbGh5uIRv" target="_blank"><img class="responsive-img" src="../img/app.png" alt="dish reviews, food reviews, restaurant reviews india, food reviews site india"/></a>
                     </div>
@@ -218,7 +215,7 @@
                     </div>
                   </div>
                   <div class="col s12 m12 l12 mt10">
-                    <button class="waves-effect waves-light btn full-btn" id="submit">Submit</button>
+                    <button class="waves-effect waves-light btn full-btn" id="submit">Register Now</button>
                   </div>
                 </form>
               </div>
@@ -271,21 +268,12 @@
                   var contact = "<?php echo $user['contact']; ?>";
                 }
                 // console.log(contact);
-                // if($('#insta').val() != ''){
-                //   var insta = $('#insta').val();
-                // }else{
-                //   var insta = "<?php echo $user['instagram_handle']; ?>";
-                // }
-                // console.log(insta);
-                // if($('#address').val() != ''){
-                //   var address = $('#address').val();
-                // }else{
-                //   var address = "<?php echo $user['address']; ?>";
-                // }
+                if($('#insta').val() != ''){
+                  var insta = $('#insta').val();
+                }else{
+                  var insta = "<?php echo $user['instagram_handle']; ?>";
+                }
                 
-                // var meta = <?php echo json_encode($user['metadata']); ?>;
-
-
                 // // console.log(meta);
                 // if(meta == null){
                 //   var meta = {
@@ -297,10 +285,8 @@
                 //   }
                 // }
                 var response = {
-                  companyname : $('#name2').val(),
-                  bossname : $('#name3').val(),
-                  age : $('#Question2').val(),
-                  howcool_boss : $('#Question1').val()
+                  age : $('#Question2').val()
+                  // howcool_boss : $('#Question1').val()
 
                 }
                 // console.log(response);
@@ -326,7 +312,7 @@
                        // metadata : meta,
                        // dob : dob,
                        // city : $('#city').val(),
-                       // instagram_handle: insta
+                       instagram_handle: insta
                        };
                 
                 //console.log(URL_INSERT);                           
