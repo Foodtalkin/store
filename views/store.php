@@ -182,7 +182,7 @@
                   
                 </div>
                 <div class="card-action">
-                  <a href="../index.php?source=<?php echo $SOURCE; ?>&target=<?php echo $event1['id']; ?>&fbid=<?php echo $FBID; ?>&uname=<?php echo $USER; ?>&type=contest">More</a>
+                  <a href="../index.php?source=<?php echo $SOURCE; ?>&target=<?php echo $event1['id']; ?>&fbid=<?php echo $FBID; ?>&uname=<?php echo $USER; ?>&type=contest">Participate</a>
                 </div>
               </div>
             </div>

@@ -52,9 +52,9 @@ session_start();
       echo $eventid;
       if($toredirect == 101){
         $icon = "../img/goodluck.png";
-        $msg = "Accepted- await our response for the #AwesomeBoss Contest <br>
-                Book your passes for the Vir Dass Alien Chutney here: <br>
-                Book Now:<a href='https://goo.gl/uz6hVq'>https://goo.gl/uz6hVq</a> ";
+        $msg = "Thank You! <br> Stay Tuned to know the results of the #AwesomeBoss Contest <br>
+                Book your passes and join us for the gig by Vir Das'Alien Chutney <br>
+                <a href='https://goo.gl/uz6hVq'>https://goo.gl/uz6hVq</a> ";
       }
 
 
