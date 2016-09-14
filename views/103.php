@@ -22,17 +22,23 @@
         font-family: verlag;
         src: url('../font/verlag/Verlag-Book.ttf');
        }
-      @font-face {
+       @font-face {
         font-family: reis;
         src: url('../font/verlag/REIS-Regular.otf') format('otf');
        }
       body{
-        background-color: #67c2be;
+        background-color: #e3f8f7;
         color: #404040;
-        font-family: verlag;
+        font-family: 'verlag';
       }
       .brand-heading {
-        font-family:reis;
+        font-family:'reis','verlag';
+      }
+      .fork-img{
+        display: inline;
+        width: auto;
+        height: 20px;
+        margin-bottom: -2px;
       }
       h3{
         font-size: 24px;
@@ -55,7 +61,7 @@
         color: #000;
       }
       input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
-        border: 2px solid #32004b;
+        border: 2px solid #005b7f ;
         border-radius: 5px;
         padding: 5px;
         height: 2rem;
@@ -63,7 +69,7 @@
         width: 97%
       }
       select{
-        border: 2px solid #32004b;
+        border: 2px solid #005b7f ;
         border-radius: 5px;
         padding: 5px;
         height: 3rem;
@@ -76,8 +82,8 @@
           margin-bottom: 20px;
           width: 100%;
           padding: 10px 30px;
-          border: 3px solid #32004b;
-          color: #32004b;
+          border: 3px solid #005b7f ;
+          color: #005b7f ;
           text-align: left;
       }
       .borderbox ul li{
@@ -99,19 +105,19 @@
         width: 100%;
         padding: 5px;
         height: 46px;
-        border: 2px solid #32004b;
+        border: 2px solid #005b7f ;
         border-radius: 5px;
-        color: #32004b;
+        color: #005b7f ;
         background-color: inherit;
         margin-top: 15px;
         margin-bottom: 10px;
       }
       .full-btn:hover, .full-btn:active{
-        background-color: #32004b;
+        background-color: #005b7f ;
         color: #fff;
       }
       .details{
-        min-height: 100vh;
+        min-height: 100vh !important;
         background-color: #fff;
         padding: 0 !important;
       }
@@ -119,7 +125,7 @@
         padding: 0 20px !important;
       }
       .highlights{
-        color: #32004b;
+        color: #005b7f ;
       }
       .padd-20{
         padding: 20px !important;
