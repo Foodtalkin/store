@@ -87,7 +87,7 @@
       <div class="container main">
         <div class="row hide-on-small-only">
           <div class="col l12 m12 s12">
-            <img class="responsive-img intro" src="../img/cover101.jpg"/>
+            <img class="responsive-img intro" src="../img/cover103.jpg"/>
           </div>
         </div>
         
