@@ -113,7 +113,7 @@
 	            <div class="col s12 l6 m6 no-padd">
 	            	<div class="col l6 m6 s6 center-align">
 	                <i class="fa fa-map-marker"></i>
-	                <p>  Dimcha, Epicuria, Nehru Place</p>
+	                <p>The People & Co., Cyber Hub Gurgaon</p>
 	              </div>
 	              <div class="col l6 m6 s6 center-align">
 	                <i class="fa fa-inr"></i>
@@ -158,13 +158,6 @@
                   <p>Seating arrangement on first come first serve basis only.</p>
                   <p>Tickets once booked cannot be exchanged or refunded.</p>
                   <p>We recommend that you arrive by 7pm at the venue to pick up your physical tickets & drink coupons</p>
-                  <h6>Date:  16th Sept' 2016 <br>
-                      Time: 7:00 pm onwards <br>
-                      Venue:  The People & Co., Cyber Hub Gurgaon
-                      <br>Cost: Rs 1150 Ai per head.
-                  </h6>
-                  
-                  <h6>Book Now!</h6>
                   
                   <!-- <h6>**Dress Code-Keep it paint friendly.</h6> -->
                  
@@ -182,11 +175,7 @@
                   <p>Seating arrangement on first come first serve basis only.</p>
                   <p>Tickets once booked cannot be exchanged or refunded.</p>
                   <p>We recommend that you arrive by 7pm at the venue to pick up your physical tickets & drink coupons</p>
-                  <h6>Date:  16th Sept' 2016 <br>
-                      Time: 7:00 pm onwards <br>
-                      Venue:  The People & Co., Cyber Hub Gurgaon
-                      <br>Cost: Rs 1150 Ai per head.
-                  </h6>
+                 
                   
                   <!-- <h6>**Dress Code-Keep it paint friendly.</h6> -->
                       
@@ -218,7 +207,7 @@
                 <div class="col l12 m12 s12">
                   <h5>Event Partners</h5>
                   <ul>
-                    <li><img src="../img/partners/dimcha.png" alt=""></li>
+                    <li><img src="../img/partners/people.png" alt=""></li>
                     <!-- <li><img src="../img/partners/hoegaarden.png" alt=""></li> -->
 
                   </ul>
