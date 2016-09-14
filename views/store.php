@@ -159,18 +159,18 @@
                   
                   <div class="row">
                     <div class="col s12 m12 l12 details">
-                      <div class="col s4 m4 l4 center-align">
+                      <div class="col s6 m6 l6 center-align">
                         <i class="fa fa-calendar-o"></i>
                         <h6><?php echo $date1[0]; ?></h6>
                       </div>
-                      <div class="col s4 m4 l4 center-align">
+                      <div class="col s6 m6 l6 center-align">
                         <i class="fa fa-clock-o"></i>
                         <h6><?php echo $event1['timings']; ?></h6>
                       </div>
-                      <div class="col s4 m4 l4 center-align">
+                      <!-- <div class="col s4 m4 l4 center-align">
                         <i class="fa fa-inr"></i>
-                        <h6><?php echo $event1['cost']." AI /per head"; ?></h6>
-                      </div>
+                        <h6><?php //echo $event1['cost']." AI /per head"; ?></h6>
+                      </div> -->
                     </div>
                     <div class="col s12 m12 l12">
                       <p><?php echo $event1['description']; ?></p>
