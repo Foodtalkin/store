@@ -130,6 +130,14 @@
       .padd-20{
         padding: 20px !important;
       }
+
+      .borderR{
+        border-color: red !important;
+      }
+      .emptyerr, .validerr{
+        color: red;
+        font-weight: bold;
+      }
       /*.form{
         height: 100vh;
         overflow-y: scroll;
@@ -169,19 +177,19 @@
                   </div> -->
                   <!-- <h4 class="center highlights">Contact Details</h4> -->
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Name *</label>
+                    <label for="">Name * <span class="emptyerr"> This field can't be empty</span><span class="validerr"> Please fill a valid name</span></label>
                     <input id="name" type="text" name="name" class="validate imp namevalid" value="<?php echo $user['name']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Instagram Handle *</label>
+                    <label for="">Instagram Handle * <span class="emptyerr"> This field can't be empty</span></label>
                     <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Email Address *</label>
+                    <label for="">Email Address * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Phone number *</label>
+                    <label for="">Phone number * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
                   </div>
                   <!-- <div class="col s12 m12 l12 mt20">
@@ -224,7 +232,7 @@
 
           $('select').material_select();
           $('.carousel').carousel();
-          
+          $('.emptyerr, .validerr').hide();
           var e_id = <?php echo $_SESSION['target']; ?>;
           var source = "<?php echo $_SESSION['source']; ?>";
           var id= <?php echo $user['id']; ?>;
@@ -350,7 +358,11 @@
                   if ( ! $(this).val().trim() ) { 
                       $(this).addClass('borderR');
                       $(this).focus();
+                      $(this).siblings('label').children('.emptyerr').show();
                       allIsOk = false;
+                  }else{
+                    $(this).removeClass('borderR');
+                    $(this).siblings('label').children('.emptyerr').hide();
                   }
               });
               return allIsOk
@@ -362,8 +374,13 @@
             $('#frm').find('.namevalid').each(function (){
                 if( ! regex.test($(this).val())){
                   $(this).addClass('borderR');
+                  
                   $(this).focus();
+                  $(this).siblings('label').children('.validerr').show();
                   allok = false;
+                }else{
+                  $(this).removeClass('borderR');
+                  $(this).siblings('label').children('.validerr').hide();
                 }
             });
             return allok

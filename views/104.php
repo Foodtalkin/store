@@ -134,6 +134,13 @@
         height: 100vh;
         overflow-y: scroll;
       }*/
+      .borderR{
+        border-color: red !important;
+      }
+      .emptyerr, .validerr{
+        color: red;
+        font-weight: bold;
+      }
       </style>
     </head>
 
@@ -175,23 +182,23 @@
                   </div> -->
                   <!-- <h4 class="center highlights">Contact Details</h4> -->
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Name *</label>
+                    <label for="">Name * <span class="emptyerr"> This field can't be empty</span><span class="validerr"> Please fill a valid name</span></label>
                     <input id="name" type="text" name="name" class="validate imp namevalid" value="<?php echo $user['name']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Instagram Handle *</label>
+                    <label for="">Instagram Handle * <span class="emptyerr"> This field can't be empty</span></label>
                     <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Email Address *</label>
+                    <label for="">Email Address * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Phone number *</label>
+                    <label for="">Phone number * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Your Age? *</label>
+                    <label for="">Your Age? * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="Question2" type="number" name="Question2" class="validate imp" value="<?php echo $user['name5']; ?>">
                   </div>
                   <!-- <div class="col s12 m12 l12 mt20">
@@ -206,7 +213,10 @@
                   </div>-->
                    
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Not on the Food Talk App? Download now</label>
+                    <div class="col s12 m12 l12">
+                      <label for="">Not on the Food Talk App? Download now</label>
+                    </div>
+                    
                     <div class="col s6 l6 m6 padd-20">
                       <a href="https://ad.apps.fm/jmXM2toyVlrwIvmv8VZDkPE7og6fuV2oOMeOQdRqrE125Vg6lhH50uF5NCjHXTL9ndN7N82s3TL60zJZOK6POUBYEUDp6GpykR5a_XD8NGKkdSPWlsFH6ajCbGh5uIRv" target="_blank"><img class="responsive-img" src="../img/app.png" alt="dish reviews, food reviews, restaurant reviews india, food reviews site india"/></a>
                     </div>
@@ -232,6 +242,7 @@
 
           $('select').material_select();
           $('.carousel').carousel();
+          $('.emptyerr, .validerr').hide();
           
           var e_id = <?php echo $_SESSION['target']; ?>;
           var source = "<?php echo $_SESSION['source']; ?>";
@@ -353,10 +364,14 @@
               var allIsOk = true;
               //Check if empty of not
               $('#frm').find( '.imp' ).each(function () {
-                  if ( ! $(this).val() ) { 
+                  if ( ! $(this).val().trim() ) { 
                       $(this).addClass('borderR');
                       $(this).focus();
+                      $(this).siblings('label').children('.emptyerr').show();
                       allIsOk = false;
+                  }else{
+                    $(this).removeClass('borderR');
+                    $(this).siblings('label').children('.emptyerr').hide();
                   }
               });
               return allIsOk
@@ -368,8 +383,13 @@
             $('#frm').find('.namevalid').each(function (){
                 if( ! regex.test($(this).val())){
                   $(this).addClass('borderR');
+                  
                   $(this).focus();
+                  $(this).siblings('label').children('.validerr').show();
                   allok = false;
+                }else{
+                  $(this).removeClass('borderR');
+                  $(this).siblings('label').children('.validerr').hide();
                 }
             });
             return allok

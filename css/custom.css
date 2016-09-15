@@ -218,3 +218,7 @@
 	list-style: disc !important;
 	margin-left: 30px;
 }
+
+.borderR{
+	border-color: red !important;
+}
