@@ -145,7 +145,7 @@
       foreach ($data1 as $key1) {
         $event1 = (array) $key1;
         if($event1['active']== true){
-        $date1 =explode(" ", $event1['start_date']);
+        $date1 =explode(" ", $event1['end_date']);
         
       
        ?>
