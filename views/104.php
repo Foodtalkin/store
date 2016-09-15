@@ -161,9 +161,9 @@
                   <h4 class="center">Sign up & stand a chance to get invited! Be part of the Tastiest day of the year</h4>
                 </div>
                 
-                <h5>This isn't your regular Night Out! We're teaching you the ABC of cocktails and taking it up a few notches of course.</h5><h5>Expect an unconventional twist to your everyday Old Fashioned- how to get the perfect ShakerFace and some Social Stunts for sure.</h5>
+               <h5>Expect an unconventional twist to your everyday Old Fashioned- how to get the perfect ShakerFace and some Social Stunts for sure.</h5>
                 
-                 <h5>So if you are a Cocktail aficionado like us- this is where you'd want to be- A Classroom with a Bar!</h5>
+                
                  <h5>Register and stand a chance to be part of the Tippler's Meet</h5>
                  
               </div>
