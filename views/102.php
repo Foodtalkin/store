@@ -144,7 +144,7 @@
             <img src="../img/cover102.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
               
-                <h3 class="brand-heading">Food Talk India Presents #WWIM14 <img class="fork-img" src="../img/fork.png"/> in partnership with Instagram</h3>
+                <h3 class="brand-heading">Food Talk India Presents #WWIM14 <img class="fork-img" src="../img/fork.png"/></br>Sunday, 18th September'14 </br> in partnership with Instagram</h3>
                 <h5>AntiSocial, HKV | Time: 3pm- 6pm | Designed by Rani Pink</h5>
                 <h5>It's time for the official #WWIM14 and this years its all about Food - in case you haven't been following their awesome blog it's the "World Wide Insta Meet No.14"!</h5>
 				        <h4>Food Talk India presents - The Dessert Potluck</h4>
