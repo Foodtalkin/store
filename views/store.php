@@ -89,11 +89,16 @@
 				
 			
 			 ?>
-			  <div class="col s12 m6 l4 mycard">
+       <div class="col s12 m4 l4" style="margin-top: 30px;">
+         <a href="../index.php?source=<?php echo $SOURCE; ?>&target=<?php echo $event['id']; ?>&fbid=<?php echo $FBID; ?>&uname=<?php echo $USER; ?>&type=rsvp">
+           <img src="<?php echo "../img/".$event['cover_url']; ?>" class="responsive-img z-depth-1" style="border-radius: 15px;">
+         </a>
+       </div>
+			  <!-- <div class="col s12 m6 l4 mycard">
 		          <div class="card">
 		            <div class="card-image">
-		            	<img src="<?php echo "../img/".$event['cover_url']; ?>">
-		              <div class="card-title"><?php echo $event['name']; ?></div>
+		            	<img src="<?php //echo "../img/".$event['cover_url']; ?>">
+		              <div class="card-title"><?php //echo $event['name']; ?></div>
 		            </div>
 		            <div class="card-content">
 		            	
@@ -101,32 +106,32 @@
 		            		<div class="col s12 m12 l12 details">
 		            			<div class="col s4 m4 l4 center-align">
 		            				<i class="fa fa-calendar-o"></i>
-		            				<h6><?php echo $date[0]; ?></h6>
+		            				<h6><?php //echo $date[0]; ?></h6>
 		            			</div>
 		            			<div class="col s4 m4 l4 center-align">
 		            				<i class="fa fa-clock-o"></i>
-		            				<h6><?php echo $event['timings']; ?></h6>
+		            				<h6><?php //echo $event['timings']; ?></h6>
 		            			</div>
 		            			<div class="col s4 m4 l4 center-align">
 		            				<i class="fa fa-inr"></i>
-		            				<h6><?php echo $event['cost']." AI /per head"; ?></h6>
+		            				<h6><?php //echo $event['cost']." AI /per head"; ?></h6>
 		            			</div>
 		            		</div>
 		            		<div class="col s12 m12 l12">
-		            			<p><?php echo $event['description']; ?></p>
+		            			<p><?php //echo $event['description']; ?></p>
 		            		</div>
 		            		<div class="col s12 m12 l12 venue">
-		            			<p><i class="fa fa-map-marker"></i><?php echo $event['venue']; ?></p>
+		            			<p><i class="fa fa-map-marker"></i><?php //echo $event['venue']; ?></p>
 		            		</div>
 		            	</div>
 		              
 		            </div>
 		            <div class="card-action">
-		              <a href="../index.php?source=<?php echo $SOURCE; ?>&target=<?php echo $event['id']; ?>&fbid=<?php echo $FBID; ?>&uname=<?php echo $USER; ?>&type=rsvp">Book Now</a>
+		              <a href="../index.php?source=<?php //echo $SOURCE; ?>&target=<?php //echo $event['id']; ?>&fbid=<?php //echo $FBID; ?>&uname=<?php// echo $USER; ?>&type=rsvp">Book Now</a>
 		            </div>
 		          </div>
 		        </div>
-
+ -->
 			<?php }} ?>
      <!-- contest -->
           <?php 
@@ -149,11 +154,16 @@
         
       
        ?>
-        <div class="col s12 m6 l4 mycard">
+        <div class="col s12 m4 l4 " style="margin-top: 30px;">
+         <a href="../index.php?source=<?php echo $SOURCE; ?>&target=<?php echo $event1['id']; ?>&fbid=<?php echo $FBID; ?>&uname=<?php echo $USER; ?>&type=contest">
+           <img src="<?php echo "../img/".$event1['cover_url']; ?>" class="responsive-img z-depth-1" style="border-radius: 15px;">
+         </a>
+       </div>
+        <!-- <div class="col s12 m6 l4 mycard">
               <div class="card">
                 <div class="card-image">
-                  <img src="<?php echo "../img/".$event1['cover_url']; ?>">
-                  <div class="card-title"><?php echo $event1['name']; ?></div>
+                  <img src="<?php //echo "../img/".$event1['cover_url']; ?>">
+                  <div class="card-title"><?php //echo $event1['name']; ?></div>
                 </div>
                 <div class="card-content">
                   
@@ -161,32 +171,32 @@
                     <div class="col s12 m12 l12 details">
                       <div class="col s6 m6 l6 center-align">
                         <i class="fa fa-calendar-o"></i>
-                        <h6><?php echo $date1[0]; ?></h6>
+                        <h6><?php //echo $date1[0]; ?></h6>
                       </div>
                       <div class="col s6 m6 l6 center-align">
                         <i class="fa fa-clock-o"></i>
-                        <h6><?php echo $event1['timings']; ?></h6>
+                        <h6><?php //echo $event1['timings']; ?></h6>
                       </div>
-                      <!-- <div class="col s4 m4 l4 center-align">
+                      <div class="col s4 m4 l4 center-align">
                         <i class="fa fa-inr"></i>
                         <h6><?php //echo $event1['cost']." AI /per head"; ?></h6>
-                      </div> -->
+                      </div>
                     </div>
                     <div class="col s12 m12 l12">
-                      <p><?php echo $event1['description']; ?></p>
+                      <p><?php //echo $event1['description']; ?></p>
                     </div>
                     <div class="col s12 m12 l12 venue">
-                      <p><i class="fa fa-map-marker"></i><?php echo $event1['venue']; ?></p>
+                      <p><i class="fa fa-map-marker"></i><?php //echo $event1['venue']; ?></p>
                     </div>
                   </div>
                   
                 </div>
                 <div class="card-action">
-                  <a href="../index.php?source=<?php echo $SOURCE; ?>&target=<?php echo $event1['id']; ?>&fbid=<?php echo $FBID; ?>&uname=<?php echo $USER; ?>&type=contest">Participate</a>
+                  <a href="../index.php?source=<?php //echo $SOURCE; ?>&target=<?php //echo $event1['id']; ?>&fbid=<?php //echo $FBID; ?>&uname=<?php //echo $USER; ?>&type=contest">Participate</a>
                 </div>
               </div>
             </div>
-
+ -->
       <?php }} ?>
           </div>
         </div>
