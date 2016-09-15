@@ -152,11 +152,10 @@
               <div class="col s12 m12 l12 padd20">
              
                 <h3 class="brand-heading">Food Talk India Presents #WWIM14<br>Sunday, 18th September'16<br>In partnership with Instagram</h3>
-                <h5>The ABC of Cocktails</h5>
+                <h4>Food Talk India Presents - The ABCs of Cocktails</h4>
                 <h5>AntiSocial, HKV | Time: 7pm- 10pm | Designed by Rani Pink</h5>
                 <h5>It's time for the official #WWIM14 and this year it's all about Food  - in case you haven't been following their awesome blog, it's the "World Wide Insta Meet No.14"!!</h5>
                 <h5>What goes best with Food? Cocktails!</h5>
-                <h4>Food Talk India presents - The Cocktail Workshop</h4>
                 <h5>Time to Meet and Greet with a tipple & a tale!</h5>
                 <div class="borderbox">
                   <h4 class="center">Sign up & stand a chance to get invited! Be part of the Tastiest day of the year</h4>
