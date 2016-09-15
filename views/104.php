@@ -151,8 +151,9 @@
             <img src="../img/cover104.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
              
-                <h4 class="brand-heading">Food Talk India Presents #WWIM14- in partnership with Instagram</h4>
-                <h5>AntiSocial, HKV | Time: 8pm- 10pm | Designed by Rani Pink</h5>
+                <h3 class="brand-heading">Food Talk India Presents #WWIM14<br>Sunday, 18th September'16<br>In partnership with Instagram</h3>
+                <h5>The ABC of Cocktails</h5>
+                <h5>AntiSocial, HKV | Time: 7pm- 10pm | Designed by Rani Pink</h5>
                 <h5>It's time for the official #WWIM14 and this year it's all about Food  - in case you haven't been following their awesome blog, it's the "World Wide Insta Meet No.14"!!</h5>
                 <h5>What goes best with Food? Cocktails!</h5>
                 <h4>Food Talk India presents - The Cocktail Workshop</h4>
@@ -161,7 +162,7 @@
                   <h4 class="center">Sign up & stand a chance to get invited! Be part of the Tastiest day of the year</h4>
                 </div>
                 
-                <h5>This isn't your regular Night Out! We're teaching you the ABC of cocktail's and taking it up a few notches of course.</h5><h5>Expect an unconventional twist to your everyday Old Fashioned- how to get the perfect ShakerFace and some Social Stunts for sure.</h5>
+                <h5>This isn't your regular Night Out! We're teaching you the ABC of cocktails and taking it up a few notches of course.</h5><h5>Expect an unconventional twist to your everyday Old Fashioned- how to get the perfect ShakerFace and some Social Stunts for sure.</h5>
                 
                  <h5>So if you are a Cocktail aficionado like us- this is where you'd want to be- A Classroom with a Bar!</h5>
                  <h5>Register and stand a chance to be part of the Tippler's Meet</h5>
