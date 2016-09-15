@@ -152,7 +152,7 @@
               <div class="col s12 m12 l12 padd20">
              
                 <h4 class="brand-heading">Food Talk India Presents #WWIM14- in partnership with Instagram</h4>
-                <h5>AntiSocial, HKV | Time: 8PM- 10PM | Designed by Rani Pink</h5>
+                <h5>AntiSocial, HKV | Time: 8pm- 10pm | Designed by Rani Pink</h5>
                 <h5>It's time for the official #WWIM14 and this year it's all about Food  - in case you haven't been following their awesome blog, it's the "World Wide Insta Meet No.14"!!</h5>
                 <h5>What goes best with Food? Cocktails!</h5>
                 <h4>Food Talk India presents - The Cocktail Workshop</h4>
