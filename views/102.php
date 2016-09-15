@@ -26,6 +26,10 @@
         font-family: reis;
         src: url('../font/verlag/REIS-Regular.otf') format('otf');
        }
+       @font-face {
+        font-family: sanchez;
+        src: url('../font/verlag/sanchez-regularitalic.otf') format('otf');
+       }
       body{
         background-color: #e3f8f7;
         color: #404040;
@@ -33,6 +37,9 @@
       }
       .brand-heading {
         font-family:'reis','verlag';
+      }
+      .font-italic {
+        font-style: italic;
       }
       .fork-img{
         display: inline;
@@ -131,6 +138,7 @@
         padding: 20px !important;
       }
 
+
       .borderR{
         border-color: red !important;
       }
@@ -138,6 +146,8 @@
         color: red;
         font-weight: bold;
       }
+      .liststyle ul li {list-style-type: disc; }
+
       /*.form{
         height: 100vh;
         overflow-y: scroll;
@@ -148,21 +158,32 @@
     <body>
       <div class="container">
         <div class="row mb0">
-          <div class="col s12 m6 l6 center details">
-            <img src="../img/cover102.jpg" alt="" class="responsive-img">
+          <div class="col s12 m6 l6 details">
+            <div class="center">
+              <img src="../img/cover102.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
               
-                <h3 class="brand-heading">Food Talk India Presents #WWIM14 <img class="fork-img" src="../img/fork.png"/></br>Sunday, 18th September'14 </br> in partnership with Instagram</h3>
+                <h3 class="brand-heading">Food Talk India Presents #WWIM14 <img class="fork-img" src="../img/fork.png"/></br>Sunday, 18th September'16 </br> in partnership with <span class="font-italic">Instagram</span></h3>
                 <h5>AntiSocial, HKV | Time: 3pm- 6pm | Designed by Rani Pink</h5>
                 <h5>It's time for the official #WWIM14 and this years its all about Food - in case you haven't been following their awesome blog it's the "World Wide Insta Meet No.14"!</h5>
 				        <h4>Food Talk India presents - The Dessert Potluck</h4>
                 <h5>Time to Meet and Greet with your favourite Sugary Treats </h5>
-                <div class="borderbox">
-                  <h4 class="center">Sign up and stand a chance to get invited! Be part of the Tastiest day of the year.</h4>
-                <!-- <h5>RSVP and get on the guest list</h5> -->
+                  <div class="borderbox">
+                    <h4 class="center">Sign up and stand a chance to get invited! Be part of the Tastiest day of the year.</h4>
+                  <!-- <h5>RSVP and get on the guest list</h5> -->
+                  </div>
                 </div>
               </div>
-              
+              <div class="col s12 m12 l12 padd20 liststyle">
+                <h5>We are doing dessert 4 ways- so pick your theme and bring along a sugary treat for the table.</h5>
+                <h5>Theme for the day:</h5>
+                <ul>
+                  <li>All things Frosted- frosting and sprinkles always make our day</li>
+                  <li>Chocolate- I'm in love with the Cocoa</li>
+                  <li>Desi Dessert- now no Instameet around the world can beat this one</li>
+                  <li>Extraordinary - let sugar be your inspiration and let your creativity go wild</li>
+                </ul>
+              </div>
             </div>
           <div class="col s12 m6 l6 form">
             
