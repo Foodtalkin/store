@@ -161,8 +161,10 @@
                 <div class="borderbox">
                   <h4 class="center">Win a stall and be the Official "Food Talk Home Baker" at The Grub Fest'16</h4>
                 </div>
-                
-              
+                <h3 class="brand-heading">About The Grub Fest</h3>
+                <h5>The Grub Fest is the biggest and most vibrant food festival in India and hosts an array of handpicked cuisines, entertainment and pop-up restaurants</h5>
+                <h5>Dates:14th, 15th, 16th Oct<br>Time: 12 Noon - 10 PM<br>Venue: Jawaharlal Nehru Stadium</h5>
+                <h5>Click <a href="https://www.facebook.com/events/1187927601253116/" target="_blank">"Here"</a> for more details</h5>
                  
               </div>
               
