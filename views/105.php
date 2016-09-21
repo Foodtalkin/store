@@ -151,12 +151,13 @@
             <img src="../img/cover105.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
              
-                <h3 class="brand-heading">Home Baker's Contest- Win a Stall at The Grub Fest<br>Thursday, 22nd Sept- Sunday, 25th September</h3>
+                <h3 class="brand-heading">Home Baker's Contest- Win a Stall at The Grub Fest</h3>
+                <h4 class="brand-heading"> Contest Date: Thursday, 22nd Sept- Sunday, 25th Sept</h4>
                 <h4>The Grub Fest</h4>
                 <h5>14th- 16th October'16</h5>
                 <h5>JLN Stadium, New Delhi</h5>
-                <h5>The much awaited Grub Fest is back for another exciting edition this October and Food Talk is giving One lucky Home Baker a chance to Win a Stall so come sell their sweet treats!</h5>
-                <h5>So register and tell us about you the most Awesome Home Baker, and we might just pick you as our lucky winner!</h5>
+                <h5>The much awaited Grub Fest is back for another exciting edition this October and Food Talk is giving One lucky Home Baker a chance to Win a Stall to come sell their sweet treats!</h5>
+                <h5>So register and tell us about how you are the most Awesome Home Baker, and we might just pick you as our lucky winner!</h5>
                 <div class="borderbox">
                   <h4 class="center">Win a stall and be the Official "Food Talk Home Baker" at The Grub Fest'16</h4>
                 </div>
