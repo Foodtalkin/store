@@ -292,8 +292,9 @@
                   }
                 }
                 var response = {
-                  Website : $('#Question2').val(),
-                  USP : $('#name4').val()
+                  Website : $('#name4').val(),
+                  Brandname : $('#name3').val(),
+                  USP : $('#Question1').val()
 
                 }
                 // console.log(response);
