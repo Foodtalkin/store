@@ -152,7 +152,7 @@
               <div class="col s12 m12 l12 padd20">
              
                 <h3 class="brand-heading">Home Baker's Contest- Win a Stall at The Grub Fest</h3>
-                <h4 class="brand-heading"> Contest Date: Thursday, 22nd Sept- Sunday, 25th Sept</h4>
+               
                 <h4>The Grub Fest</h4>
                 <h5>14th- 16th October'16</h5>
                 <h5>JLN Stadium, New Delhi</h5>
@@ -188,7 +188,7 @@
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Link to your Website/Facebook page/ Zomato page* <span class="emptyerr">This field can't be empty</span></label>
-                    <input id="name4" type="url" name="name4" class="validate imp">
+                    <input id="name4" type="url" name="name4" class="validate imp" placeholder="http://www.example.com">
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">What is your USP?  That one awesome dish on your menu that makes you worthy of being the official "Food Talk Baker" at The Grub Fest'16</label>
@@ -282,6 +282,7 @@
                 }
                 
                 // // console.log(meta);
+                var meta = <?php echo json_encode($user['metadata']); ?>;
                 if(meta == null){
                   var meta = {
                     Age: $('#Question2').val()
