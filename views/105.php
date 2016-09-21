@@ -188,7 +188,7 @@
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Link to your Website/Facebook page/ Zomato page* <span class="emptyerr">This field can't be empty</span></label>
-                    <input id="name4" type="url" name="name4" class="validate imp">
+                    <input id="name4" type="url" name="name4" class="validate imp" placeholder="http://www.example.com">
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">What is your USP?  That one awesome dish on your menu that makes you worthy of being the official "Food Talk Baker" at The Grub Fest'16</label>
