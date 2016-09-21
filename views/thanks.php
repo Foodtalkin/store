@@ -50,11 +50,12 @@ session_start();
       $msg="";
       } 
       echo $eventid;
-      if($toredirect == 101){
+      if($toredirect == 105){
         $icon = "../img/goodluck.png";
-        $msg = "Thank You! <br> Stay Tuned to know the results of the #AwesomeBoss Contest <br>
-                Book your passes and join us for the gig by Vir Das'Alien Chutney <br>
-                <a href='https://goo.gl/uz6hVq'>https://goo.gl/uz6hVq</a> ";
+        $msg = "Now that was a piece of cake right? <br>
+                Await an email from Food Talk if you are the lucky one <br>
+                PS- Extra Brownie points to all those that are on the Food Talk App ;) <br>
+				Don't have it -  Explore our App";
       }
 
 
@@ -119,7 +120,7 @@ session_start();
       .logo{
         margin-top: 20px;
         margin-bottom: 6px;
-        width: 170px;
+        width: 140px;
         height: auto;
       }
       .top-text{
