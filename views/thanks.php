@@ -243,7 +243,7 @@ session_start();
           var a = <?php echo $toredirect; ?>;
           if(a==105){
             setTimeout(function () {
-               window.location= "http://foodtalk.in/download.html"; // the redirect goes here
+               window.location= "http://foodtalk.in/app/index.html"; // the redirect goes here
             },10000); // 5 seconds
           }
           
