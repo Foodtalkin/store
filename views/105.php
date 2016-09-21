@@ -152,7 +152,7 @@
               <div class="col s12 m12 l12 padd20">
              
                 <h3 class="brand-heading">Home Baker's Contest- Win a Stall at The Grub Fest</h3>
-                <h4 class="brand-heading"> Contest Date: Thursday, 22nd Sept- Sunday, 25th Sept</h4>
+               
                 <h4>The Grub Fest</h4>
                 <h5>14th- 16th October'16</h5>
                 <h5>JLN Stadium, New Delhi</h5>
