@@ -45,11 +45,11 @@ session_start();
                 Await an email from Food Talk if you are the lucky one";
       } else{
         $icon = "../img/thankyou.png";
-        $msg1 = "You just booked yourself a Food Talk Event <br>
+        $msg = "You just booked yourself a Food Talk Event <br>
       It's going to be one helluva ride";
-      $msg="";
+      
       } 
-      echo $eventid;
+      // echo $eventid;
       if($toredirect == 105){
         $icon = "../img/goodluck.png";
         $msg = "Now that was a piece of cake right? <br>
@@ -241,9 +241,9 @@ session_start();
       </div>
       <script>
           var a = <?php echo $toredirect; ?>;
-          if(a==101){
+          if(a==105){
             setTimeout(function () {
-               window.location= "https://goo.gl/uz6hVq"; // the redirect goes here
+               window.location= "http://foodtalk.in/download.html"; // the redirect goes here
             },10000); // 5 seconds
           }
           
