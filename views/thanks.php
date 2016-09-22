@@ -120,7 +120,7 @@ session_start();
       .logo{
         margin-top: 20px;
         margin-bottom: 6px;
-        width: 140px;
+        width: 120px;
         height: auto;
       }
       .top-text{
