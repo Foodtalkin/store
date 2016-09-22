@@ -134,7 +134,7 @@ session_start();
       	font-size: 18px;
       }
       .bottomtext{
-        font-size: 18px;
+        font-size: 16px;
         color: rgb(98, 98, 98);
         font-weight: 300;
           line-height: 2;
