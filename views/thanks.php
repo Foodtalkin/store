@@ -53,7 +53,7 @@ session_start();
       if($toredirect == 105){
         $icon = "../img/goodluck.png";
         $msg = "Now that was a piece of cake right? <br>
-                Await an email from Food Talk if you are the lucky one <br>
+                Await an email from Food Talk if you are the lucky one <br> <br>
                 <span>PS- Extra Brownie points to all those that are on the Food Talk App ;) </span><br>
 				Don't have it ???  Explore our App";
       }
