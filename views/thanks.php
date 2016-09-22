@@ -138,7 +138,7 @@ session_start();
         color: rgb(98, 98, 98);
         font-weight: 300;
           line-height: 2;
-          margin: 25px 0;
+          margin: 20px 0;
           text-align: center;
           z-index: 11;
       }
