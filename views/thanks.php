@@ -54,8 +54,8 @@ session_start();
         $icon = "../img/goodluck.png";
         $msg = "Now that was a piece of cake right? <br>
                 Await an email from Food Talk if you are the lucky one <br>
-                PS- Extra Brownie points to all those that are on the Food Talk App ;) <br>
-				Don't have it -  Explore our App";
+                <span>PS- Extra Brownie points to all those that are on the Food Talk App ;) </span><br>
+				Don't have it ???  Explore our App";
       }
 
 
@@ -129,6 +129,9 @@ session_start();
         line-height: 1.6;
         text-align: center;
         z-index: 10;
+      }
+      .top-text > span{
+      	font-size: 18px;
       }
       .bottomtext{
         font-size: 18px;
