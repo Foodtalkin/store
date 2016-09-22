@@ -124,7 +124,7 @@ session_start();
         height: auto;
       }
       .top-text{
-        font-size: 22px;
+        font-size: 20px;
         color: rgb(20, 29, 45);
         line-height: 1.6;
         text-align: center;
