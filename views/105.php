@@ -21,10 +21,20 @@
       @font-face {
         font-family: verlag;
         src: url('../font/verlag/Verlag-Book.ttf');
+        src: url('../font/verlag/Verlag-Book.ttf') format('truetype'),
+             url('../font/verlag/Verlag-Book.eot') format('eot'),
+             url('../font/verlag/Verlag-Book.otf') format('otf'),
+             url('../font/verlag/Verlag-Book.woff') format('woff'),
+             url('../font/verlag/Verlag-Book.svg') format('svg');
        }
        @font-face {
         font-family: reis;
-        src: url('../font/verlag/REIS-Regular.otf') format('otf');
+        src: url('../font/verlag/REIS-Regular.otf');
+        src: url('../font/verlag/REIS-Regular.otf') format('otf'),
+             url('../font/verlag/REIS-Regular.eot') format('eot'),
+             url('../font/verlag/REIS-Regular.ttf') format('ttf'),
+             url('../font/verlag/REIS-Regular.woff') format('woff'),
+             url('../font/verlag/REIS-Regular.svg') format('svg');
        }
       body{
         background-color: #e3f8f7;
