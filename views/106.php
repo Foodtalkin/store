@@ -173,8 +173,8 @@
                 <form action="" id="frm">
                   <h4 class="center highlights">Contact Details</h4>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Why do you want to get Grubbed with us?</label>
-                    <input id="Question1" type="text" name="Question1" class="validate" value="">
+                    <label for="">Why do you want to get Grubbed with us? * <span class="emptyerr"> This field can't be empty</span></label>
+                    <input id="Question1" type="text" name="Question1" class="validate imp" value="">
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Name * <span class="emptyerr"> This field can't be empty</span><span class="validerr"> Please fill a valid name</span></label>
@@ -190,11 +190,15 @@
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Your Age? * <span class="emptyerr"> This field can't be empty</span></label>
-                    <input id="Question2" type="number" name="Question2" class="validate imp" value="<?php echo $user['name5']; ?>">
+                    <input id="Question2" type="number" name="Question2" class="validate imp" value="<?php echo $metadata['Age']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Food Talk APP Username </label>
-                    <input id="Question2" type="text" name="Question2" class="validate" value="">
+                    <label for="">veg nonveg * <span class="emptyerr"> This field can't be empty</span></label>
+                    <input id="vegnvg" type="number" name="vegnvg" class="validate imp" value="<?php echo $metadata['VegNonVeg']; ?>">
+                  </div>
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="">Food Talk APP Username * <span class="emptyerr"> This field can't be empty</span></label>
+                    <input id="Question2" type="text" name="Question2" class="validate imp" value="">
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Instagram Handle * <span class="emptyerr"> This field can't be empty</span></label>
@@ -285,17 +289,19 @@
                 }
                 
                 // // console.log(meta);
-                // if(meta == null){
-                //   var meta = {
-                //     FavCocktail: $('#Question').val()
-                //   }
-                // }else{
-                //   if($('#Question').val() != ''){
-                //     meta['FavCocktail']= $('#Question').val();
-                //   }
-                // }
+                 var meta = <?php echo json_encode($user['metadata']); ?>;
+                if(meta == null){
+                  var meta = {
+                    Age: $('#Question2').val(),
+                    VegNonVeg : $('#vegnvg').val();
+                  }
+                }else{
+                  if($('#Question2').val() != ''){
+                    meta['Age']= $('#Question2').val();
+                    meta['VegNonVeg']= $('#vegnvg').val();
+                  }
+                }
                 var response = {
-                  age : $('#Question2').val(),
                   GetGrubbed : $('#Question1').val()
 
                 }
