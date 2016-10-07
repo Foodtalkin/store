@@ -150,15 +150,15 @@
           <div class="col s12 m6 l6 center details">
             <img src="../img/cover106.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
-             
-                <h3 class="brand-heading">Food Talk Grub Tour<br>In Association with The Grub Fest</h3>
+                <h3 class="brand-heading">Food Talk Grub Tour</h3>
+                <h4 class="brand-heading">In Association with The Grub Fest</h4>
                 <h5>15th October | 6pm | JLN Stadium</h5>
                 <h5>And we're back! This year we're taking you on an EPIC Grub fest tour. Get grubbin' with us as we take you on a gastronomical and boozy tour around The Grub Fest. Why have it any other way? We're going to invite 30 awesome people for a super fun and curated journey across the grub fest. Taking to you all the destinations that you really don't want to miss out on.</h5>
                 <div class="borderbox">
                   <h4 class="center">Get invited for the Food Talk Grub Tour</h4>
                 </div>
                 
-                <h5>About the Grub Fest</h5>
+                <h4 class="brand-heading">About the Grub Fest</h4>
                 <h5>The Grub Fest is the biggest and most vibrant food festival in India.</h5>
                 <h5>Soak up the autumn breeze while enjoying some splendid music, trying some exclusive hand-picked gourmet products and indulging in some of the finest cuisines the city has to offer.</h5>
                  
@@ -166,16 +166,14 @@
               
           </div>
           <div class="col s12 m6 l6 form">
-            
             <div class="row mb0">
-              <div class="col s12 m11 l11 offset-m1 offset-l1">
-                
-                <form action="" id="frm">
-                  <h4 class="center highlights">Contact Details</h4>
-                  <div class="col s12 m12 l12 mt20">
-                    <label for="">Why do you want to get Grubbed with us? * <span class="emptyerr"> This field can't be empty</span></label>
+              <div class="col s12 m11 l11 offset-m1 offset-l1"> 
+                <form action="" id="frm"> 
+                  <div class="col s12 m12 l12">
+                    <label for="">Why do you want to get Grubbed with us? * <span class="emptyerr">This field can't be empty</span></label>
                     <input id="Question1" type="text" name="Question1" class="validate imp" value="">
                   </div>
+                  <h4 class="center highlights">Contact Details</h4>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Name * <span class="emptyerr"> This field can't be empty</span><span class="validerr"> Please fill a valid name</span></label>
                     <input id="name" type="text" name="name" class="validate imp namevalid" value="<?php echo $user['name']; ?>">
@@ -189,21 +187,22 @@
                     <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
+                    <label for="">Instagram Handle * <span class="emptyerr"> This field can't be empty</span></label>
+                    <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
+                  </div>
+                  <div class="col s12 m12 l12 mt20">
                     <label for="">Your Age? * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="Question2" type="number" name="Question2" class="validate imp" value="<?php echo $metadata['Age']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">veg nonveg * <span class="emptyerr"> This field can't be empty</span></label>
-                    <input id="vegnvg" type="number" name="vegnvg" class="validate imp" value="<?php echo $metadata['VegNonVeg']; ?>">
+                    <label for="">Veg Nonveg * <span class="emptyerr"> This field can't be empty</span></label>
+                    <input id="vegnvg" type="text" name="vegnvg" class="validate imp" value="<?php echo $metadata['VegNonVeg']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Food Talk APP Username * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="Question2" type="text" name="Question2" class="validate imp" value="">
                   </div>
-                  <div class="col s12 m12 l12 mt20">
-                    <label for="">Instagram Handle * <span class="emptyerr"> This field can't be empty</span></label>
-                    <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
-                  </div>
+                  
                   <!-- <div class="col s12 m12 l12 mt20">
                     <label for="city">City *</label>
                     <select name="city" id="city" class="browser-default">
