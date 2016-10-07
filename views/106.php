@@ -76,7 +76,19 @@
         margin: 7px 0;
         width: 100%;
         background-color: inherit;
-        
+        display: block!important;
+      }
+      .select-wrapper{
+        border: 2px solid #005b7f ;
+        border-radius: 5px;
+        padding: 5px;
+        height: 3rem;
+        margin: 7px 0;
+        width: 100%;
+        background-color: inherit;
+      }
+      .select-dropdown{
+        border-bottom: none;
       }
       .borderbox{
           margin-top: 20px;
