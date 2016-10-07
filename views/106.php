@@ -343,7 +343,7 @@
                 var toupdate = {name: name,
                        email: email,
                        contact: contact,
-                       // metadata : meta,
+                       metadata : meta,
                        // dob : dob,
                        // city : $('#city').val(),
                        instagram_handle: insta
