@@ -76,7 +76,7 @@
         margin: 7px 0;
         width: 100%;
         background-color: inherit;
-        display: block!important;
+        
       }
       .select-wrapper{
         border: 2px solid #005b7f ;
@@ -88,7 +88,7 @@
         background-color: inherit;
       }
       .select-dropdown{
-        border-bottom: none;
+        border-bottom: none!important;
       }
       .borderbox{
           margin-top: 20px;
@@ -209,7 +209,7 @@
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Veg Nonveg * <span class="emptyerr"> This field can't be empty</span></label>
-                    <select id="vegnvg">
+                    <select class="browser-default" id="vegnvg">
                       <option value="Veg">Veg</option>
                       <option value="Non-veg" selected>Non Veg</option>
                     </select>
