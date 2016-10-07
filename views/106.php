@@ -297,7 +297,7 @@
                 if(meta == null){
                   var meta = {
                     Age: $('#Question2').val(),
-                    VegNonVeg : $('#vegnvg').val();
+                    VegNonVeg : $('#vegnvg').val()
                   }
                 }else{
                   if($('#Question2').val() != ''){
