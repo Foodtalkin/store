@@ -76,7 +76,7 @@
         margin: 7px 0;
         width: 100%;
         background-color: inherit;
-        display: block!important;
+        
       }
       .borderbox{
           margin-top: 20px;
