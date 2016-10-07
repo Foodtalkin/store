@@ -76,6 +76,7 @@
         margin: 7px 0;
         width: 100%;
         background-color: inherit;
+        display: block!important;
       }
       .borderbox{
           margin-top: 20px;
@@ -196,7 +197,11 @@
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Veg Nonveg * <span class="emptyerr"> This field can't be empty</span></label>
-                    <input id="vegnvg" type="text" name="vegnvg" class="validate imp" value="<?php echo $metadata['VegNonVeg']; ?>">
+                    <select id="vegnvg">
+                      <option value="1" <?php $metadata['VegNonVeg'] == "veg"? echo "selected": ; ?>>Veg</option>
+                      <option value="2" selected <?php $metadata['VegNonVeg'] == "veg"? echo "selected": ; ?>>Non Veg</option>
+                    </select>
+                    
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Food Talk APP Username * <span class="emptyerr"> This field can't be empty</span></label>
