@@ -277,9 +277,7 @@
             if(validateForm() == true && namevalidate() == true){               
                 var data = $('#frm').serializeArray();
                 // console.log(data[1]['value']);
-                $('#vegnvg').change(function(e) {
-                  var vegnvg = $(this).val();
-                })
+                
                 
                 // console.log(dob);
                 if($('#name').val() != ''){
@@ -311,14 +309,16 @@
                 if(meta == null){
                   var meta = {
                     Age: $('#Question2').val(),
-                    VegNonVeg : vegnvg
+                    VegNonVeg : $('#vegnvg option:selected').val()
                   }
                 }else{
                   if($('#Question2').val() != ''){
                     meta['Age']= $('#Question2').val();
-                    meta['VegNonVeg']= vegnvg;
+                    meta['VegNonVeg']= $('#vegnvg option:selected').val();
                   }
                 }
+
+                console.log($('#vegnvg option:selected').val());
                 var response = {
                   GetGrubbed : $('#Question1').val()
 
