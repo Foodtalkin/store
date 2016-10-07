@@ -197,10 +197,10 @@
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Veg Nonveg * <span class="emptyerr"> This field can't be empty</span></label>
-                    <!-- <select id="vegnvg">
-                      <option value="1" <?php $metadata['VegNonVeg'] == "veg"? echo "selected": ; ?>>Veg</option>
-                      <option value="2" selected <?php $metadata['VegNonVeg'] == "veg"? echo "selected": ; ?>>Non Veg</option>
-                    </select> -->
+                    <select id="vegnvg">
+                      <option value="Veg">Veg</option>
+                      <option value="Non-veg" selected>Non Veg</option>
+                    </select>
                     
                   </div>
                   <div class="col s12 m12 l12 mt20">
