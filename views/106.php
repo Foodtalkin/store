@@ -204,7 +204,7 @@
                   
                   
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Veg Or Nonveg * <span class="emptyerr"> This field can't be empty</span></label>
+                    <label for="">Veg or Non - veg * <span class="emptyerr"> This field can't be empty</span></label>
                     <select class="browser-default" id="vegnvg">
                       <option value="Veg">Veg</option>
                       <option value="Non-veg" selected>Non Veg</option>
