@@ -164,15 +164,16 @@
             <img src="../img/cover106.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
                 <h3 class="brand-heading">Food Talk Grub Tour</h3>
-                <!-- <h4 class="brand-heading">In Association with The Grub Fest</h4> -->
-                <h5>15th Oct, Sat | 6pm | JLN Stadium</h5>
-                <h5>Get grubbin' with us as we take you on a gastronomical and boozy tour around The Grub Fest. Why have it any other way? We're going to invite 20 awesome people for a super fun and curated journey across the grub fest.</h5>
-                <!-- <div class="borderbox">
+                <h4 class="brand-heading">In Association with The Grub Fest</h4>
+                <h5>15th October | 6pm | JLN Stadium</h5>
+                <h5>And we're back! This year we're taking you on an EPIC Grub fest tour. Get grubbin' with us as we take you on a gastronomical and boozy tour around The Grub Fest. Why have it any other way? We're going to invite 30 awesome people for a super fun and curated journey across the grub fest. Taking to you all the destinations that you really don't want to miss out on.</h5>
+                <div class="borderbox">
                   <h4 class="center">Get invited for the Food Talk Grub Tour</h4>
                 </div>
+                
                 <h4 class="brand-heading">About the Grub Fest</h4>
                 <h5>The Grub Fest is the biggest and most vibrant food festival in India.</h5>
-                <h5>Soak up the autumn breeze while enjoying some splendid music, trying some exclusive hand-picked gourmet products and indulging in some of the finest cuisines the city has to offer.</h5> -->
+                <h5>Soak up the autumn breeze while enjoying some splendid music, trying some exclusive hand-picked gourmet products and indulging in some of the finest cuisines the city has to offer.</h5>
                  
               </div>
               
@@ -181,10 +182,10 @@
             <div class="row mb0">
               <div class="col s12 m11 l11 offset-m1 offset-l1"> 
                 <form action="" id="frm"> 
-                  <!-- <div class="col s12 m12 l12">
+                  <div class="col s12 m12 l12">
                     <label for="">Why do you want to get Grubbed with us? * <span class="emptyerr">This field can't be empty</span></label>
                     <input id="Question1" type="text" name="Question1" class="validate imp" value="">
-                  </div> -->
+                  </div>
                   <h4 class="center highlights">Contact Details</h4>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Name * <span class="emptyerr"> This field can't be empty</span><span class="validerr"> Please fill a valid name</span></label>
@@ -195,11 +196,17 @@
                     <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Email * <span class="emptyerr"> This field can't be empty</span></label>
+                    <label for="">Email Address * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
                   </div>
-                  
-                  
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="">Instagram Handle * <span class="emptyerr"> This field can't be empty</span></label>
+                    <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
+                  </div>
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="">Your Age? * <span class="emptyerr"> This field can't be empty</span></label>
+                    <input id="Question2" type="number" name="Question2" class="validate imp" value="<?php echo $metadata['Age']; ?>">
+                  </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Veg Nonveg * <span class="emptyerr"> This field can't be empty</span></label>
                     <select class="browser-default" id="vegnvg">
@@ -208,10 +215,10 @@
                     </select>
                     
                   </div>
-                  <!-- <div class="col s12 m12 l12 mt20">
+                  <div class="col s12 m12 l12 mt20">
                     <label for="">Food Talk APP Username * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="Question2" type="text" name="Question2" class="validate imp" value="">
-                  </div> -->
+                  </div>
                   
                   <!-- <div class="col s12 m12 l12 mt20">
                     <label for="city">City *</label>
@@ -291,31 +298,31 @@
                   var contact = "<?php echo $user['contact']; ?>";
                 }
                 // console.log(contact);
-                // if($('#insta').val() != ''){
-                //   var insta = $('#insta').val();
-                // }else{
-                //   var insta = "<?php echo $user['instagram_handle']; ?>";
-                // }
+                if($('#insta').val() != ''){
+                  var insta = $('#insta').val();
+                }else{
+                  var insta = "<?php echo $user['instagram_handle']; ?>";
+                }
                 
                 // // console.log(meta);
                  var meta = <?php echo json_encode($user['metadata']); ?>;
                 if(meta == null){
                   var meta = {
-                    // Age: $('#Question2').val(),
+                    Age: $('#Question2').val(),
                     VegNonVeg : $('#vegnvg option:selected').val()
                   }
                 }else{
-                  if($('#vegnvg').val() != ''){
-                    // meta['Age']= $('#Question2').val();
+                  if($('#Question2').val() != ''){
+                    meta['Age']= $('#Question2').val();
                     meta['VegNonVeg']= $('#vegnvg option:selected').val();
                   }
                 }
 
-                // console.log($('#vegnvg option:selected').val());
-                // var response = {
-                //   GetGrubbed : $('#Question1').val()
+                console.log($('#vegnvg option:selected').val());
+                var response = {
+                  GetGrubbed : $('#Question1').val()
 
-                // }
+                }
                 // console.log(response);
                 var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
                 var URL_UPDATE = "http://api.foodtalk.in/user/"+id;
@@ -331,7 +338,7 @@
                        contact: contact,
                        source: source,
                        payment_id: '',
-                       // response: response,
+                       response: response,
                        subscribe: 1};
                 var toupdate = {name: name,
                        email: email,
@@ -339,7 +346,7 @@
                        metadata : meta,
                        // dob : dob,
                        // city : $('#city').val(),
-                       // instagram_handle: insta
+                       instagram_handle: insta
                        };
                 
                 //console.log(URL_INSERT);                           
