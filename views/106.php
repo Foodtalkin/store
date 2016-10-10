@@ -40,6 +40,9 @@
         height: 20px;
         margin-bottom: -2px;
       }
+      h2{
+        font-size: 2.56rem;
+      }
       h3{
         font-size: 24px;
         line-height: 2.212em;
@@ -163,10 +166,10 @@
           <div class="col s12 m6 l6 center details">
             <img src="../img/cover106.jpg" alt="" class="responsive-img">
               <div class="col s12 m12 l12 padd20">
-                <h3 class="brand-heading">Food Talk Grub Tour</h3>
+                <h2 class="brand-heading">Food Talk Grub Tour</h2>
                 <!-- <h4 class="brand-heading">In Association with The Grub Fest</h4> -->
                 <h5>15th Oct, Sat | 6pm | JLN Stadium</h5>
-                <h5>Get grubbin' with us as we take you on a gastronomical and boozy tour around The Grub Fest. Why have it any other way? We're going to invite 20 awesome people for a super fun and curated journey across the grub fest.</h5>
+                <h5>We're taking 30 lucky Food Talkers on an EPIC food tour around The Grub Fest. Register and stand a chance to get invited for  the tour!</h5>
                 <!-- <div class="borderbox">
                   <h4 class="center">Get invited for the Food Talk Grub Tour</h4>
                 </div>
@@ -201,7 +204,7 @@
                   
                   
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Veg Nonveg * <span class="emptyerr"> This field can't be empty</span></label>
+                    <label for="">Veg Or Nonveg * <span class="emptyerr"> This field can't be empty</span></label>
                     <select class="browser-default" id="vegnvg">
                       <option value="Veg">Veg</option>
                       <option value="Non-veg" selected>Non Veg</option>
