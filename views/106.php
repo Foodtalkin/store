@@ -165,7 +165,7 @@
         <div class="row mb0">
           <div class="col s12 m6 l6 center details">
             <div class="hide-on-small-only"><img src="../img/cover106.jpg" alt="" class="responsive-img"></div>
-            <div class="hide-on-med-and-up"><img src="../img/cov89.png" alt="" class="responsive-img"></div>
+            <div class="hide-on-med-and-up"><img src="../img/cov106.jpg" alt="" class="responsive-img"></div>
               <div class="col s12 m12 l12 padd20">
                 <h2 class="brand-heading">Food Talk Grub Tour</h2>
                 <!-- <h4 class="brand-heading">In Association with The Grub Fest</h4> -->
