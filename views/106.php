@@ -170,7 +170,9 @@
                 <h2 class="brand-heading">Food Talk Grub Tour</h2>
                 <!-- <h4 class="brand-heading">In Association with The Grub Fest</h4> -->
                 <h5>15th Oct, Sat | 6pm | JLN Stadium</h5>
-                <h5>We're taking 30 lucky Food Talkers on an EPIC food tour around The Grub Fest. Register and stand a chance to get invited for  the tour!</h5>
+                <h5>Are you ready to get grubbed? We’re taking you to all the places we  don’t want you to miss out at the Grub Fest! We’re talking sticky meaty goodness to hand crafted chocolates to delicious kebabs. This is a tour you really don’t want to miss out on. </h5>
+                <h5>Make sure you RSVP for this exclusive tour. </h5>
+                <h5>PS. This tour favours meat eaters. #SorryNotSorry</h5>
                 <!-- <div class="borderbox">
                   <h4 class="center">Get invited for the Food Talk Grub Tour</h4>
                 </div>
@@ -241,7 +243,7 @@
                     </div>
                   </div>
                   <div class="col s12 m12 l12 mt10">
-                    <button class="waves-effect waves-light btn full-btn" id="submit">Register Now</button>
+                    <button class="waves-effect waves-light btn full-btn" id="submit">RSVP</button>
                   </div>
                 </form>
               </div>
