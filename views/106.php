@@ -170,9 +170,11 @@
                 <h2 class="brand-heading">Food Talk Grub Tour</h2>
                 <!-- <h4 class="brand-heading">In Association with The Grub Fest</h4> -->
                 <h5>15th Oct, Sat | 6pm | JLN Stadium</h5>
-                <h5>Are you ready to get grubbed? We’re taking you to all the places we  don’t want you to miss out at the Grub Fest! We’re talking sticky meaty goodness to hand crafted chocolates to delicious kebabs. This is a tour you really don’t want to miss out on. </h5>
-                <h5>Make sure you RSVP for this exclusive tour. </h5>
-                <h5>PS. This tour favours meat eaters. #SorryNotSorry</h5>
+                <h5>YOU JUST UNLOCKED THE ULTIMATE FOOD ADVENTURE.</h5>
+                <h5>Are you ready to get grubbed the Food Talk way? We're dishing out our favourites from Grub along with some super awesome Ltd. Edition Food Talk specials. Ehem Ehem- let's pause for  slow clap.</h5>
+                <h5>Sweet, Savoury, Meaty and a whole bunch of Tipples. </h5>
+                <h5>Think you can handle it?? RSVP to confirm. </h5>
+
                 <!-- <div class="borderbox">
                   <h4 class="center">Get invited for the Food Talk Grub Tour</h4>
                 </div>
