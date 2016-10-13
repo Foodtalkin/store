@@ -50,12 +50,10 @@ session_start();
       
       } 
       // echo $eventid;
-      if($toredirect == 105){
-        $icon = "../img/goodluck.png";
-        $msg = "Now that was a piece of cake right? <br>
-                Await an email from Food Talk if you are the lucky one <br> <br>
-                <span>PS- Extra Brownie points to all those that are on the Food Talk App ;) </span><br>
-				Don't have it ???  Explore our App";
+      if($toredirect == 106){
+        $icon = "../img/thankyou.png";
+        $msg = "You just booked yourself The Food Talk Grub Tour <br>
+      It's going to be one helluva ride";
       }
 
 
