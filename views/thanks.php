@@ -52,8 +52,8 @@ session_start();
       // echo $eventid;
       if($toredirect == 106){
         $icon = "../img/thankyou.png";
-        $msg = "You just booked yourself The Food Talk Grub Tour <br>
-      It's going to be one helluva ride";
+        $msg = "You have participated in The Food Talk Grub Tour <br>
+      We'll get in touch with you shortly";
       }
 
 
