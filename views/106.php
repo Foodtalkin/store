@@ -170,10 +170,13 @@
                 <h2 class="brand-heading">Food Talk Grub Tour</h2>
                 <!-- <h4 class="brand-heading">In Association with The Grub Fest</h4> -->
                 <h5>15th Oct, Sat | 6pm | JLN Stadium</h5>
-                <h5>YOU JUST UNLOCKED THE ULTIMATE FOOD ADVENTURE.</h5>
-                <h5>Are you ready to get grubbed the Food Talk way? We're dishing out our favourites from Grub along with some super awesome Ltd. Edition Food Talk specials. Ehem Ehem- let's pause for  slow clap.</h5>
-                <h5>Sweet, Savoury, Meaty and a whole bunch of Tipples. </h5>
-                <h5>Think you can handle it?? RSVP to confirm. </h5>
+                <h5>YOU JUST UNLOCKED THE ULTIMATE FOOD ADVENTURE!</h5>
+                <h5>Are you ready to get Grubbed the Food Talk Way??</h5>
+                <h5>We're dishing out our favourite's from the Grub Fest - and putting together a Tour that is well - 2 hours of pure sinful Gluttony.</h5>
+                <h5>With over 10 stops we promise your taste buds a joy ride - Eat, Drink and Get Grubbed with Food Talk.</h5>
+                <h5>After all we are the most trusted authority on deliciousness ;)</h5>
+                <h5>Think you can handle it?</h5>
+                <h5>RSVP to confirm</h5>
 
                 <!-- <div class="borderbox">
                   <h4 class="center">Get invited for the Food Talk Grub Tour</h4>
