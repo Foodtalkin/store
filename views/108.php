@@ -164,28 +164,19 @@
       <div class="container">
         <div class="row mb0">
           <div class="col s12 m6 l6 center details">
-            <div class="hide-on-small-only"><img src="../img/cover108.jpg" alt="" class="responsive-img"></div>
-            <div class="hide-on-med-and-up"><img src="../img/cov108.jpg" alt="" class="responsive-img"></div>
+            <div class="hide-on-small-only"><img src="../img/cover106.jpg" alt="" class="responsive-img"></div>
+            <div class="hide-on-med-and-up"><img src="../img/cov106.jpg" alt="" class="responsive-img"></div>
               <div class="col s12 m12 l12 padd20">
-                <h2 class="brand-heading">Win a Hoegaarden Brunch at Home</h2>
+                <h2 class="brand-heading">Food Talk Grub Tour</h2>
                 <!-- <h4 class="brand-heading">In Association with The Grub Fest</h4> -->
-                <h5>
-                	Imagine a beautiful sunny Sunday afternoon spent cooking up a feast for your friends and sipping on some Hoegaarden beer. Sounds perfect, right? Well, let's make it happen.
- 					<br>
-Do you make a mean BBQ, brunch spread, or know how to order in the perfect Brunch?
-					<br>
-Well this might be your lucky day! <br>
-You Bring the Food- We Bring the Hoegaarden!
- <br>
-Food Talk India & Hoegaarden present the Hoegaarden Brunch at Home contest!
-                </h5>
-
-                <h5>
-                	6 lucky winners from Delhi will win a Hoegaarden Experience and get to host 6 friends for a Hoegaarden Sunday Brunch at their home. <br>
-{ on a weekend of your convenience}
-					<br>
-Just tell us what's on your Brunch Menu.
-                </h5>
+                <h5>15th Oct, Sat | 6pm | JLN Stadium</h5>
+                <h5>YOU JUST UNLOCKED THE ULTIMATE FOOD ADVENTURE!</h5>
+                <h5>Are you ready to get Grubbed the Food Talk Way??</h5>
+                <h5>We're dishing out our favourite's from the Grub Fest - and putting together a Tour that is well - 2 hours of pure sinful Gluttony.</h5>
+                <h5>With over 10 stops we promise your taste buds a joy ride - Eat, Drink and Get Grubbed with Food Talk.</h5>
+                <h5>After all we are the most trusted authority on deliciousness ;)</h5>
+                <h5>Think you can handle it?</h5>
+                <h5>RSVP to confirm</h5>
 
                 <!-- <div class="borderbox">
                   <h4 class="center">Get invited for the Food Talk Grub Tour</h4>
@@ -201,22 +192,15 @@ Just tell us what's on your Brunch Menu.
             <div class="row mb0">
               <div class="col s12 m11 l11 offset-m1 offset-l1"> 
                 <form action="" id="frm"> 
-                  
-                  <h4 class="center highlights">Participate now</h4>
+                  <!-- <div class="col s12 m12 l12">
+                    <label for="">Why do you want to get Grubbed with us? * <span class="emptyerr">This field can't be empty</span></label>
+                    <input id="Question1" type="text" name="Question1" class="validate imp" value="">
+                  </div> -->
+                  <h4 class="center highlights">Contact Details</h4>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Name * <span class="emptyerr"> This field can't be empty</span><span class="validerr"> Please fill a valid name</span></label>
                     <input id="name" type="text" name="name" class="validate imp namevalid" value="<?php echo $user['name']; ?>">
                   </div>
-                  <div class="col s12 m12 l12 mt20">
-                    <label for="">Your Age? * <span class="emptyerr">This field can't be empty</span></label>
-                    <input id="Question2" type="number" name="Question2" class="validate imp">
-                  </div>
-                  <div class="col s12 m12 l12">
-                    <label for="">Tell us what you will be serving on the menu at your Hoegaarden Brunch * <span class="emptyerr">This field can't be empty</span></label>
-                    <input id="Question1" type="text" name="Question1" class="validate imp" value="">
-                  </div>
-
-                  <h4 class="center highlights">Contact Details</h4>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Phone number * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
@@ -225,15 +209,16 @@ Just tell us what's on your Brunch Menu.
                     <label for="">Email * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
                   </div>
-                  <div class="col s12 m12 l12 mt20">
-                    <label for="">Instagram Handle * <span class="emptyerr"> This field can't be empty</span></label>
-                    <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
-                  </div>
-                  <div class="col s12 m12 l12 mt20">
-                    <label for="">Address * <span class="emptyerr"> This field can't be empty</span></label>
-                    <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['address']; ?>">
-                  </div>
                   
+                  
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="">Veg or Non - veg * <span class="emptyerr"> This field can't be empty</span></label>
+                    <select class="browser-default" id="vegnvg">
+                      <option value="Veg">Veg</option>
+                      <option value="Non-veg" selected>Non Veg</option>
+                    </select>
+                    
+                  </div>
                   <!-- <div class="col s12 m12 l12 mt20">
                     <label for="">Food Talk APP Username * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="Question2" type="text" name="Question2" class="validate imp" value="">
@@ -317,31 +302,31 @@ Just tell us what's on your Brunch Menu.
                   var contact = "<?php echo $user['contact']; ?>";
                 }
                 // console.log(contact);
-                if($('#insta').val() != ''){
-                  var insta = $('#insta').val();
-                }else{
-                  var insta = "<?php echo $user['instagram_handle']; ?>";
-                }
+                // if($('#insta').val() != ''){
+                //   var insta = $('#insta').val();
+                // }else{
+                //   var insta = "<?php echo $user['instagram_handle']; ?>";
+                // }
                 
                 // // console.log(meta);
                  var meta = <?php echo json_encode($user['metadata']); ?>;
                 if(meta == null){
                   var meta = {
-                    Age: $('#Question2').val(),
-                    // VegNonVeg : $('#vegnvg option:selected').val()
+                    // Age: $('#Question2').val(),
+                    VegNonVeg : $('#vegnvg option:selected').val()
                   }
                 }else{
                   if($('#vegnvg').val() != ''){
-                    meta['Age']= $('#Question2').val();
-                    // meta['VegNonVeg']= $('#vegnvg option:selected').val();
+                    // meta['Age']= $('#Question2').val();
+                    meta['VegNonVeg']= $('#vegnvg option:selected').val();
                   }
                 }
 
                 // console.log($('#vegnvg option:selected').val());
-                var response = {
-                  Respopnse : $('#Question1').val()
+                // var response = {
+                //   GetGrubbed : $('#Question1').val()
 
-                }
+                // }
                 // console.log(response);
                 var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
                 var URL_UPDATE = "http://api.foodtalk.in/user/"+id;
@@ -357,7 +342,7 @@ Just tell us what's on your Brunch Menu.
                        contact: contact,
                        source: source,
                        payment_id: '',
-                       response: response,
+                       // response: response,
                        subscribe: 1};
                 var toupdate = {name: name,
                        email: email,
@@ -365,7 +350,7 @@ Just tell us what's on your Brunch Menu.
                        metadata : meta,
                        // dob : dob,
                        // city : $('#city').val(),
-                       instagram_handle: insta
+                       // instagram_handle: insta
                        };
                 
                 //console.log(URL_INSERT);                           
