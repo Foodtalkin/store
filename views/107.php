@@ -210,7 +210,7 @@
                   </div>
                   <div class="col s12 m12 l12">
                     <label for="">The Brunch Menu: Tell us what you will be serving on the menu at your Hoegaarden Brunch *<span class="emptyerr">This field can't be empty</span></label>
-                    <input id="Question1" type="text" name="Question1" class="validate imp" value="">
+                    <textarea id="Question1" name="Question1" class="validate imp" value=""></textarea>
                   </div>
 
                   <h4 class="center highlights">Contact Details</h4>
