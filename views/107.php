@@ -189,7 +189,7 @@
                 <h5>
                 	6 lucky winners from Delhi & Mumbai will win a Hoegaarden Experience and get to host 6 friends for a Hoegaarden Sunday Brunch at their home. <br>{ on a weekend of your convenience}<br>
                   So...What's on your Brunch Menu?
-                </h5>
+                </h5><h5><a href="https://www.facebook.com/notes/food-talk-india/tc-hoegaarden-brunch-at-home-contest/976539709142014?__mref=message_bubble" target="_blank">Terms & Conditions *</a></h5>
                  
               </div>
               
@@ -234,18 +234,16 @@
                   <!-- <div class="col s12 m12 l12 mt20">
                     <label for="">Food Talk APP Username * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="Question2" type="text" name="Question2" class="validate imp" value="">
-                  </div>
+                  </div>-->
                   
-                  <!-- <div class="col s12 m12 l12 mt20">
+                  <div class="col s12 m12 l12 mt20">
                     <label for="city">City *</label>
                     <select name="city" id="city" class="browser-default">
                       <option value="Delhi">Delhi</option>
                       <option value="Mumbai">Mumbai</option>
-                      <option value="Pune">Pune</option>
-                      <option value="Bangalore">Bangalore</option>
                       <option value="Other">Other</option>
                     </select>
-                  </div>-->
+                  </div>
                    
                   <div class="col s12 m12 l12 mt20">
                     <div class="col s12 m12 l12">
@@ -361,7 +359,7 @@
                        contact: contact,
                        metadata : meta,
                        // dob : dob,
-                       // city : $('#city').val(),
+                       city : $('#city').val(),
                        instagram_handle: insta
                        };
                 
