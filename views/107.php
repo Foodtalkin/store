@@ -37,7 +37,7 @@
       .fork-img{
         display: inline;
         width: auto;
-        height: 20px;
+        height: 80px;
         margin-bottom: -2px;
       }
       h2{
@@ -170,28 +170,17 @@
                 <h2 class="brand-heading">Win a Hoegaarden Brunch at Home</h2>
                 <!-- <h4 class="brand-heading">In Association with The Grub Fest</h4> -->
                 <h5>
-                	Imagine a beautiful sunny Sunday afternoon spent cooking up a feast for your friends and sipping on some Hoegaarden beer. Sounds perfect, right? Well, let's make it happen.
- 					<br>
-Do you make a mean BBQ, brunch spread, or know how to order in the perfect Brunch?
-					<br>
-Well this might be your lucky day! <br>
-You Bring the Food- We Bring the Hoegaarden!
- <br>
-Food Talk India & Hoegaarden present the Hoegaarden Brunch at Home contest!
+                	Imagine a beautiful sunny Sunday afternoon spent cooking up a feast for your friends and sipping on some Hoegaarden beer. Sounds perfect, right? Well, let's make it happen.<br>
+                  Do you make a mean BBQ, brunch spread, or know how to order in the perfect Brunch?<br>Well this might be your lucky day! <br>
+                  <div class="borderbox">
+                    <h4 class="center">You Bring the Food- We Bring the Hoegaarden!</h4>  
+                  </div>
+                  <b>Food Talk India & Hoegaarden present the Hoegaarden Brunch at Home contest!</b>
                 </h5>
 
                 <h5>
-                	6 lucky winners from Delhi will win a Hoegaarden Experience and get to host 6 friends for a Hoegaarden Sunday Brunch at their home. <br>
-{ on a weekend of your convenience}
-					<br>
-Just tell us what's on your Brunch Menu.
+                	6 lucky winners from Delhi will win a Hoegaarden Experience and get to host 6 friends for a Hoegaarden Sunday Brunch at their home. <br>{ on a weekend of your convenience}<br>Just tell us what's on your Brunch Menu.
                 </h5>
-
-                <div class="borderbox">
-                  <h4 class="center">You Bring the Food- We Bring the Hoegaarden!</h4>
-                  
-                </div>
-                <h5>Food Talk India & Hoegaarden present the Hoegaarden Brunch at Home contest!</h5>
                  
               </div>
               
