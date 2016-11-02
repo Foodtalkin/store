@@ -187,12 +187,11 @@ Food Talk India & Hoegaarden present the Hoegaarden Brunch at Home contest!
 Just tell us what's on your Brunch Menu.
                 </h5>
 
-                <!-- <div class="borderbox">
-                  <h4 class="center">Get invited for the Food Talk Grub Tour</h4>
+                <div class="borderbox">
+                  <h4 class="center">You Bring the Food- We Bring the Hoegaarden!</h4>
+                  
                 </div>
-                <h4 class="brand-heading">About the Grub Fest</h4>
-                <h5>The Grub Fest is the biggest and most vibrant food festival in India.</h5>
-                <h5>Soak up the autumn breeze while enjoying some splendid music, trying some exclusive hand-picked gourmet products and indulging in some of the finest cuisines the city has to offer.</h5> -->
+                <h5>Food Talk India & Hoegaarden present the Hoegaarden Brunch at Home contest!</h5>
                  
               </div>
               
@@ -212,7 +211,7 @@ Just tell us what's on your Brunch Menu.
                     <input id="Question2" type="number" name="Question2" class="validate imp">
                   </div>
                   <div class="col s12 m12 l12">
-                    <label for="">Tell us what you will be serving on the menu at your Hoegaarden Brunch * <span class="emptyerr">This field can't be empty</span></label>
+                    <label for="">The Brunch Menu: Tell us what you will be serving on the menu at your Hoegaarden Brunch *<span class="emptyerr">This field can't be empty</span></label>
                     <input id="Question1" type="text" name="Question1" class="validate imp" value="">
                   </div>
 
@@ -237,7 +236,7 @@ Just tell us what's on your Brunch Menu.
                   <!-- <div class="col s12 m12 l12 mt20">
                     <label for="">Food Talk APP Username * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="Question2" type="text" name="Question2" class="validate imp" value="">
-                  </div> -->
+                  </div>
                   
                   <!-- <div class="col s12 m12 l12 mt20">
                     <label for="city">City *</label>
@@ -263,7 +262,7 @@ Just tell us what's on your Brunch Menu.
                     </div>
                   </div>
                   <div class="col s12 m12 l12 mt10">
-                    <button class="waves-effect waves-light btn full-btn" id="submit">RSVP</button>
+                    <button class="waves-effect waves-light btn full-btn" id="submit">Participate</button>
                   </div>
                 </form>
               </div>
