@@ -234,8 +234,8 @@
                     <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
                   </div> -->
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Postal Address * {so we can send over the physical Invite}<span class="emptyerr"> This field can't be empty</span></label>
-                    <input type="text" class="validate imp" name="address" id="address" value="<?php echo $user['address']; ?>">
+                    <label for="">Postal Address {so we can send over the physical Invite}<!-- <span class="emptyerr"> This field can't be empty</span> --></label>
+                    <input type="text" class="validate" name="address" id="address" value="<?php echo $user['address']; ?>">
                   </div>
                   
                   <!-- <div class="col s12 m12 l12 mt20">
@@ -320,21 +320,20 @@
                 if(meta == null){
                   var meta = {
                     Age: $('#Question2').val(),
-                    OfficialTagline: $('#offtagline').val()
+                    
                     // VegNonVeg : $('#vegnvg option:selected').val()
                   }
                 }else{
-                  if($('#vegnvg').val() != ''){
+                  if($('#Question2').val() != ''){
                     meta['Age']= $('#Question2').val();
-                    OfficialTagline: $('#offtagline').val();
                     // meta['VegNonVeg']= $('#vegnvg option:selected').val();
                   }
                 }
 
                 // console.log($('#vegnvg option:selected').val());
                 var response = {
-                  Respopnse : $('#Question1').val()
-
+                  Name_a_bud : $('#Question1').val(),
+                  OfficialTagline: $('#offtagline').val()
                 }
                 // console.log(response);
                 var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
