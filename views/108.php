@@ -210,7 +210,7 @@
                   <h4 class="center highlights">Contact Information</h4>
                   <div class="col s12 m12 l12 mt20">
                     <label for="city">City *</label>
-                    <select name="city" id="city" class="browser-default">
+                    <select name="city" id="cityid" class="browser-default">
                       <option value="Delhi">Delhi</option>
                       <option value="Noida">Noida</option>
                       <option value="Gurgaon">Gurgaon</option>
@@ -329,7 +329,9 @@
                 // console.log($('#vegnvg option:selected').val());
                 var response = {
                   Name_a_bud : $('#Question1').val(),
-                  OfficialTagline: $('#offtagline').val()
+                  OfficialTagline: $('#offtagline').val(),
+                  city: $('#cityid').val()
+
                 }
                 // console.log(response);
                 var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
@@ -352,7 +354,7 @@
                        contact: contact,
                        metadata : meta,
                        // dob : dob,
-                       city : $('#city').val(),
+                       // city : $('#city').val(),
                        // instagram_handle: insta
                        };
                 
