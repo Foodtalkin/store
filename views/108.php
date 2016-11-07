@@ -37,7 +37,13 @@
       .fork-img{
         display: inline;
         width: auto;
-        height: 20px;
+        height: 80px;
+        margin-bottom: -2px;
+      }
+      .fork-img2{
+        display: inline;
+        width: auto;
+        height: 40px;
         margin-bottom: -2px;
       }
       h2{
@@ -164,27 +170,20 @@
       <div class="container">
         <div class="row mb0">
           <div class="col s12 m6 l6 center details">
-            <div class="hide-on-small-only"><img src="../img/cover106.jpg" alt="" class="responsive-img"></div>
-            <div class="hide-on-med-and-up"><img src="../img/cov106.jpg" alt="" class="responsive-img"></div>
+            <div class="hide-on-small-only"><img src="../img/cover108.jpg" alt="" class="responsive-img"></div>
+            <div class="hide-on-med-and-up"><img src="../img/cover108.jpg" alt="" class="responsive-img"></div>
               <div class="col s12 m12 l12 padd20">
-                <h2 class="brand-heading">Food Talk Grub Tour</h2>
-                <!-- <h4 class="brand-heading">In Association with The Grub Fest</h4> -->
-                <h5>15th Oct, Sat | 6pm | JLN Stadium</h5>
-                <h5>YOU JUST UNLOCKED THE ULTIMATE FOOD ADVENTURE!</h5>
-                <h5>Are you ready to get Grubbed the Food Talk Way??</h5>
-                <h5>We're dishing out our favourite's from the Grub Fest - and putting together a Tour that is well - 2 hours of pure sinful Gluttony.</h5>
-                <h5>With over 10 stops we promise your taste buds a joy ride - Eat, Drink and Get Grubbed with Food Talk.</h5>
-                <h5>After all we are the most trusted authority on deliciousness ;)</h5>
-                <h5>Think you can handle it?</h5>
-                <h5>RSVP to confirm</h5>
-
-                <!-- <div class="borderbox">
-                  <h4 class="center">Get invited for the Food Talk Grub Tour</h4>
-                </div>
-                <h4 class="brand-heading">About the Grub Fest</h4>
-                <h5>The Grub Fest is the biggest and most vibrant food festival in India.</h5>
-                <h5>Soak up the autumn breeze while enjoying some splendid music, trying some exclusive hand-picked gourmet products and indulging in some of the finest cuisines the city has to offer.</h5> -->
-                 
+                <h2 class="brand-heading">Win a Budweiser Experience to EDC</h2>
+                <h4 class="brand-heading">Saturday, 12th Nov'16 | 12pm onwards</h4>
+                <h4 class="brand-heading">Brew District, Buddh International Circuit, Greater Noida</h4>
+                <h5>Budweiser is bringing one of the largest music festivals of the world- Electric Daisy Carnival to India for the very first time. The city that’s Always Brewing- Delhi, hosts the 1st edition of EDC India </h5>
+                <h5>But we aren't stopping there...</h5>
+                  <h5>Amping up the EDC experience we present the</br>Budweiser & Burgers lunch with Chef Kelvin Cheung</h5>
+                  <h5>Come win a pass for You and your Bud for the ultimate experience to EDC...the Budweiser way</h5>
+                  <div class="borderbox">
+                    <h4 class="center">[ Exclusive Bud & Burgers Brunch  12pm to 3pm Passes for the EDC Budweiser Brewhouse -VIP Zone ]</h4>  
+                  </div> 
+                </h5>
               </div>
               
           </div>
@@ -192,14 +191,35 @@
             <div class="row mb0">
               <div class="col s12 m11 l11 offset-m1 offset-l1"> 
                 <form action="" id="frm"> 
-                  <!-- <div class="col s12 m12 l12">
-                    <label for="">Why do you want to get Grubbed with us? * <span class="emptyerr">This field can't be empty</span></label>
+                  <div class="col s12 m12 l12">
+                    <label for="">Name a bud you'de like to bring for the Budweiser experience to EDC?*<span class="emptyerr">This field can't be empty</span></label>
                     <input id="Question1" type="text" name="Question1" class="validate imp" value="">
-                  </div> -->
-                  <h4 class="center highlights">Contact Details</h4>
+                  </div>
                   <div class="col s12 m12 l12 mt20">
+                    <label for="OfficialTagline">What is the official tagline for Budweiser? *</label>
+                    <select name="offtagline" id="offtagline" class="browser-default">
+                      <option value="#AlwaysBrewing">#AlwaysBrewing</option>
+                      <option value="#BudForLife">#BudForLife</option>
+                      <option value="#DoTheBud">#DoTheBud</option>
+                    </select>
+                  </div>
+                  <h4 class="center highlights">Contact Information</h4>
+                  <div class="col s12 m12 l12">
                     <label for="">Name * <span class="emptyerr"> This field can't be empty</span><span class="validerr"> Please fill a valid name</span></label>
                     <input id="name" type="text" name="name" class="validate imp namevalid" value="<?php echo $user['name']; ?>">
+                  </div>
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="city">City *</label>
+                    <select name="city" id="city" class="browser-default">
+                      <option value="Delhi">Delhi</option>
+                      <option value="Noida">Noida</option>
+                      <option value="Gurgaon">Gurgaon</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                  <div class="col s12 m12 l12 mt20">
+                    <label for="">Your Age? * <span class="emptyerr">This field can't be empty</span></label>
+                    <input id="Question2" type="number" name="Question2" class="validate imp">
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Phone number * <span class="emptyerr"> This field can't be empty</span></label>
@@ -209,32 +229,19 @@
                     <label for="">Email * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
                   </div>
-                  
-                  
+                  <!-- <div class="col s12 m12 l12 mt20">
+                    <label for="">Instagram Handle * <span class="emptyerr"> This field can't be empty</span></label>
+                    <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
+                  </div> -->
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Veg or Non - veg * <span class="emptyerr"> This field can't be empty</span></label>
-                    <select class="browser-default" id="vegnvg">
-                      <option value="Veg">Veg</option>
-                      <option value="Non-veg" selected>Non Veg</option>
-                    </select>
-                    
+                    <label for="">Postal Address * {so we can send over the physical Invite}<span class="emptyerr"> This field can't be empty</span></label>
+                    <input type="text" class="validate imp" name="address" id="address" value="<?php echo $user['address']; ?>">
                   </div>
+                  
                   <!-- <div class="col s12 m12 l12 mt20">
                     <label for="">Food Talk APP Username * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="Question2" type="text" name="Question2" class="validate imp" value="">
-                  </div> -->
-                  
-                  <!-- <div class="col s12 m12 l12 mt20">
-                    <label for="city">City *</label>
-                    <select name="city" id="city" class="browser-default">
-                      <option value="Delhi">Delhi</option>
-                      <option value="Mumbai">Mumbai</option>
-                      <option value="Pune">Pune</option>
-                      <option value="Bangalore">Bangalore</option>
-                      <option value="Other">Other</option>
-                    </select>
                   </div>-->
-                   
                   <div class="col s12 m12 l12 mt20">
                     <div class="col s12 m12 l12">
                       <label for="">Not on the Food Talk App? Download now</label>
@@ -248,7 +255,7 @@
                     </div>
                   </div>
                   <div class="col s12 m12 l12 mt10">
-                    <button class="waves-effect waves-light btn full-btn" id="submit">RSVP</button>
+                    <button class="waves-effect waves-light btn full-btn" id="submit">Participate</button>
                   </div>
                 </form>
               </div>
@@ -312,21 +319,23 @@
                  var meta = <?php echo json_encode($user['metadata']); ?>;
                 if(meta == null){
                   var meta = {
-                    // Age: $('#Question2').val(),
-                    VegNonVeg : $('#vegnvg option:selected').val()
+                    Age: $('#Question2').val(),
+                    OfficialTagline: $('#offtagline').val()
+                    // VegNonVeg : $('#vegnvg option:selected').val()
                   }
                 }else{
                   if($('#vegnvg').val() != ''){
-                    // meta['Age']= $('#Question2').val();
-                    meta['VegNonVeg']= $('#vegnvg option:selected').val();
+                    meta['Age']= $('#Question2').val();
+                    OfficialTagline: $('#offtagline').val();
+                    // meta['VegNonVeg']= $('#vegnvg option:selected').val();
                   }
                 }
 
                 // console.log($('#vegnvg option:selected').val());
-                // var response = {
-                //   GetGrubbed : $('#Question1').val()
+                var response = {
+                  Respopnse : $('#Question1').val()
 
-                // }
+                }
                 // console.log(response);
                 var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
                 var URL_UPDATE = "http://api.foodtalk.in/user/"+id;
@@ -342,14 +351,14 @@
                        contact: contact,
                        source: source,
                        payment_id: '',
-                       // response: response,
+                       response: response,
                        subscribe: 1};
                 var toupdate = {name: name,
                        email: email,
                        contact: contact,
                        metadata : meta,
                        // dob : dob,
-                       // city : $('#city').val(),
+                       city : $('#city').val(),
                        // instagram_handle: insta
                        };
                 
