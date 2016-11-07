@@ -192,6 +192,10 @@
               <div class="col s12 m11 l11 offset-m1 offset-l1"> 
                 <form action="" id="frm"> 
                   <div class="col s12 m12 l12">
+                    <label for="">Name * <span class="emptyerr"> This field can't be empty</span><span class="validerr"> Please fill a valid name</span></label>
+                    <input id="name" type="text" name="name" class="validate imp namevalid" value="<?php echo $user['name']; ?>">
+                  </div>
+                  <div class="col s12 m12 l12">
                     <label for="">Name a bud you'de like to bring for the Budweiser experience to EDC?*<span class="emptyerr">This field can't be empty</span></label>
                     <input id="Question1" type="text" name="Question1" class="validate imp" value="">
                   </div>
@@ -204,10 +208,6 @@
                     </select>
                   </div>
                   <h4 class="center highlights">Contact Information</h4>
-                  <div class="col s12 m12 l12">
-                    <label for="">Name * <span class="emptyerr"> This field can't be empty</span><span class="validerr"> Please fill a valid name</span></label>
-                    <input id="name" type="text" name="name" class="validate imp namevalid" value="<?php echo $user['name']; ?>">
-                  </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="city">City *</label>
                     <select name="city" id="city" class="browser-default">
@@ -234,8 +234,8 @@
                     <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
                   </div> -->
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Postal Address * {so we can send over the physical Invite}<span class="emptyerr"> This field can't be empty</span></label>
-                    <input type="text" class="validate imp" name="address" id="address" value="<?php echo $user['address']; ?>">
+                    <label for="">Postal Address {so we can send over the physical Invite}<!-- <span class="emptyerr"> This field can't be empty</span> --></label>
+                    <input type="text" class="validate" name="address" id="address" value="<?php echo $user['address']; ?>">
                   </div>
                   
                   <!-- <div class="col s12 m12 l12 mt20">
@@ -269,7 +269,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
       <script>
         $(document).ready(function() {
-
           $('select').material_select();
           $('.carousel').carousel();
           $('.emptyerr, .validerr').hide();
@@ -277,12 +276,10 @@
           var e_id = <?php echo $_SESSION['target']; ?>;
           var source = "<?php echo $_SESSION['source']; ?>";
           var id= <?php echo $user['id']; ?>;
-
           // $('.datepicker').pickadate({
           //   selectMonths: true, // Creates a dropdown to control month
           //   selectYears: 90 // Creates a dropdown of 15 years to control year
           // });
-
           $('#submit').on('click', function(event) {
             event.preventDefault();           
             if(validateForm() == true && namevalidate() == true){               
@@ -320,21 +317,19 @@
                 if(meta == null){
                   var meta = {
                     Age: $('#Question2').val(),
-                    OfficialTagline: $('#offtagline').val()
+                    
                     // VegNonVeg : $('#vegnvg option:selected').val()
                   }
                 }else{
-                  if($('#vegnvg').val() != ''){
+                  if($('#Question2').val() != ''){
                     meta['Age']= $('#Question2').val();
-                    OfficialTagline: $('#offtagline').val();
                     // meta['VegNonVeg']= $('#vegnvg option:selected').val();
                   }
                 }
-
                 // console.log($('#vegnvg option:selected').val());
                 var response = {
-                  Respopnse : $('#Question1').val()
-
+                  Name_a_bud : $('#Question1').val(),
+                  OfficialTagline: $('#offtagline').val()
                 }
                 // console.log(response);
                 var URL_INSERT = "http://api.foodtalk.in/user/"+id+"/rsvp";
@@ -345,7 +340,6 @@
                 // }else{
                 //   var sub = 0;
                 // }
-
                 var toinsertdata = {events_id: e_id,
                        email: email,
                        contact: contact,
@@ -365,7 +359,6 @@
                 //console.log(URL_INSERT);                           
                 
                 //insert
-
                  $.ajax({
                    url: "createsession.php",
                    type: 'POST',
@@ -390,12 +383,10 @@
                   console.log("complete");
                   //$(location).attr('href', 'http://imojo.in/47vvf9');
                 });
-
                 }else{
                   $('#submit').attr('disabled',false);
                 }
           });
-
           function validateForm() {
               var allIsOk = true;
               //Check if empty of not
@@ -412,7 +403,6 @@
               });
               return allIsOk
           };
-
           function namevalidate() {
             var allok = true;
             var regex = /^[a-zA-Z ]*$/;
