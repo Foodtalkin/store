@@ -174,7 +174,8 @@
             <div class="hide-on-med-and-up"><img src="../img/cover108.jpg" alt="" class="responsive-img"></div>
               <div class="col s12 m12 l12 padd20">
                 <h2 class="brand-heading">Win a Budweiser Experience to EDC</h2>
-                <h4 class="brand-heading">Saturday, 12th Nov'16 | 12pm onwards</h4>
+                <h4 class="brand-heading">Saturday, 12th Nov'16</h4>
+                <h4 class="brand-heading">12pm onwards</h4>
                 <h4 class="brand-heading">Brew District, Buddh International Circuit, Greater Noida</h4>
                 <h5>Budweiser is bringing one of the largest music festivals of the world- Electric Daisy Carnival to India for the very first time. The city that’s Always Brewing- Delhi, hosts the 1st edition of EDC India </h5>
                 <h5>But we aren't stopping there...</h5>
