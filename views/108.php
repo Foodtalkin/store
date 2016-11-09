@@ -232,10 +232,10 @@
                     <label for="">Email * <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
                   </div>
-                  <!-- <div class="col s12 m12 l12 mt20">
+                  <div class="col s12 m12 l12 mt20">
                     <label for="">Instagram Handle * <span class="emptyerr"> This field can't be empty</span></label>
                     <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
-                  </div> -->
+                  </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Postal Address {so we can send over the physical Invite}<!-- <span class="emptyerr"> This field can't be empty</span> --></label>
                     <input type="text" class="validate" name="address" id="address" value="<?php echo $user['address']; ?>">
@@ -309,11 +309,11 @@
                   var contact = "<?php echo $user['contact']; ?>";
                 }
                 // console.log(contact);
-                // if($('#insta').val() != ''){
-                //   var insta = $('#insta').val();
-                // }else{
-                //   var insta = "<?php echo $user['instagram_handle']; ?>";
-                // }
+                if($('#insta').val() != ''){
+                  var insta = $('#insta').val();
+                }else{
+                  var insta = "<?php echo $user['instagram_handle']; ?>";
+                }
                 
                 // // console.log(meta);
                  var meta = <?php echo json_encode($user['metadata']); ?>;
@@ -358,7 +358,7 @@
                        metadata : meta,
                        // dob : dob,
                        // city : $('#city').val(),
-                       // instagram_handle: insta
+                       instagram_handle: insta
                        };
                 
                 //console.log(URL_INSERT);                           
