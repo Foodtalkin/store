@@ -236,10 +236,10 @@
                     <label for="">Instagram Handle * <span class="emptyerr"> This field can't be empty</span></label>
                     <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['instagram_handle']; ?>">
                   </div>
-                  <div class="col s12 m12 l12 mt20">
-                    <label for="">Postal Address {so we can send over the physical Invite}<!-- <span class="emptyerr"> This field can't be empty</span> --></label>
+                  <!-- <div class="col s12 m12 l12 mt20">
+                    <label for="">Postal Address {so we can send over the physical Invite}<span class="emptyerr"> This field can't be empty</span></label>
                     <input type="text" class="validate" name="address" id="address" value="<?php echo $user['address']; ?>">
-                  </div>
+                  </div> -->
                   
                   <!-- <div class="col s12 m12 l12 mt20">
                     <label for="">Food Talk APP Username * <span class="emptyerr"> This field can't be empty</span></label>
