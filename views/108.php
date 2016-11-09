@@ -185,7 +185,7 @@
                   <div class="borderbox">
                     <h4 class="center">[ Exclusive Bud & Burgers Brunch  12pm to 3pm Passes for the EDC Budweiser Brewhouse -VIP Zone ]</h4>  
                   </div> 
-                  <h5><a href="https://www.facebook.com/notes/food-talk-india/tc-hoegaarden-brunch-at-home-contest/976539709142014?__mref=message_bubble" target="_blank">Terms & Conditions *</a></h5>
+                  <h5><a href="https://www.facebook.com/notes/food-talk-india/tc-win-a-budweiser-experience-to-edc-contest/983798391749479" target="_blank">Terms & Conditions *</a></h5>
                 </h5>
               </div>
               
