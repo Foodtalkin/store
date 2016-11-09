@@ -17,6 +17,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="shortcut icon" href="../img/favicon.png" />
       <style>
       @font-face {
         font-family: verlag;
@@ -179,11 +180,12 @@
                 <h4 class="brand-heading">Brew District, Buddh International Circuit, Greater Noida</h4>
                 <h5>Budweiser is bringing one of the largest music festivals of the world- Electric Daisy Carnival to India for the very first time. The city that’s Always Brewing- Delhi, hosts the 1st edition of EDC India </h5>
                 <h5>But we aren't stopping there...</h5>
-                  <h5>Amping up the EDC experience we present the</br>Budweiser & Burgers lunch with Chef Kelvin Cheung</h5>
+                  <h5>Amping up the EDC experience we present the</br>Budweiser & Burgers brunch with Chef Kelvin Cheung</h5>
                   <h5>Come win a pass for You and your Bud for the ultimate experience to EDC...the Budweiser way</h5>
                   <div class="borderbox">
                     <h4 class="center">[ Exclusive Bud & Burgers Brunch  12pm to 3pm Passes for the EDC Budweiser Brewhouse -VIP Zone ]</h4>  
                   </div> 
+                  <h5><a href="https://www.facebook.com/notes/food-talk-india/tc-hoegaarden-brunch-at-home-contest/976539709142014?__mref=message_bubble" target="_blank">Terms & Conditions *</a></h5>
                 </h5>
               </div>
               
@@ -197,7 +199,7 @@
                     <input id="name" type="text" name="name" class="validate imp namevalid" value="<?php echo $user['name']; ?>">
                   </div>
                   <div class="col s12 m12 l12">
-                    <label for="">Name a bud you'de like to bring for the Budweiser experience to EDC?*<span class="emptyerr">This field can't be empty</span></label>
+                    <label for="">Name a bud you'd like to bring for the Budweiser experience to EDC?*<span class="emptyerr">This field can't be empty</span></label>
                     <input id="Question1" type="text" name="Question1" class="validate imp" value="">
                   </div>
                   <div class="col s12 m12 l12 mt20">
