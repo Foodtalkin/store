@@ -314,6 +314,12 @@
                 }else{
                   var insta = "<?php echo $user['instagram_handle']; ?>";
                 }
+
+                // if($('#address').val() != ''){
+                //   var address = $('#address').val();
+                // }else{
+                //   var address = "<?php echo $user['address']; ?>";
+                // }
                 
                 // // console.log(meta);
                  var meta = <?php echo json_encode($user['metadata']); ?>;
