@@ -229,7 +229,7 @@
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Address * <span class="emptyerr"> This field can't be empty</span></label>
-                    <input type="text" class="validate imp" name="insta" id="insta" value="<?php echo $user['address']; ?>">
+                    <input type="text" class="validate imp" name="address" id="address" value="<?php echo $user['address']; ?>">
                   </div>
                   
                   <!-- <div class="col s12 m12 l12 mt20">
@@ -318,6 +318,12 @@
                 }else{
                   var insta = "<?php echo $user['instagram_handle']; ?>";
                 }
+
+                if($('#address').val() != ''){
+                  var address = $('#address').val();
+                }else{
+                  var address = "<?php echo $user['address']; ?>";
+                }
                 
                 // // console.log(meta);
                  var meta = <?php echo json_encode($user['metadata']); ?>;
@@ -361,7 +367,8 @@
                        metadata : meta,
                        // dob : dob,
                        city : $('#city').val(),
-                       instagram_handle: insta
+                       instagram_handle: insta,
+                       address: address
                        };
                 
                 //console.log(URL_INSERT);                           
