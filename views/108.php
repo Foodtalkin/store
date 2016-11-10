@@ -362,6 +362,7 @@
                        email: email,
                        contact: contact,
                        metadata : meta,
+                       // address: address,
                        // dob : dob,
                        // city : $('#city').val(),
                        instagram_handle: insta
