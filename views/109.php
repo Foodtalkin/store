@@ -222,7 +222,7 @@
                   </div> -->
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Your Age? * <span class="emptyerr">This field can't be empty</span></label>
-                    <input id="Question2" type="number" name="Question2" class="validate imp">
+                    <input id="Question2" type="number" name="Question2" class="validate imp" value="<?php echo $metadata['Age']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
                     <label for="">Phone number * <span class="emptyerr"> This field can't be empty</span></label>
