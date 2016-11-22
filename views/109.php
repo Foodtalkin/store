@@ -186,7 +186,7 @@
                     <h4 class="center">On the Menu: <br>
 Cocktails, conversations and a lot more #Farzification under the stars</h4>  
                   </div> 
-                  <h5><a href="https://www.facebook.com/notes/food-talk-india/tc-win-a-budweiser-experience-to-edc-contest/983798391749479" target="_blank">Terms & Conditions *</a></h5>
+                  <!-- <h5><a href="https://www.facebook.com/notes/food-talk-india/tc-win-a-budweiser-experience-to-edc-contest/983798391749479" target="_blank">Terms & Conditions *</a></h5> -->
                 </h5>
               </div>
               
