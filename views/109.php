@@ -179,12 +179,12 @@
                 <h4 class="brand-heading">8pm onwards</h4>
                 <h4 class="brand-heading">Venue: Farzi Terrace, Connaught Place</h4>
                 <h5>Farzi Café, CP is taking it to the next level with the soon to open #FarziTerrace</h5>
-                <h5>So come join us as we climb up another level to get #Farzified ;)</h5>
+                <h5>Wanna be the first to be #Farzified under the stars?</h5>
                   <h5>Limited Spots available, so hurry & participate now!</h5>
                   
                   <div class="borderbox">
                     <h4 class="center">On the Menu: <br>
-Cocktails, conversations and a lot more #Farzification under the stars</h4>  
+Cocktails, conversations and surprises by Farzi Cafe at a dinner hosted by yours truly, Food Talk India!</h4>  
                   </div> 
                   <!-- <h5><a href="https://www.facebook.com/notes/food-talk-india/tc-win-a-budweiser-experience-to-edc-contest/983798391749479" target="_blank">Terms & Conditions *</a></h5> -->
                 </h5>
