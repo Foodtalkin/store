@@ -179,7 +179,7 @@
                 <h4 class="brand-heading">8pm onwards</h4>
                 <h4 class="brand-heading">Venue: Farzi Terrace, Connaught Place</h4>
                 <h5>Farzi Café, CP is taking it to the next level with the soon to open #FarziTerrace</h5>
-                <h5>Wanna be the first to be #Farzified under the stars?</h5>
+                <h5>Wanna be the first one to be #Farzified under the stars?</h5>
                   <h5>Limited Spots available, so hurry & participate now!</h5>
                   
                   <div class="borderbox">
