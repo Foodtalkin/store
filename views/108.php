@@ -171,19 +171,19 @@
       <div class="container">
         <div class="row mb0">
           <div class="col s12 m6 l6 center details">
-            <div class="hide-on-small-only"><img src="../img/cover108.jpg" alt="" class="responsive-img"></div>
-            <div class="hide-on-med-and-up"><img src="../img/cover108.jpg" alt="" class="responsive-img"></div>
+            <div class="hide-on-small-only"><img src="../img/cover108-2.jpg" alt="" class="responsive-img"></div>
+            <div class="hide-on-med-and-up"><img src="../img/cover108-2.jpg" alt="" class="responsive-img"></div>
               <div class="col s12 m12 l12 padd20">
                 <h2 class="brand-heading">Win a Budweiser Experience to EDC</h2>
-                <h4 class="brand-heading">Saturday, 12th Nov'16</h4>
-                <h4 class="brand-heading">12pm onwards</h4>
+                <h4 class="brand-heading">Sunday, 13th Nov'16</h4>
+                <h4 class="brand-heading">1pm onwards</h4>
                 <h4 class="brand-heading">Brew District, Buddh International Circuit, Greater Noida</h4>
                 <h5>Budweiser is bringing one of the largest music festivals of the world- Electric Daisy Carnival to India for the very first time. The city that’s Always Brewing- Delhi, hosts the 1st edition of EDC India </h5>
                 <h5>But we aren't stopping there...</h5>
-                  <h5>Amping up the EDC experience we present the</br>Budweiser & Burgers brunch with Chef Kelvin Cheung</h5>
+                  <h5>Amping up the EDC experience we present the</br>Brew n' Brunch curated by Food Talk India - 6 different kinds of Beer, food and an afternoon of craft</h5>
                   <h5>Come win a pass for You and your Bud for the ultimate experience to EDC...the Budweiser way</h5>
                   <div class="borderbox">
-                    <h4 class="center">[ Exclusive Bud & Burgers Brunch  12pm to 3pm Passes for the EDC Budweiser Brewhouse -VIP Zone ]</h4>  
+                    <h4 class="center">[ Exclusive Brew n' Brunch 1pm to 3pm Passes for the EDC Budweiser Brewhouse -VIP Zone ]</h4>  
                   </div> 
                   <h5><a href="https://www.facebook.com/notes/food-talk-india/tc-win-a-budweiser-experience-to-edc-contest/983798391749479" target="_blank">Terms & Conditions *</a></h5>
                 </h5>
@@ -314,6 +314,12 @@
                 }else{
                   var insta = "<?php echo $user['instagram_handle']; ?>";
                 }
+
+                // if($('#address').val() != ''){
+                //   var address = $('#address').val();
+                // }else{
+                //   var address = "<?php echo $user['address']; ?>";
+                // }
                 
                 // // console.log(meta);
                  var meta = <?php echo json_encode($user['metadata']); ?>;
@@ -356,6 +362,7 @@
                        email: email,
                        contact: contact,
                        metadata : meta,
+                       // address: address,
                        // dob : dob,
                        // city : $('#city').val(),
                        instagram_handle: insta
