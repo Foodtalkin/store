@@ -171,19 +171,20 @@
       <div class="container">
         <div class="row mb0">
           <div class="col s12 m6 l6 center details">
-            <div class="hide-on-small-only"><img src="../img/cover108.jpg" alt="" class="responsive-img"></div>
-            <div class="hide-on-med-and-up"><img src="../img/cover108.jpg" alt="" class="responsive-img"></div>
+            <div class="hide-on-small-only"><img src="../img/cover109.jpg" alt="" class="responsive-img"></div>
+            <div class="hide-on-med-and-up"><img src="../img/cover109.jpg" alt="" class="responsive-img"></div>
               <div class="col s12 m12 l12 padd20">
-                <h2 class="brand-heading">farzi terrace launch</h2>
+                <h2 class="brand-heading"> Farzi Terrace Launch Contest</h2>
                 <h4 class="brand-heading"> Friday, 26th Nov'16</h4>
                 <h4 class="brand-heading">8pm onwards</h4>
                 <h4 class="brand-heading">Venue: Farzi Terrace, Connaught Place</h4>
-                <h5>Budweiser is bringing one of the largest music festivals of the world- Electric Daisy Carnival to India for the very first time. The city that’s Always Brewing- Delhi, hosts the 1st edition of EDC India </h5>
-                <h5>But we aren't stopping there...</h5>
-                  <h5>Amping up the EDC experience we present the</br>Budweiser & Burgers brunch with Chef Kelvin Cheung</h5>
-                  <h5>Come win a pass for You and your Bud for the ultimate experience to EDC...the Budweiser way</h5>
+                <h5>Farzi Café, CP is taking it to the next level with the soon to open #FarziTerrace</h5>
+                <h5>So come join us as we climb up another level to get #Farzified ;)</h5>
+                  <h5>Limited Spots available, so hurry & participate now!</h5>
+                  
                   <div class="borderbox">
-                    <h4 class="center">[ Exclusive Bud & Burgers Brunch  12pm to 3pm Passes for the EDC Budweiser Brewhouse -VIP Zone ]</h4>  
+                    <h4 class="center">On the Menu: <br>
+Cocktails, conversations and a lot more #Farzification under the stars</h4>  
                   </div> 
                   <h5><a href="https://www.facebook.com/notes/food-talk-india/tc-win-a-budweiser-experience-to-edc-contest/983798391749479" target="_blank">Terms & Conditions *</a></h5>
                 </h5>
