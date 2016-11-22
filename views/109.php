@@ -171,8 +171,8 @@
       <div class="container">
         <div class="row mb0">
           <div class="col s12 m6 l6 center details">
-            <div class="hide-on-small-only"><img src="../img/cover109.jpg" alt="" class="responsive-img"></div>
-            <div class="hide-on-med-and-up"><img src="../img/cover109.jpg" alt="" class="responsive-img"></div>
+            <div class="hide-on-small-only"><img src="../img/cover109.png" alt="" class="responsive-img"></div>
+            <div class="hide-on-med-and-up"><img src="../img/cover109.png" alt="" class="responsive-img"></div>
               <div class="col s12 m12 l12 padd20">
                 <h2 class="brand-heading"> Farzi Terrace Launch Contest</h2>
                 <h4 class="brand-heading"> Friday, 26th Nov'16</h4>
