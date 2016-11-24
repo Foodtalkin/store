@@ -175,7 +175,7 @@
             <div class="hide-on-med-and-up"><img src="../img/cover109.png" alt="" class="responsive-img"></div>
               <div class="col s12 m12 l12 padd20">
                 <h2 class="brand-heading"> Farzi Terrace Launch Contest</h2>
-                <h4 class="brand-heading"> Friday, 26th Nov'16</h4>
+                <h4 class="brand-heading"> Friday, 25th Nov'16</h4>
                 <h4 class="brand-heading">8pm onwards</h4>
                 <h4 class="brand-heading">Venue: Farzi Terrace, Connaught Place</h4>
                 <h5>Farzi Café, CP is taking it to the next level with the soon to open #FarziTerrace</h5>
