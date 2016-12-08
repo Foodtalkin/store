@@ -211,9 +211,14 @@ Are you ready to #GoPaPaYa</h5>
                     <input id="phone" type="tel" class="validate imp" name="phone" minlength="10" maxlength="10" value="<?php echo $user['contact']; ?>">
                   </div>
                   <div class="col s12 m12 l12">
-                    <input id="Question1" type="checkbox" name="Question1" class="validate imp" value="Yes">
+                    <!-- <input id="Question1" type="checkbox" name="Question1" class="validate imp" value="Yes"> -->
                     <label for="">Will you be bringing a guest*<span class="emptyerr">This field can't be empty</span></label>
-                    
+                    <select name="Question1" id="Question1" class="browser-default">
+                      <option value="0">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
                   </div>
                  <!--  <div class="col s12 m12 l12 mt20">
                     <label for="OfficialTagline">What is the official tagline for Budweiser India? *</label>
