@@ -178,7 +178,7 @@
                 <h4 class="brand-heading">Preview Party</h4>
                 <h5>The 24-hour guest-list is now open </h5>
                 
-                <h5>After a year an a half on teasing us Pop Up's - they are almost ready to open their doors to the capital. Mumbai's trending Modern Asian Bistro gives Delhi an even bolder flavour.</h5>
+                <h5>After a year an a half on teasing us Pop Ups - they are almost ready to open their doors to the capital. Mumbai's trending Modern Asian Bistro gives Delhi an even bolder flavour.</h5>
                 <h5>But first- an exclusive Invite-Only Secret Preview for  the Food Talk Community <br>
 Are you ready to #GoPaPaYa</h5>
                   <h5>A Modern Asian Bistro that reinvents the Asian cuisine on a Global Scale. </h5>
@@ -203,7 +203,7 @@ Are you ready to #GoPaPaYa</h5>
                     <input id="name" type="text" name="name" class="validate imp namevalid" value="<?php echo $user['name']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
-                    <label for="">Email * <span class="emptyerr"> This field can't be empty</span></label>
+                    <label for="">Email Address* <span class="emptyerr"> This field can't be empty</span></label>
                     <input id="email" type="email" name="email" class="validate imp" value="<?php echo $user['email']; ?>">
                   </div>
                   <div class="col s12 m12 l12 mt20">
