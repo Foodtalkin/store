@@ -212,9 +212,9 @@ Are you ready to #GoPaPaYa</h5>
                   </div>
                   <div class="col s12 m12 l12">
                     <!-- <input id="Question1" type="checkbox" name="Question1" class="validate imp" value="Yes"> -->
-                    <label for="">Will you be bringing a guest? *<span class="emptyerr">This field can't be empty</span></label>
+                    <label for="">How many guests would you like to bring? *<span class="emptyerr">This field can't be empty</span></label>
                     <select name="Question1" id="Question1" class="browser-default">
-                      <option value="0">0</option>
+                      <option value="None">None</option>
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
