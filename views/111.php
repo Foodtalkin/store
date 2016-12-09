@@ -319,18 +319,19 @@
                 
                 // // console.log(meta);
                  var meta = <?php echo json_encode($user['metadata']); ?>;
-                if(meta == null){
+                if(meta != null){
+                  meta['Age']= $('#Question2').val();
+                }else{
+                  
+                  // if($('#Question2').val() != ''){
+                  //   meta['Age']= $('#Question2').val();
+                  //   // meta['VegNonVeg']= $('#vegnvg option:selected').val();
+                  // }
                   var meta = {
                     Age: $('#Question2').val()
                     
                     // VegNonVeg : $('#vegnvg option:selected').val()
                   }
-                }else{
-                  meta['Age']= $('#Question2').val();
-                  // if($('#Question2').val() != ''){
-                  //   meta['Age']= $('#Question2').val();
-                  //   // meta['VegNonVeg']= $('#vegnvg option:selected').val();
-                  // }
                 }
                 // console.log($('#vegnvg option:selected').val());
                 // var response = {
