@@ -320,20 +320,21 @@
                 // // console.log(meta);
                  var meta = <?php echo json_encode($user['metadata']); ?>;
                  console.log(meta);
-                if(meta == null){
-                  var meta = {
-                    Age: $('#Question2').val()
-                    
-                    // VegNonVeg : $('#vegnvg option:selected').val()
-                  }
                   meta['Age']= $('#Question2').val();
-                }else{
-                  // meta['Age']= $('#Question2').val();
-                  if($('#Question2').val() != ''){
-                    meta['Age']= $('#Question2').val();
-                    // meta['VegNonVeg']= $('#vegnvg option:selected').val();
-                  }
-                }
+                // if(meta == null){
+                //   var meta = {
+                //     Age: $('#Question2').val()
+                    
+                //     // VegNonVeg : $('#vegnvg option:selected').val()
+                //   }
+                //   meta['Age']= $('#Question2').val();
+                // }else{
+                //   // meta['Age']= $('#Question2').val();
+                //   if($('#Question2').val() != ''){
+                //     meta['Age']= $('#Question2').val();
+                //     // meta['VegNonVeg']= $('#vegnvg option:selected').val();
+                //   }
+                // }
                 console.log(meta);
                 // console.log($('#vegnvg option:selected').val());
                 // var response = {

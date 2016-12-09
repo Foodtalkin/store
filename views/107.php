@@ -327,7 +327,7 @@
                 
                 // // console.log(meta);
                  var meta = <?php echo json_encode($user['metadata']); ?>;
-                if(meta == null){
+                if(meta == null ){
                   var meta = {
                     Age: $('#Question2').val(),
                     // VegNonVeg : $('#vegnvg option:selected').val()
