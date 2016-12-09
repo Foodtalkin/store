@@ -319,7 +319,7 @@
                 
                 // // console.log(meta);
                  var meta = <?php echo json_encode($user['metadata']); ?>;
-                 console.log(meta);
+                 console.log($('#Question2').val());
                 if(meta == null){
                   var meta = {
                     Age: $('#Question2').val()
