@@ -328,7 +328,7 @@
                 // console.log(meta);
                 // console.log($('#vegnvg option:selected').val());
                 var response = {
-                  College : $('#college').val()
+                  College : $('#college').val(),
                   Course: $('#course').val(),
                   Year: $('#year').val(),
                   Internship_experience: $('#exp').val()
