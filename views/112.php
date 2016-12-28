@@ -183,7 +183,7 @@
                 <h5>A one month internship where you will promote the Food Talk App in your college and tell people about the coolest way to find Good Food- at the click of a button</h5>
                 <div class="borderbox">
                    
-                  <h4 class="center">Earn yourself a Letter Of Recomendation- and many more delecious suprises</h4>  
+                  <h4 class="center">Earn yourself a Letter Of Recomendation- and many more delicious suprises</h4>  
                   </div>
                 
                
@@ -213,10 +213,10 @@
                   
                  
                   
-                  <!-- <div class="col s12 m12 l12 mt20">
+                  <div class="col s12 m12 l12 mt20">
                     <label for="">Your Age? * <span class="emptyerr">This field can't be empty</span></label>
-                    <input id="Question2" type="number" name="Question2" class="validate imp" value="<?php //echo $metadata['Age']; ?>">
-                  </div> -->
+                    <input id="Question2" type="number" name="Question2" class="validate imp" value="<?php echo $metadata['Age']; ?>">
+                  </div>
                   
                   
                   <!-- <div class="col s12 m12 l12 mt20">
@@ -312,19 +312,19 @@
                 // }
                 
                 // // console.log(meta);
-                //  var meta = <?php //echo json_encode($user['metadata']); ?>;
-                //  console.log($('#Question2').val());
-                // if((meta == null) || (meta == "")){
-                //   var meta = {
-                //     Age: $('#Question2').val()
-                //     }
-                // }else{
-                //   // meta['Age']= $('#Question2').val();
-                //   if($('#Question2').val() != ''){
-                //     meta['Age']= $('#Question2').val();
-                //     // meta['VegNonVeg']= $('#vegnvg option:selected').val();
-                //   }
-                // }
+                 var meta = <?php echo json_encode($user['metadata']); ?>;
+                 console.log($('#Question2').val());
+                if((meta == null) || (meta == "")){
+                  var meta = {
+                    Age: $('#Question2').val()
+                    }
+                }else{
+                  // meta['Age']= $('#Question2').val();
+                  if($('#Question2').val() != ''){
+                    meta['Age']= $('#Question2').val();
+                    // meta['VegNonVeg']= $('#vegnvg option:selected').val();
+                  }
+                }
                 // console.log(meta);
                 // console.log($('#vegnvg option:selected').val());
                 var response = {
@@ -352,8 +352,8 @@
                        subscribe: 1};
                 var toupdate = {name: name,
                        email: email,
-                       contact: contact
-                       // metadata : meta,
+                       contact: contact,
+                       metadata : meta
                        // dob : dob,
                        // city : $('#city').val(),
                        // instagram_handle: insta
