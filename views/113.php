@@ -20,7 +20,7 @@
     $_SESSION['URL_UPDATE'] = "http://api.foodtalk.in/user/".$user['id'];
     $_SESSION['URL_INSERT'] = "http://api.foodtalk.in/user/".$user['id']."/participation";
     //var_dump($metadata['pincode']);
-    $link = "https://www.instamojo.com/foodtalk/ballantines-out-of-office?embed=form&data_name=";
+    $link = "https://www.instamojo.com/foodtalk/lost-recipes-at-sodabottle-openerwala/?embed=form&data_name=";
     $link .= $user['name'];
     $link .= "&data_email=";
     $link .= $user['email'];
@@ -82,19 +82,19 @@
     <body>
       <div class="head hide-on-small-only"></div>
       <div class="head1 hide-on-med-and-up">
-        <img class="responsive-img intro" src="../img/cov103.jpg"/>
+        <img class="responsive-img intro" src="../img/cov113.jpg"/>
       </div>
       <div class="container main">
         <div class="row hide-on-small-only">
           <div class="col l12 m12 s12">
-            <img class="responsive-img intro" src="../img/cover103.jpg"/>
+            <img class="responsive-img intro" src="../img/cover113.jpg"/>
           </div>
         </div>
         
         <div class="row">
           <div class="col l12 m12 s12 left-align">
-            <h4>Ballantine's Out Of Office</h4>
-            <h6>Feat. Vir Das' Alien Chutney</h6>
+            <h4>Lost recipes at SodaBottleOpenerWala</h4>
+            <!-- <h6>Feat. Vir Das' Alien Chutney</h6> -->
           </div>
         </div>
         <div class="row">
@@ -103,21 +103,21 @@
 	            <div class="col l6 m6 s12 no-padd">
 	            	<div class="col l6 m6 s6 center-align">
 	                <i class="fa fa-calendar-o"></i>
-	                <p>Friday, 16th Sept' 2016</p>
+	                <p>Wednesday 1st Feb, 2017</p>
 	              </div>
 	              <div class="col l6 m6 s6 center-align">
 	                <i class="fa fa-clock-o"></i>
-	                <p>7:00 pm onwards</p>
+	                <p>7:30 Pm onwards</p>
 	              </div>
 	            </div>
 	            <div class="col s12 l6 m6 no-padd">
 	            	<div class="col l6 m6 s6 center-align">
 	                <i class="fa fa-map-marker"></i>
-	                <p>The People & Co., Cyber Hub Gurgaon</p>
+	                <p>SodaBottleOpenerWala, Cyber Hub</p>
 	              </div>
 	              <div class="col l6 m6 s6 center-align">
 	                <i class="fa fa-inr"></i>
-	                <p> 1150 Ai per head</p>
+	                <p> Rs.1600 ai per head</p>
 	              </div>
 	            </div>
             </div>
@@ -135,9 +135,8 @@
                 <div class="col m12 l12 s12 partner">
                   <h5>Offer Includes</h5>
                     <ul class="list">
-                      <li class="left-align">2 Small Ballantine's serves</li>
-                        <li class="left-align"> A Pass to watch Vir Das' awesome band Alien Chutney</li>
-                        <li class="left-align">Opening Act by PANIC !</li>
+                      <li class="left-align">10- course tasting menu</li>
+                        <li class="left-align">3 cocktails</li>
                     </ul>
                 </div>
               </div>
@@ -146,36 +145,28 @@
           <div class="col l7 m7 s12 center-align">
             <div class="card">
                 <div class="col m12 s12 l12 hide-on-small-only justify">
-                  <h5>Ballantine's Out Of Office</h5>
-                  <h6>Feat. Vir Das' Alien Chutney</h6>
+                  <h5 style="margin-top: 20px;">Lost recipes at SodaBottleOpenerWala</h5>
+                  <!-- <h6>Feat. Vir Das' Alien Chutney</h6> -->
                   <br>
-                  <p>For Those who Work hard, Play Harder </p>
-                  <p>So Hey! Grab your colleagues and come join us for a night of Cocktails and rib-tickling music!</p>
-                  <p>Let's get #OutOfOffice</p>
+                  
+                  <p>Chef Anahita N. Dhondy brings back secret family recipes from small Parsi towns! Feast on them with Food Talk India, as we celebrate three tip-top, bhonu-filled years of SodaBottleOpenerWala.</p>
+                  <!-- <p>Let's get #OutOfOffice</p>
                   <p><strong>Ballantine's Out Of Office Feat. Vir Das' Alien Chutney</strong></p>
                   <p><strong>T&C Apply:</strong></p>
                   <p>Age Limit 25 years and above</p>
                   <p>Seating arrangement on first come first serve basis only.</p>
                   <p>Tickets once booked cannot be exchanged or refunded.</p>
                   <p>We recommend that you arrive by 7pm at the venue to pick up your physical tickets & drink coupons</p>
-                  
+                   -->
                   <!-- <h6>**Dress Code-Keep it paint friendly.</h6> -->
                  
                 </div>
                 <div class="col m12 s12 l12 flow-text hide-on-med-and-up justify">
-                  <h5>Ballantine's Out Of Office</h5>
-                  <h6>Feat. Vir Das' Alien Chutney</h6>
+                  <h5>Lost recipes at SodaBottleOpenerWala</h5>
+                  <!-- <h6>Feat. Vir Das' Alien Chutney</h6> -->
                   <br>
-                  <p>For Those who Work hard, Play Harder </p>
-                  <p>So Hey! Grab your colleagues and come join us for a night of Cocktails and rib-tickling music!</p>
-                  <p>Let's get #OutOfOffice</p>
-                  <p><strong>Ballantine's Out Of Office Feat. Vir Das' Alien Chutney</strong></p>
-                  <p><strong>T&C Apply:</strong></p>
-                  <p>Age Limit 25 years and above</p>
-                  <p>Seating arrangement on first come first serve basis only.</p>
-                  <p>Tickets once booked cannot be exchanged or refunded.</p>
-                  <p>We recommend that you arrive by 7pm at the venue to pick up your physical tickets & drink coupons</p>
-                 
+                  
+                  <p>Chef Anahita N. Dhondy brings back secret family recipes from small Parsi towns! Feast on them with Food Talk India, as we celebrate three tip-top, bhonu-filled years of SodaBottleOpenerWala.</p>
                   
                   <!-- <h6>**Dress Code-Keep it paint friendly.</h6> -->
                       
@@ -185,7 +176,7 @@
                     <i class="fa fa-map-marker"></i>
                   </div>
                   <div class="col l11 m11 s11 right left-align">
-                    <h6>The People & Co., Cyber Hub Gurgaon</h6>
+                    <h6> SodaBottleOpenerWala, Cyber Hub</h6>
                   </div>
                 </div>
             </div>
@@ -195,25 +186,24 @@
                 <div class="col m12 l12 s12 partner">
                   <h5>Includes</h5>
                     <ul class="list">
-                       <li class="left-align">2 Small Ballantine's serves</li>
-                        <li class="left-align"> A Pass to watch Vir Das' awesome band Alien Chutney</li>
-                        <li class="left-align">Opening Act by PANIC !</li>
+                       <li class="left-align">10- course tasting menu</li>
+                        <li class="left-align">3 cocktails</li>
                     </ul>
                 </div>
               </div>
             </div>
-            <div class="col l5 m5 s12 center-align">
+            <!-- <div class="col l5 m5 s12 center-align">
               <div class="card">
                 <div class="col l12 m12 s12">
                   <h5>Event Partners</h5>
                   <ul>
                     <li><img src="../img/partners/people.png" alt=""></li>
-                    <!-- <li><img src="../img/partners/hoegaarden.png" alt=""></li> -->
+                    <li><img src="../img/partners/hoegaarden.png" alt=""></li>
 
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="col s12 hide-on-med-and-up center-align">
             <a class="waves-effect waves-light btn-large custom-btn center button hide-on-med-and-up" href="<?php echo $link; ?>">   Book  Now </a>
