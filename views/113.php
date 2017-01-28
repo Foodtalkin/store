@@ -82,14 +82,14 @@
     <body>
       <div class="head hide-on-small-only"></div>
       <div class="row">
-        <div class="hide-on-med-and-up" style="width: 99%">
+        <div class="hide-on-med-and-up">
             <img class="responsive-img intro" src="../img/cov113.jpg"/>
           </div>
       </div>
       <div class="container main">
         <div class="row hide-on-small-only">
           <div class="col l12 m12 s12">
-            <img class="responsive-img intro" src="../img/cover113.jpg"/>
+            <img class="responsive-img intro" src="../img/cover113.jpg" style="margin-top: 30px;" />
           </div>
         </div>
         
