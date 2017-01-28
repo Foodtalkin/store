@@ -81,8 +81,10 @@
 
     <body>
       <div class="head hide-on-small-only"></div>
-      <div class="head1 hide-on-med-and-up">
-        <img class="responsive-img intro" src="../img/cover113.jpg"/>
+      <div class="row">
+        <div class="hide-on-med-and-up" style="width: 99%">
+            <img class="responsive-img intro" src="../img/cov113.jpg"/>
+          </div>
       </div>
       <div class="container main">
         <div class="row hide-on-small-only">
@@ -93,7 +95,7 @@
         
         <div class="row">
           <div class="col l12 m12 s12 left-align">
-            <h4>Lost recipes at SodaBottleOpenerWala</h4>
+            <h4 style="font-size: 2em">Lost recipes at SodaBottleOpenerWala</h4>
             <!-- <h6>Feat. Vir Das' Alien Chutney</h6> -->
           </div>
         </div>
