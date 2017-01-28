@@ -34,7 +34,7 @@
     <head>
       <meta charset="utf-8">
       <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link rel="stylesheet" href="../source/jquery.fancybox.css">
       <link type="text/css" rel="stylesheet" href="../css/custom.css"  media="screen,projection"/>
       <!--Import materialize.css-->
@@ -82,7 +82,7 @@
     <body>
       <div class="head hide-on-small-only"></div>
       <div class="head1 hide-on-med-and-up">
-        <img class="responsive-img intro" src="../img/cov113.jpg"/>
+        <img class="responsive-img intro" src="../img/cover113.jpg"/>
       </div>
       <div class="container main">
         <div class="row hide-on-small-only">
