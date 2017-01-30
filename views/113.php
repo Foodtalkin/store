@@ -150,8 +150,7 @@
                   <h5 style="margin-top: 20px;">Lost recipes at SodaBottleOpenerWala</h5>
                   <!-- <h6>Feat. Vir Das' Alien Chutney</h6> -->
                   <br>
-                  <p>Early bird offer : 1600 AI per head</p>
-                  <p>Regular price: 1850 AI per head</p>
+                  
                   <p>Chef Anahita N. Dhondy brings back secret family recipes from small Parsi towns! Feast on them with Food Talk India, as we celebrate three tip-top, bhonu-filled years of SodaBottleOpenerWala.</p>
                   <!-- <p>Let's get #OutOfOffice</p>
                   <p><strong>Ballantine's Out Of Office Feat. Vir Das' Alien Chutney</strong></p>
